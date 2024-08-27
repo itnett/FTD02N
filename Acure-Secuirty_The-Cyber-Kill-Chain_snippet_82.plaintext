@@ -1,0 +1,9 @@
+# Actions on Objectives function
+function actions_on_objectives(target, c2_server):
+    logging.info("Performing actions on objectives")
+    objectives = define_objectives()
+    for objective in objectives:
+        execute_objective(target, c2_server, objective)
+
+# Example usage
+actions_on_objectives(target_system, c2_server)

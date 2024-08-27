@@ -1,0 +1,18 @@
++----------------------+
+        |   Cisco Nexus 5548UP |
+        |   SPAN Configuration |
+        +----------+-----------+
+                   |
+                   |
+                   |
+               +---+---+
+               |Virtual |
+               | Box    |
+               | (Nagios|
+               |/Snort/ |
+               |Wireshark)|
+               +-------+
+               |Virtual |
+               | Box    |
+               | (Autopsy)|
+               +-------+

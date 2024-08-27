@@ -1,0 +1,4 @@
+mathematics combinatorics {
+    calculate_permutations    ; // Beregne permutasjoner
+    calculate_combinations    ; // Beregne kombinasjoner
+}

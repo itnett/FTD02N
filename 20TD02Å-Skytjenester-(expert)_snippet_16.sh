@@ -1,0 +1,1 @@
+ssh azureuser@<MyLinuxVM_Public_IP>

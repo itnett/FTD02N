@@ -1,0 +1,19 @@
+\documentclass[sigconf]{acmart}
+
+\begin{document}
+\title{Title}
+\author{Author Name}
+\affiliation{
+  \institution{Institution}
+}
+
+\begin{abstract}
+This is an abstract.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+This is the introduction section.
+
+\end{document}

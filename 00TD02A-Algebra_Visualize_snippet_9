@@ -1,0 +1,21 @@
+mindmap
+root((Regneregler))
+  De fire grunnleggende regneoperasjonene
+    Addisjon
+      Forklaring: Legge sammen tall
+      Eksempel: 3 + 4 = 7
+    Subtraksjon
+      Forklaring: Finne forskjellen mellom tall
+      Eksempel: 7 - 4 = 3
+    Multiplikasjon
+      Forklaring: Gjentatt addisjon
+      Eksempel: 3 * 4 = 12
+    Divisjon
+      Forklaring: Dele et tall i like deler
+      Eksempel: 12 / 4 = 3
+  Rekkefølgen av operasjoner
+    Parenteser først
+    Eksponenter
+    Multiplikasjon og Divisjon
+    Addisjon og Subtraksjon
+    Eksempel: 3 + 5 * (2^2 - 1) = 18

@@ -1,0 +1,1 @@
+searchsploit <software_version>

@@ -1,0 +1,1 @@
+wget https://raw.githubusercontent.com/VladimirAkopyan/IoTSimulator/master/IoTHubCredentials.json

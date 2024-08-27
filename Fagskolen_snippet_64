@@ -1,0 +1,544 @@
+For more detailed steps and additional examples, you can refer to the guides available on Fagskolen Innlandet's website and the original [document](https://github.com/Decicus/FSI-18ITD).
+
+https://github.com/alexandermeyer97/Qt_6_Fagskolen_2023
+
+Repositoryen [Qt_6_Fagskolen_2023](https://github.com/alexandermeyer97/Qt_6_Fagskolen_2023) inneholder ulike mapper og filer knyttet til læring og prosjekter i Qt 6 ved Fagskolen i 2023. Her er en oversikt over innholdet i repositoryen:
+
+### Filer
+- **.gitattributes**: Inneholder innstillinger for Git-attributter.
+- **.gitignore**: Inneholder regler for hvilke filer og mapper som skal ignoreres av Git.
+- **README.md**: Beskrivelse av repositoryen, inkludert formål og innhold.
+- **test.txt**: En tom tekstfil.
+
+### Mapper
+- **Uke_02_intro_Qt_6**: Intro til Qt 6 i uke 2.
+- **Uke_03_QObject_Macro_signals_slots**: Leksjoner om QObject, makroer, signaler og slots i uke 3.
+- **Uke_04_Samling_1**: Samling 1 i uke 4.
+- **Uke_05_Views_settings**: Leksjoner om visninger og innstillinger i uke 5.
+- **Uke_06_File_system**: Leksjoner om filsystemet i uke 6.
+- **Uke_07_Combos_list_QFontComboBox_date_time**: Leksjoner om kombobokser, lister, QFontComboBox, dato og tid i uke 7.
+- **Uke_08_QLineEdit_QPlainTextEdit_QSpinBox**: Leksjoner om QLineEdit, QPlainTextEdit og QSpinBox i uke 8.
+- **Uke_10_Resources**: Leksjoner om ressurser i uke 10.
+- **Uke_11_Resources_Multiple_dialogs**: Leksjoner om ressurser og flere dialoger i uke 11.
+- **Uke_12_Multiple_dialogs**: Leksjoner om flere dialoger i uke 12.
+- **Uke_13_QMainWindow**: Leksjoner om QMainWindow i uke 13.
+- **Uke_14_samling_2**: Samling 2 i uke 14.
+- **Uke_15_Models**: Leksjoner om modeller i uke 15.
+- **Uke_16_Prosjekt**: Prosjektarbeid i uke 16.
+- **Uke_17_Prosjekt**: Prosjektarbeid i uke 17.
+- **Uke_18_Prosjekt**: Prosjektarbeid i uke 18.
+- **Uke_19_Gjennomgang**: Gjennomgang i uke 19.
+- **Uke_20_**: Innhold for uke 20.
+- **fremdriftsplan**: Inneholder fremdriftsplanen for kurset.
+
+Du kan utforske repositoryen ved å klikke på de ulike mappene og filene på GitHub [her](https://github.com/alexandermeyer97/Qt_6_Fagskolen_2023).
+
+Repositoryen [Qt_6_Fagskolen_2023](https://github.com/alexandermeyer97/Qt_6_Fagskolen_2023) inneholder læringsmateriale og prosjekter knyttet til Qt 6 ved Fagskolen. Her er en mer detaljert beskrivelse av innholdet og hva man kan lære fra det:
+
+### Filer
+- **.gitattributes**: Konfigurasjonsfil for Git-attributter som påvirker hvordan Git håndterer filer med ulike attributter.
+- **.gitignore**: Spesifiserer hvilke filer og mapper som skal ignoreres av Git, vanligvis bruk for å unngå å spore midlertidige filer, byggmapper, og andre filer som ikke er nødvendig i versjonskontroll.
+- **README.md**: Inneholder en beskrivelse av repositoryen, formålet, og hvordan man bruker den. README-filen gir også instruksjoner for hvordan man kan sette opp og bruke de ulike prosjektene og oppgavene i repositoryen.
+- **test.txt**: En tom fil, sannsynligvis brukt for testing eller som plassholder.
+
+### Mapper og deres innhold
+- **Uke_02_intro_Qt_6**: Inneholder materiale og øvelser for introduksjon til Qt 6.
+- **Uke_03_QObject_Macro_signals_slots**: Fokus på QObject, makroer, signaler og slots. Dette er grunnleggende konsepter i Qt som brukes for å lage interaktive og responsive applikasjoner.
+- **Uke_04_Samling_1**: Samlingsmateriale for uke 4, som kan inkludere oppgaver, presentasjoner eller andre ressurser.
+- **Uke_05_Views_settings**: Leksjoner om visninger (views) og innstillinger (settings) i Qt, som brukes til å lage og håndtere brukergrensesnitt.
+- **Uke_06_File_system**: Undervisning om hvordan man arbeider med filsystemet i Qt, inkludert filhåndtering og filoperasjoner.
+- **Uke_07_Combos_list_QFontComboBox_date_time**: Leksjoner om kombobokser, lister, QFontComboBox, samt dato og tidshåndtering.
+- **Uke_08_QLineEdit_QPlainTextEdit_QSpinBox**: Fokus på QLineEdit, QPlainTextEdit og QSpinBox, som er ulike typer inndatafelter i Qt.
+- **Uke_10_Resources**: Leksjoner om hvordan man håndterer ressurser i Qt, som bilder, ikoner og andre eksterne filer.
+- **Uke_11_Resources_Multiple_dialogs**: Videreføring om ressurser og flere dialogvinduer.
+- **Uke_12_Multiple_dialogs**: Leksjoner om å arbeide med flere dialogvinduer i Qt-applikasjoner.
+- **Uke_13_QMainWindow**: Fokus på QMainWindow, som er hovedvinduet i mange Qt-applikasjoner.
+- **Uke_14_samling_2**: Samlingsmateriale for uke 14.
+- **Uke_15_Models**: Leksjoner om modeller i Qt, som brukes for å håndtere data i ulike visningskomponenter.
+- **Uke_16_Prosjekt**, **Uke_17_Prosjekt**, **Uke_18_Prosjekt**: Prosjektarbeid som strekker seg over flere uker, hvor studentene anvender det de har lært i et praktisk prosjekt.
+- **Uke_19_Gjennomgang**: Gjennomgang av materialet og prosjektene.
+- **Uke_20_**: Innhold for uke 20, muligens oppsummering eller avslutning av kurset.
+- **fremdriftsplan**: En plan som viser fremdriften i kurset, hvilke temaer som skal dekkes og når.
+
+### Kilder og Ressurser
+For å lære mer om Qt 6 og de emnene som dekkes i dette repositoryet, kan følgende kilder være nyttige:
+
+- [Qt Documentation](https://doc.qt.io/): Den offisielle dokumentasjonen for Qt, som dekker alle aspekter av utvikling med Qt.
+- [Qt Wiki](https://wiki.qt.io/Main): En samling av veiledninger, eksempler og beste praksiser fra Qt-fellesskapet.
+- [Qt Core](https://doc.qt.io/qt-6/qtcore-index.html): Dokumentasjon for Qt Core, som inkluderer grunnleggende klasser og funksjoner i Qt.
+- [Qt Widgets Examples](https://doc.qt.io/qt-6/examples-widgets.html): Eksempler på hvordan man bruker ulike widgets i Qt.
+- [Model/View Programming](https://doc.qt.io/qt-6/model-view-programming.html): En guide til modell/vis-programmering i Qt.
+
+Disse ressursene vil gi en grundig forståelse av Qt og hvordan man kan bruke det til å utvikle applikasjoner.
+
+Repositoryen [larsenjr.github.io](https://github.com/larsenjr/larsenjr.github.io) inneholder en personlig nettside som er bygget ved hjelp av ulike webteknologier. Her er en detaljert oversikt over innholdet i repositoryen og hva man kan lære seg ved å utforske det:
+
+### Filer og Mapper
+
+#### Rotkatalogen
+- **CNAME**: Inneholder det egendefinerte domenenavnet for GitHub Pages-nettstedet.
+- **README.md**: En kort tekstfil, sannsynligvis brukt som plassholder. Den er for tiden tom.
+- **_config.yml**: Konfigurasjonsfil for Jekyll, en statisk nettstedsgenerator som brukes av GitHub Pages. Denne filen inneholder innstillinger som påvirker hvordan nettstedet bygges og vises.
+
+#### Mapper
+- **.idea**: Inneholder prosjektspesifikke innstillinger for IDE-en (Integrated Development Environment), sannsynligvis JetBrains IDE-er som IntelliJ IDEA.
+- **.vscode**: Inneholder konfigurasjonsfiler for Visual Studio Code, som er en populær kodeeditor.
+- **_includes**: Denne mappen inneholder delvis malfiler som kan inkluderes i andre malfiler ved hjelp av Jekyll. Dette kan for eksempel være felles header- eller footer-seksjoner.
+- **_layouts**: Inneholder malfiler som definerer strukturen til ulike typer sider på nettstedet. Disse layoutene brukes av Jekyll til å generere de endelige HTML-sidene.
+- **assets**: Brukes til å lagre statiske ressurser som bilder, skrifttyper, og andre mediefiler som brukes på nettstedet.
+- **css**: Inneholder CSS-filer som brukes til å definere utseendet og stilen til nettstedet.
+- **fsi2**: Innholdet i denne mappen er ukjent uten ytterligere inspeksjon, men det kan inneholde prosjektspesifikke filer eller ressurser.
+- **img**: Inneholder bilder som brukes på nettstedet.
+- **js**: Inneholder JavaScript-filer som gir nettstedet interaktivitet og dynamisk funksjonalitet.
+
+### Hva man kan lære seg
+
+#### Webutvikling med Jekyll og GitHub Pages
+Ved å utforske dette repositoryet kan man lære seg hvordan man setter opp og konfigurerer et Jekyll-basert nettsted. Her er noen spesifikke læringsmål:
+
+1. **Konfigurasjon av Jekyll**: Lære hvordan `_config.yml`-filen brukes til å konfigurere Jekyll, inkludert innstillinger for nettstedets tittel, beskrivelse, og andre metadata.
+2. **Bruk av maler**: Forstå hvordan man lager og bruker maler i `_layouts`-mappen for å definere felles strukturer på tvers av forskjellige sider på nettstedet.
+3. **Inkludering av delvise maler**: Lære hvordan man bruker `_includes`-mappen til å gjenbruke deler av HTML-koden (for eksempel navigasjonsmenyer eller footers) på tvers av flere sider.
+4. **CSS-styling**: Utforske hvordan CSS brukes til å style nettstedet, inkludert bruk av eksterne CSS-filer i `css`-mappen.
+5. **Håndtering av statiske ressurser**: Forstå hvordan man organiserer og bruker statiske ressurser som bilder (i `img`-mappen) og JavaScript-filer (i `js`-mappen).
+6. **GitHub Pages og egendefinerte domener**: Lære hvordan man konfigurerer et egendefinert domene for et GitHub Pages-nettsted ved hjelp av `CNAME`-filen.
+
+#### Kilder på nettet
+For å støtte læringen og utvide kunnskapen, kan følgende ressurser være nyttige:
+
+- [Jekyll Documentation](https://jekyllrb.com/docs/): Offisiell dokumentasjon for Jekyll, som dekker installasjon, konfigurasjon, og avanserte funksjoner.
+- [GitHub Pages Documentation](https://docs.github.com/en/pages): Offisiell dokumentasjon for GitHub Pages, som forklarer hvordan man publiserer nettsteder direkte fra et GitHub-repository.
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/): En omfattende guide til CSS, som dekker alt fra grunnleggende stilsetting til avanserte layoutteknikker.
+- [MDN Web Docs on JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): En grundig ressurs for å lære JavaScript, med eksempler og referanser til alle språkfunksjoner.
+- [HTML Living Standard](https://html.spec.whatwg.org/multipage/): Den levende standarden for HTML, som gir detaljerte spesifikasjoner for HTML-språket og dets funksjoner.
+
+Ved å utforske repositoryen og bruke disse ressursene, kan man få en solid forståelse av hvordan man bygger og vedlikeholder et statisk nettsted med Jekyll og GitHub Pages.
+
+Repositoryen [csharp](https://github.com/larsenjr/csharp) inneholder en samling av C#-prosjekter og øvelser som dekker ulike aspekter av programmering i C#. Her er en detaljert oversikt over innholdet i repositoryen og hva man kan lære seg fra det:
+
+### Mapper og deres innhold
+
+#### Rotkatalogen
+- **.vs**: Inneholder konfigurasjonsfiler for Visual Studio, som er en populær IDE for utvikling i C#.
+- **Alder**: Inneholder kode relatert til beregning eller håndtering av alder.
+- **Array and debugging**: Fokus på arrays og debugging-teknikker.
+- **Array**: Øvelser og eksempler som involverer bruk av arrays.
+- **ConsoleApp1**: Et konsollapplikasjonsprosjekt, sannsynligvis en enkel C#-applikasjon som kjører i kommandolinjen.
+- **EclipseProve**: Innholdet er ukjent uten ytterligere inspeksjon, men det kan være en prøve eller øvelse relatert til Eclipse IDE.
+- **ExceptionHandling**: Øvelser og eksempler på håndtering av unntak i C#.
+- **GUI**: Prosjekter som involverer grafiske brukergrensesnitt (GUI) i C#.
+- **KlasserDemo**: Eksempler og øvelser som demonstrerer bruk av klasser og objekter i C#.
+- **MySQL Student CRUD**: Prosjekter som involverer oppretting, lesing, oppdatering og sletting (CRUD) av studentdata ved hjelp av MySQL.
+- **MySqlCrud**: Generelle CRUD-operasjoner med MySQL.
+- **Oppgave2AlderFarge**: Oppgaver som sannsynligvis involverer både alder og farge.
+- **Oppgave3Array**: Oppgaver relatert til arrays.
+- **Sammenlignetallmedtotall**: Prosjekter eller oppgaver som involverer sammenligning av tall.
+- **Sortering array**: Oppgaver eller eksempler som viser hvordan man sorterer arrays.
+- **Switchcase**: Eksempler og øvelser som involverer bruk av switch-case uttalelser i C#.
+- **Øvelse array**: Ytterligere øvelser som involverer arrays.
+
+#### README.md
+- En kort tekstfil som sannsynligvis gir en introduksjon til repositoryen. Den inneholder for tiden minimal informasjon.
+
+### Hva man kan lære seg
+
+#### Grunnleggende C#-konsepter
+1. **Konsollapplikasjoner**: Hvordan lage og kjøre enkle C#-applikasjoner som kjører i kommandolinjen.
+2. **Arrays**: Hvordan deklarere, initialisere, manipulere og sortere arrays.
+3. **Feilhåndtering**: Bruk av try-catch-blokker for å håndtere unntak og feil i C#.
+4. **Klasser og objekter**: Grunnleggende objektorientert programmering, inkludert oppretting av klasser, instansiering av objekter, og bruk av metoder og egenskaper.
+5. **Switch-case**: Bruk av switch-case uttalelser for å håndtere multiple betingelser på en strukturert måte.
+6. **GUI-programmering**: Grunnleggende om utvikling av grafiske brukergrensesnitt i C#.
+7. **Databaseoperasjoner**: Bruk av MySQL for å utføre CRUD-operasjoner fra en C#-applikasjon.
+
+### Kilder på nettet
+For å støtte læringen og utvide kunnskapen, kan følgende ressurser være nyttige:
+
+- [Microsoft C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/): Offisiell dokumentasjon fra Microsoft som dekker alle aspekter av C#-språket.
+- [W3Schools C# Tutorial](https://www.w3schools.com/cs/): En grunnleggende guide til C# med eksempler og interaktive øvelser.
+- [Learn C#](https://www.learncs.org/): En interaktiv ressurs for å lære C# med praktiske eksempler og oppgaver.
+- [Microsoft Visual Studio Documentation](https://docs.microsoft.com/en-us/visualstudio/): Dokumentasjon og guider for Visual Studio, inkludert konfigurasjon og bruk av IDE.
+- [MySQL Connector/NET Developer Guide](https://dev.mysql.com/doc/connector-net/en/): Offisiell dokumentasjon for MySQL Connector/NET, som brukes til å koble C#-applikasjoner til MySQL-databaser.
+
+Ved å utforske repositoryen og bruke disse ressursene, kan man få en solid forståelse av grunnleggende og avanserte konsepter i C#-programmering, inkludert konsollapplikasjoner, GUI-programmering, feilhåndtering, og databaseoperasjoner.
+
+Repositoryen [arduino](https://github.com/larsenjr/arduino) inneholder flere prosjekter og øvelser knyttet til bruk av Arduino, en populær plattform for elektronikkprosjekter. Her er en detaljert oversikt over innholdet og hva man kan lære seg:
+
+### Filer og Mapper
+
+#### Rotkatalogen
+- **README.md**: En kort tekstfil som sannsynligvis gir en introduksjon til repositoryen.
+- **Grunnleggende el-lære kap 6 fra boka Hvordan virker Arduino.pdf**: En PDF-fil som inneholder grunnleggende opplæring i elektrisitetslære relatert til Arduino.
+
+#### Mapper
+- **.vscode**: Inneholder konfigurasjonsfiler for Visual Studio Code, som er en populær kodeeditor.
+- **Ovelsefinnegjennomsnitt**: Øvelser som fokuserer på å finne gjennomsnittet av en rekke verdier.
+- **kvadrattrot_av_et_tall**: Øvelser som involverer beregning av kvadratroten av et tall.
+- **ledmedknapp**: Prosjekter som viser hvordan man kontrollerer en LED med en knapp.
+- **lnnlevering1 Knapp med fade**: Øvelser som involverer fading av en LED ved hjelp av en knapp.
+- **millistest**: Tester som involverer bruk av `millis()`-funksjonen i Arduino for tidsmåling.
+- **sketch_dec13a_ledsequence**: Prosjekter som viser en sekvens av LED-lys.
+- **test array**: Øvelser som involverer bruk av arrays i Arduino-prosjekter.
+
+### Hva man kan lære seg
+
+#### Grunnleggende Arduino-programmering
+1. **Grunnleggende Elektrisitetslære**: Gjennom PDF-filen kan man lære grunnleggende elektrisitetslære som er relevant for Arduino-prosjekter. Dette inkluderer forståelse av strøm, spenning, motstand, og hvordan disse prinsippene anvendes i Arduino-prosjekter.
+2. **Bruk av Knapper og LED-er**: Mapper som `ledmedknapp` og `lnnlevering1 Knapp med fade` gir praktiske eksempler på hvordan man kan bruke knapper til å kontrollere LED-er, inkludert fading-effekter.
+3. **Tidsmåling med millis()**: Mappen `millistest` inneholder eksempler på bruk av `millis()`-funksjonen for å måle tid uten å blokkere hovedløkken i programmet. Dette er nyttig for å lage mer komplekse og responsive programmer.
+4. **Sekvensstyring av LED-er**: `sketch_dec13a_ledsequence` viser hvordan man kan lage sekvenser av LED-lys, noe som er nyttig for å lage visuelle effekter og signaler.
+5. **Matematiske Beregninger**: Mapper som `kvadrattrot_av_et_tall` og `Ovelsefinnegjennomsnitt` gir eksempler på hvordan man kan utføre matematiske beregninger med Arduino.
+6. **Arrays**: Mappen `test array` inneholder øvelser som viser hvordan man kan bruke arrays for å lagre og manipulere data i Arduino-programmer.
+
+### Kilder på nettet
+For å støtte læringen og utvide kunnskapen, kan følgende ressurser være nyttige:
+
+- [Arduino Documentation](https://www.arduino.cc/en/Tutorial/HomePage): Offisiell dokumentasjon og tutorials fra Arduino, som dekker alt fra grunnleggende opplæring til avanserte prosjekter.
+- [Arduino Reference](https://www.arduino.cc/reference/en/): En omfattende referanse til Arduino-programmering, inkludert funksjoner, variabler og operatører.
+- [Arduino Forum](https://forum.arduino.cc/): Et fellesskap av Arduino-brukere hvor man kan stille spørsmål, dele prosjekter og få hjelp med problemer.
+- [Instructables Arduino Projects](https://www.instructables.com/howto/arduino/): En samling av Arduino-prosjekter fra Instructables, med trinnvise veiledninger.
+- [SparkFun Learning](https://learn.sparkfun.com/tutorials/tags/arduino): Tutorials og ressurser fra SparkFun, en leverandør av elektronikkprodukter, som dekker en rekke Arduino-emner.
+
+Ved å utforske repositoryen og bruke disse ressursene, kan man få en solid forståelse av både grunnleggende og avanserte konsepter i Arduino-programmering, inkludert elektronikkprinsipper, programmeringslogikk, og praktiske anvendelser.
+
+
+Repositoryen [SQL](https://github.com/larsenjr/SQL) inneholder en rekke SQL-filer og øvelser som dekker ulike aspekter av SQL-programmering og databaseadministrasjon. Her er en detaljert oversikt over innholdet og hva man kan lære seg:
+
+### Filer og Mapper
+
+#### SQL-filer
+- **Backup Prøve.sql** og **Backup.sql**: Inneholder SQL-skript for å ta sikkerhetskopier av databaser. Man lærer seg hvordan man lager og gjenoppretter sikkerhetskopier av databaser.
+- **Backuptestmodel.mwb**: En MySQL Workbench-modellfil som kan inneholde databasemodeller. Man lærer seg hvordan man bruker MySQL Workbench til å designe databaser.
+- **Binde tabell med en annen.sql**: Inneholder SQL-kode for å binde (join) tabeller. Man lærer seg hvordan man bruker JOIN-operasjoner i SQL.
+- **Finne alle kvinner som har spesifikt poststed(inner join, where, order by).sql**: Man lærer seg å bruke INNER JOIN, WHERE, og ORDER BY for å filtrere og sortere data.
+- **Finne alle som begynner på erlin (Wildcard).sql**: Man lærer seg å bruke wildcard-tegn for mønstergjenkjenning i SQL.
+- **Finne fylkenavn og antall (innerjoin, count).sql**: Man lærer seg å bruke COUNT-funksjonen sammen med JOIN-operasjoner for å telle oppføringer.
+- **Finne grunndata for poststed og postnummer.sql**: Man lærer seg å hente grunnleggende data fra en database.
+- **Finne høyeste betalte tall.sql**: Man lærer seg å bruke SQL-funksjoner for å finne den høyeste verdien i en kolonne.
+- **Finne kunder som ikke har plassert ordre.sql**: Man lærer seg å bruke LEFT JOIN og WHERE for å finne oppføringer uten relaterte data.
+- **Finne unike tall med de som minst har en betaling.sql**: Man lærer seg å finne unike oppføringer som tilfredsstiller spesifikke kriterier.
+- **Finner alle beløp som er høyere enn gjennomsnittet.sql**: Man lærer seg å bruke aggregeringsfunksjoner for å sammenligne verdier.
+- **Lage database CREATE TABLE.sql** og **Lage database skiklubb.sql**: Man lærer seg å opprette databaser og tabeller.
+- **Lage kolonne poststed.sql**, **Lage kolonne til tabelldatabase.sql**, **Lage kolonne uten at man kan endre tabeller.sql**: Man lærer seg å legge til kolonner i eksisterende tabeller.
+- **Lege inn info i poststed.sql** og **Legge til bilmerker i en eksisterende kolonne.sql**: Man lærer seg å sette inn data i tabeller.
+- **Legge til flere bilmerker i en kolonne.sql**: Man lærer seg å oppdatere data i en eksisterende kolonne.
+- **Legge til info i databaser INSERT INTO.sql**: Man lærer seg å bruke INSERT INTO for å legge til data i tabeller.
+- **Legger til kolonne med syntax år.sql**: Man lærer seg å opprette kolonner med spesifikke datatyper.
+- **Oppgave Endre rettigheter grant, select, delete, insert.sql**: Man lærer seg å administrere brukerrettigheter i databaser.
+- **OppgaveTransact.sql**, **OppgaveTransact1.sql**, **OppgaveTransactRecoveryRestore.sql**, **OppgveTransact.sql**: Man lærer seg å bruke transaksjoner i SQL.
+- **Relasjon løp til medlemmer.sql**: Man lærer seg å lage relasjoner mellom tabeller.
+- **SQL Spørring etter totale summen etter enkelt ordre.sql**: Man lærer seg å aggregere data for å finne totale summer.
+- **SQL Spørring etter bokstaven C og USA.sql**: Man lærer seg å bruke LIKE og WHERE for å filtrere data.
+- **SQL Spørring etter tall som er under gjennomsnittet.sql**: Man lærer seg å bruke sammenligningsoperatører for å filtrere data basert på aggregerte verdier.
+- **SQL lage tabell resultater.sql**: Man lærer seg å opprette og administrere tabeller for å lagre resultater.
+- **SQL legge inn info i databasen.sql** og **SQL legge inn info i resultater.sql**: Man lærer seg å sette inn og oppdatere data i databaser.
+- **SQLProve.md**: En markdown-fil som sannsynligvis inneholder oppgaver eller tester relatert til SQL.
+- **Setter autoincrement tilbake til 1.sql**: Man lærer seg å administrere autoincrement-verdier i tabeller.
+- **Slette rows i en tabell.sql**: Man lærer seg å slette data fra tabeller.
+- **Sortere etter fylke som har flere enn 2 studenter.sql**: Man lærer seg å bruke GROUP BY og HAVING for å gruppere og filtrere data.
+- **Spørring endre verdi i eksisterende tabell.sql**: Man lærer seg å oppdatere eksisterende data i en tabell.
+- **Spørring etter Antall kvinner og menn.sql**: Man lærer seg å telle oppføringer basert på spesifikke kriterier.
+- **Spørring etter Etternavn sortert synkende rekkefølge.sql**: Man lærer seg å sortere data i synkende rekkefølge.
+- **Spørring etter Gjennomsnitt av alder.sql**: Man lærer seg å beregne gjennomsnittet av verdier i en kolonne.
+- **Spørring etter fylke.sql**: Man lærer seg å hente og filtrere data basert på fylke.
+- **Spørring etter kvinner som bor i et visst område.sql**: Man lærer seg å bruke WHERE-klausuler for å filtrere data basert på geografiske kriterier.
+- **Spørring etter kvinner.sql**: Man lærer seg å filtrere data basert på kjønn.
+- **Spørring etter oppdatering på navn og alder.sql**: Man lærer seg å oppdatere spesifikke kolonner i en tabell.
+- **Spørring etter unique keys i en tabell.sql**: Man lærer seg å hente unike oppføringer fra en tabell.
+- **Spørring etter å finne alder innenfor ett område.sql**: Man lærer seg å bruke BETWEEN for å filtrere data basert på et område.
+- **Spørring etter å finne poststed sortert på antall.sql**: Man lærer seg å sortere data basert på antall oppføringer.
+- **Spørring etter å lage en ny bruker i tabell.sql**: Man lærer seg å legge til nye brukere i en tabell.
+- **backup test.sql**: Inneholder SQL-kode for å teste sikkerhetskopiering av databaser.
+- **backuptest reverse.mwb** og **backuptest reverse.mwb.bak**: MySQL Workbench-filer som sannsynligvis inneholder databasemodeller.
+- **diverse.sql** og **diverse2.sql**: Inneholder diverse SQL-øvelser og eksempler.
+- **finne de ti første i en tabell (LIMIT spørring).sql**: Man lærer seg å bruke LIMIT for å hente et bestemt antall oppføringer.
+- **finne inner join sammen med poststed hos student.sql**: Man lærer seg å bruke INNER JOIN for å koble sammen tabeller.
+- **finne unike (med union) som lister alle navn fra flere tabeller.sql**: Man lærer seg å bruke UNION for å kombinere resultater fra flere tabeller.
+- **informasjon i resultatertabellen.sql**: Man lærer seg å hente data fra en resultatertabell.
+- **oppdatere eksisterende bruker (update, set, where).sql**: Man lærer seg å oppdatere data i en eksisterende bruker.
+- **spørring etter RIGHT JOIN (høyre database).sql**: Man lærer seg å bruke RIGHT JOIN for å koble sammen tabeller.
+- **transactRecoveryRestore.sql**: Inneholder SQL-kode for å gjenopprette data ved hjelp av transaksjoner.
+
+### Kilder på nettet
+For å støtte læringen og utvide kunnskapen, kan følgende ressurser være nyttige:
+
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/): En omfattende guide til SQL med eksempler og interaktive øvelser.
+- [SQLZoo](https://sqlzoo.net/): En interaktiv læringsplattform for SQL.
+- [LeetCode SQL Problems](https://leetcode.com/problemset/database/): Øvingsoppgaver for SQL på LeetCode.
+- [SQLBolt](https://sqlbolt.com/): En interaktiv opplæring for å lære SQL trinn for trinn.
+- [MySQL Documentation](https://dev.mysql.com/doc/): Den offisielle dokumentasjonen for MySQL, inkludert referanseguider og tutorials.
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/): Den offisielle dokumentasjonen for PostgreSQL, en populær SQL-database.
+
+Ved å utforske repositoryen og bruke disse ressursene, kan man få en solid forståelse av SQL-programmering, inkludert spørringer, databasemanipulering, sikkerhetskopiering, gjenoppretting og mye mer.
+
+### Repository: [mvp-to-mvvm-transition](https://github.com/Nilzor/mvp-to-mvvm-transition)
+
+#### Innhold i Repository
+- **.gitignore**: Fil som spesifiserer hvilke filer og mapper som skal ignoreres av Git.
+- **.idea**: Inneholder prosjektspesifikke innstillinger for IntelliJ IDEA.
+- **README.md**: Dokumentasjon for prosjektet.
+- **app**: Katalog som inneholder applikasjonskoden.
+- **build.gradle**: Byggekonfigurasjonsfil for Gradle.
+- **gradle.properties**: Gradle egenskapsfil.
+- **gradle**: Katalog for Gradle-innstillinger.
+- **gradlew** og **gradlew.bat**: Wrapper-skript for å sikre at prosjektet bruker riktig versjon av Gradle.
+- **settings.gradle**: Gradle-innstillinger for prosjektet.
+
+#### README.md
+README-filen gir en kort introduksjon til prosjektet som viser en dynamisk og interaktiv GUI-applikasjon som bruker data-binding for å illustrere overgangen fra MVP (Model-View-Presenter) til MVVM (Model-View-ViewModel).
+
+![Image](https://cloud.githubusercontent.com/assets/990654/26285791/cf202b3a-3e56-11e7-9f58-5f47db47af71.png)
+
+- **UI-elementer**: Skjulte/synlige basert på radioknappstatus.
+- **Databinding**: Illustrerer nettverksforespørsler og UI-oppdateringer.
+
+Opprinnelig skrevet som støtte for et blogginnlegg kalt [Android Databinding: Goodbye Presenter, Hello ViewModel!](http://tech.vg.no/2015/07/17/android-databinding-goodbye-presenter-hello-viewmodel/).
+
+#### Hva man kan lære seg
+1. **Overgang fra MVP til MVVM**: Forstå forskjellene mellom MVP og MVVM-arkitektur og hvordan man migrerer et prosjekt fra MVP til MVVM.
+2. **Android Databinding**: Lær hvordan man bruker Android Databinding for å binde UI-komponenter direkte til ViewModel.
+3. **Gradle Konfigurasjon**: Forstå grunnleggende Gradle-konfigurasjoner for Android-prosjekter.
+4. **UI-Design med ViewModels**: Forstå hvordan man bruker ViewModels for å holde UI-koden ren og lett å teste.
+
+### Kilder på nettet for dypere forståelse
+- [Official Android Documentation - Data Binding](https://developer.android.com/topic/libraries/data-binding)
+- [Introduction to Model-View-ViewModel (MVVM) pattern](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
+- [Google Codelabs: Android ViewModel](https://codelabs.developers.google.com/codelabs/android-lifecycles/#0)
+
+---
+
+### Repository: [build-variant-matrix](https://github.com/Nilzor/build-variant-matrix)
+
+#### Innhold i Repository
+- **README.md**: Dokumentasjon for prosjektet.
+- **app**: Katalog som inneholder applikasjonskoden.
+- **build.gradle**: Byggekonfigurasjonsfil for Gradle.
+- **gradle.properties**: Gradle egenskapsfil.
+- **gradle**: Katalog for Gradle-innstillinger.
+- **gradlew** og **gradlew.bat**: Wrapper-skript for å sikre at prosjektet bruker riktig versjon av Gradle.
+- **settings.gradle**: Gradle-innstillinger for prosjektet.
+
+#### README.md
+README-filen gir en oversikt over hvordan man bruker byggevarianter (build variants) i Android-prosjekter. Det illustrerer hvordan man kan konfigurere flere byggevarianter for forskjellige miljøer og funksjoner.
+
+#### Hva man kan lære seg
+1. **Konfigurasjon av Byggevarianter**: Lær hvordan man konfigurerer og bruker byggevarianter i et Android-prosjekt.
+2. **Gradle Scripting**: Forstå hvordan man bruker Gradle for å administrere forskjellige byggekonfigurasjoner.
+3. **Miljøspesifikke Bygg**: Lær hvordan man setter opp og administrerer miljøspesifikke bygg, for eksempel debug, release, staging, etc.
+
+### Kilder på nettet for dypere forståelse
+- [Official Android Documentation - Build Variants](https://developer.android.com/studio/build/build-variants)
+- [Gradle Build Variants Guide](https://guides.gradle.org/building-android-apps/)
+
+---
+
+### Repository: [wf4-rule-engine](https://github.com/Nilzor/wf4-rule-engine)
+
+#### Innhold i Repository
+- **README.md**: Dokumentasjon for prosjektet.
+- **src**: Katalog som inneholder kildekoden.
+
+#### README.md
+README-filen gir en oversikt over prosjektet som handler om en regelmotor bygget med Windows Workflow Foundation 4 (WF4). Det gir informasjon om hvordan man setter opp og bruker regelmotoren.
+
+#### Hva man kan lære seg
+1. **Windows Workflow Foundation (WF4)**: Forstå grunnleggende konsepter og bruk av WF4.
+2. **Bygging av Regelmotorer**: Lær hvordan man bygger og administrerer regelmotorer ved hjelp av WF4.
+3. **Integrasjon med .NET**: Forstå hvordan man integrerer regelmotorer med .NET-applikasjoner.
+
+### Kilder på nettet for dypere forståelse
+- [Microsoft Documentation - Windows Workflow Foundation](https://docs.microsoft.com/en-us/dotnet/framework/windows-workflow-foundation/)
+- [Introduction to WF4](https://www.c-sharpcorner.com/article/introduction-to-windows-workflow-foundation-4-0/)
+
+---
+
+### Repository: [OttoVolleyDoneRight](https://github.com/Nilzor/OttoVolleyDoneRight)
+
+#### Innhold i Repository
+- **README.md**: Dokumentasjon for prosjektet.
+- **app**: Katalog som inneholder applikasjonskoden.
+- **build.gradle**: Byggekonfigurasjonsfil for Gradle.
+- **gradle.properties**: Gradle egenskapsfil.
+- **gradle**: Katalog for Gradle-innstillinger.
+- **gradlew** og **gradlew.bat**: Wrapper-skript for å sikre at prosjektet bruker riktig versjon av Gradle.
+- **settings.gradle**: Gradle-innstillinger for prosjektet.
+
+#### README.md
+README-filen gir en oversikt over prosjektet som integrerer Otto, en event bus, med Volley, et HTTP-bibliotek for Android. Prosjektet viser hvordan man bruker disse bibliotekene sammen for å lage responsive og skalerbare Android-applikasjoner.
+
+#### Hva man kan lære seg
+1. **Otto Event Bus**: Forstå hvordan man bruker Otto for å håndtere hendelser i Android-applikasjoner.
+2. **Volley HTTP Library**: Lær hvordan man bruker Volley for å håndtere nettverksforespørsler.
+3. **Integrasjon av Biblioteker**: Forstå hvordan man integrerer forskjellige tredjepartsbiblioteker for å forbedre applikasjonsfunksjonalitet.
+
+### Kilder på nettet for dypere forståelse
+- [Otto Event Bus Documentation](http://square.github.io/otto/)
+- [Volley Library Documentation](https://developer.android.com/training/volley)
+
+---
+
+### Repository: [hello-mvp-dagger-2](https://github.com/Nilzor/hello-mvp-dagger-2)
+
+#### Innhold i Repository
+- **README.md**: Dokumentasjon for prosjektet.
+- **app**: Katalog som inneholder applikasjonskoden.
+- **build.gradle**: Byggekonfigurasjonsfil for Gradle.
+- **gradle.properties**: Gradle egenskapsfil.
+- **gradle**: Katalog for Gradle-innstillinger.
+- **gradlew** og **gradlew.bat**: Wrapper-skript for å sikre at prosjektet bruker riktig versjon av Gradle.
+- **settings.gradle**: Gradle-innstillinger for prosjektet.
+
+#### README.md
+README-filen gir en oversikt over prosjektet som viser hvordan man bruker MVP-arkitektur med Dagger 2, en avhengighetsinjeksjonsrammeverk, i Android-applikasjoner.
+
+#### Hva man kan lære seg
+1. **MVP Arkitektur**: Forstå grunnleggende prinsipper for Model-View-Presenter arkitektur.
+2. **Dagger 2**: Lær hvordan man bruker Dagger 2 for avhengighetsinjeksjon i Android-applikasjoner.
+3. **Kombinasjon av MVP og Dagger 2**: Forstå hvordan man kombinerer MVP-arkitektur med Dagger 2 for å skape modulære og vedlikeholdbare applikasjoner.
+
+### Kilder på nettet for dypere forståelse
+- [Official Dagger Documentation](https://dagger.dev/dev-guide/)
+- [MVP Pattern in Android](https://developer.android.com/guide/topics/architecture)
+
+---
+
+### Repository: [coding-standards](https://github.com/Nilzor/coding-standards)
+
+#### Innhold i Repository
+- **README.md**: Dokumentasjon for prosjektet.
+
+#### README.md
+README-filen gir en oversikt over kodestandarder og beste praksiser for prosjektet. Dette kan
+
+ inkludere konvensjoner for kodenavn, formatering, dokumentasjon og andre retningslinjer som bidrar til å opprettholde kodekvalitet.
+
+#### Hva man kan lære seg
+1. **Kodestandarder**: Forstå viktigheten av kodestandarder og hvordan de kan implementeres.
+2. **Beste Praksiser**: Lær om beste praksiser for programmering og hvordan man kan anvende dem for å forbedre kodekvaliteten.
+3. **Vedlikeholdbar Kode**: Forstå hvordan kodestandarder kan bidra til å gjøre koden mer vedlikeholdbar og lesbar.
+
+### Kilder på nettet for dypere forståelse
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Clean Code by Robert C. Martin](https://www.oreilly.com/library/view/clean-code/9780136083238/)
+
+Disse prosjektene gir en omfattende innsikt i forskjellige aspekter av programvareutvikling, fra arkitekturdesign og avhengighetsinjeksjon til kodestandarder og beste praksiser. Ved å utforske disse repositoryene og bruke de nevnte kildene, kan man få en solid forståelse av moderne programvareutviklingsteknikker og verktøy.
+
+### Repository: [Appear_js](https://github.com/fagskolenkristiania/Appear_js)
+
+#### Innhold i Repository
+- **appear.js**: JavaScript-fil som inneholder funksjonaliteten for at elementer skal dukke opp på skjermen.
+- **index.html**: HTML-fil som viser hvordan man bruker `appear.js`-skriptet i en webside.
+- **style.css**: CSS-fil som inneholder stilregler for utseendet til elementene på websiden.
+
+#### Hva man kan lære seg
+1. **JavaScript for visuelle effekter**: Lær hvordan man bruker JavaScript for å lage visuelle effekter, som at elementer skal dukke opp når de blir synlige på skjermen.
+2. **HTML-struktur**: Forstå hvordan man strukturerer en webside for å inkludere og bruke eksterne JavaScript- og CSS-filer.
+3. **CSS for styling**: Lær grunnleggende CSS for å style HTML-elementer og kontrollere deres utseende på skjermen.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - Introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [MDN Web Docs - Introduction to CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN Web Docs - JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
+---
+
+### Repository: [designlab](https://github.com/fagskolenkristiania/designlab)
+
+#### Innhold i Repository
+- **README.md**: Forventet å inneholde informasjon om prosjektet (ikke tilgjengelig via API).
+- Diverse filer og mapper som antagelig inneholder prosjekter og eksempler relatert til design.
+
+#### Hva man kan lære seg
+1. **Webdesign og UX**: Forstå grunnleggende prinsipper for webdesign og brukeropplevelse (UX).
+2. **HTML, CSS og JavaScript**: Bruk disse teknologiene til å lage estetisk tiltalende og funksjonelle websider.
+3. **Designverktøy og metoder**: Lær om verktøy og metoder som brukes i designprosessen, som wireframing, prototyping, og brukertesting.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - Web design basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Web_design_basics)
+- [A List Apart - Articles on Design](https://alistapart.com/topic/design/)
+- [Smashing Magazine - Design Articles](https://www.smashingmagazine.com/articles/)
+
+---
+
+### Repository: [interaksjonsdesign](https://github.com/fagskolenkristiania/interaksjonsdesign)
+
+#### Innhold i Repository
+- **README.md**: Forventet å inneholde informasjon om prosjektet (ikke tilgjengelig via API).
+- Diverse filer og mapper som sannsynligvis inneholder prosjekter og eksempler relatert til interaksjonsdesign.
+
+#### Hva man kan lære seg
+1. **Interaksjonsdesign**: Forstå hvordan man designer intuitive og effektive brukergrensesnitt.
+2. **Brukeropplevelse (UX)**: Lær hvordan brukerne interagerer med produkter og hvordan man kan forbedre deres opplevelse.
+3. **Designprinsipper og mønstre**: Forstå viktige prinsipper og designmønstre som forbedrer brukervennligheten og funksjonaliteten til digitale produkter.
+
+### Kilder på nettet for dypere forståelse
+- [Interaction Design Foundation](https://www.interaction-design.org/)
+- [Nielsen Norman Group - UX Research and Articles](https://www.nngroup.com/articles/)
+- [Coursera - Interaction Design Specialization](https://www.coursera.org/specializations/interaction-design)
+
+---
+
+### Repository: [fagskolenkristiania.github.io](https://github.com/fagskolenkristiania/fagskolenkristiania.github.io)
+
+#### Innhold i Repository
+- **README.md**: Forventet å inneholde informasjon om prosjektet (ikke tilgjengelig via API).
+- Filer og mapper som sannsynligvis inneholder koden for en GitHub Pages-nettside.
+
+#### Hva man kan lære seg
+1. **GitHub Pages**: Forstå hvordan man kan bruke GitHub Pages til å hoste statiske nettsider direkte fra et GitHub-repository.
+2. **HTML, CSS og JavaScript**: Bruk disse teknologiene til å bygge og vedlikeholde en nettside.
+3. **Versjonskontroll med Git**: Lær hvordan man bruker Git for å administrere versjoner av koden og samarbeide med andre utviklere.
+
+### Kilder på nettet for dypere forståelse
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
+- [MDN Web Docs - Introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+
+---
+
+### Repository: [hello-world-2](https://github.com/fagskolenkristiania/hello-world-2)
+
+#### Innhold i Repository
+- **README.md**: Forventet å inneholde informasjon om prosjektet (ikke tilgjengelig via API).
+- Koden som sannsynligvis demonstrerer en "Hello, World!"-applikasjon.
+
+#### Hva man kan lære seg
+1. **Grunnleggende Programmering**: Forstå grunnleggende konsepter i programmering gjennom en enkel "Hello, World!"-applikasjon.
+2. **Språkspesifikke Ferdigheter**: Lær det grunnleggende i et spesifikt programmeringsspråk som brukes i prosjektet.
+
+### Kilder på nettet for dypere forståelse
+- [W3Schools - Learn Programming Languages](https://www.w3schools.com/)
+- [MDN Web Docs - JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Codecademy](https://www.codecademy.com/)
+
+---
+
+### Repository: [patchwork](https://github.com/fagskolenkristiania/patchwork)
+
+#### Innhold i Repository
+- **README.md**: Forventet å inneholde informasjon om prosjektet (ikke tilgjengelig via API).
+- Filer som sannsynligvis inneholder koden for et prosjekt relatert til "patchwork".
+
+#### Hva man kan lære seg
+1. **Samarbeidsprosjekter**: Lær hvordan man samarbeider om prosjekter ved hjelp av versjonskontrollsystemer som Git.
+2. **Prosjektadministrasjon**: Forstå hvordan man organiserer og administrerer kodeprosjekter.
+
+### Kilder på nettet for dypere forståelse
+- [Git Documentation](https://git-scm.com/doc)
+- [GitHub Guides](https://guides.github.com/)
+- [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+
+Ved å utforske disse repositoryene og bruke de nevnte kildene, kan man få en dyp forståelse av ulike aspekter ved webutvikling, programmering, design og samarbeid i programvareprosjekter.
+
+### Repository: [css-animated-sections](https://github.com/99Gran/css-animated-sections)
+
+#### Innhold i Repository
+- **.gitattributes**: Fil som spesifiserer Git-attributter.
+- **LICENSE**: Lisensfil for prosjektet.
+- **README.md**: Kort beskrivelse av prosjektet.
+- **_config.yml**: Konfigurasjonsfil.
+- **index.css**: CSS-fil som inneholder stilregler for animasjonene.
+- **index.html**: HTML-fil som viser hvordan animasjonene er implementert.
+
+#### README.md
+Innholdet i README.md-filen er veldig kort og gir kun en minimal beskrivelse:

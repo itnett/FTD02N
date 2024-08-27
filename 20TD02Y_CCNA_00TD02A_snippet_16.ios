@@ -1,0 +1,3 @@
+calculus derivatives {
+    polynomial_derivative    ; // Derivere en polynomfunksjon
+}

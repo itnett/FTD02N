@@ -1,0 +1,25 @@
+\documentclass{book}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Book Title}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+
+\mainmatter
+\chapter{Introduction}
+This is the introduction chapter.
+
+\chapter{Chapter Title}
+This is another chapter.
+
+\backmatter
+\chapter{Appendix}
+This is the appendix.
+
+\end{document}

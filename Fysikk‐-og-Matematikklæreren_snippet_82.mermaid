@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant User
+    participant Browser
+    participant script.js
+    participant trigonometri_geometri_modul.js
+
+    User->>Browser: Selects shape and inputs values
+    Browser->>script.js: Triggers 'regnUtAreal' event
+    script.js->>trigonometri_geometri_modul.js: Calls regnUtAreal()
+    trigonometri_geometri_modul.js->>trigonometri_geometri_modul.js: Calculates area
+    trigonometri_geometri_modul.js->>script.js: Returns result and explanation
+    script.js->>Browser: Updates content with result and explanation
+    Browser->>User: Displays result and explanation

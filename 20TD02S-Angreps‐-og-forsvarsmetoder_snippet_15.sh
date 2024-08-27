@@ -1,0 +1,1 @@
+pinfo.py -o ~/evidence.plaso

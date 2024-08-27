@@ -1,0 +1,10 @@
+- name: Combinatorics
+  hosts: localhost
+  tasks:
+    - name: Calculate permutations
+      debug:
+        msg: "Permutations: {{ n | permute(r) }}"
+      
+    - name: Calculate combinations
+      debug:
+        msg: "Combinations: {{ n | combine(r) }}"

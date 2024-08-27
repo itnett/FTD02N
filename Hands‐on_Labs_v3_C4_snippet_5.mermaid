@@ -1,0 +1,10 @@
+C4Context
+title System Context diagram for MySQL Tutorial
+
+Enterprise_Boundary(e0, "MySQL Tutorial") {
+    Person(user, "User", "A person looking to learn various database skills")
+
+    System(mysqlTutorial, "MySQL Tutorial", "A comprehensive guide to MySQL, the world's most popular open source database")
+}
+
+Rel(user, mysqlTutorial, "Learns MySQL with")

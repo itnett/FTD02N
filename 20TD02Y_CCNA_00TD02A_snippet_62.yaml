@@ -1,0 +1,6 @@
+- name: Common Logarithms
+  hosts: localhost
+  tasks:
+    - name: Calculate log base 10
+      debug:
+        msg: "Log10: {{ value | log10 }}"

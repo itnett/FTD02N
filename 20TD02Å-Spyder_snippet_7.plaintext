@@ -1,0 +1,6 @@
++----------------------------------+
+  |          Imports and Config      |
+  +----------------------------------+
+  | boto3, json, requests, os, ...   |
+  | Configure LocalStack if needed   |
+  +----------------------------------+

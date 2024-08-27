@@ -1,0 +1,8 @@
+- name: Konfigurer nettverksenhet
+  hosts: network_devices
+  tasks:
+    - name: Sett IP-adresse
+      ios_config:
+        lines:
+          - interface GigabitEthernet0/0
+          - ip address 192.168.1.1 255.255.255.0

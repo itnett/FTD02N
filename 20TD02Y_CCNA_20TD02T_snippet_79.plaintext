@@ -1,0 +1,4 @@
+graph TD;
+    A[Local Server] -->|GigabitEthernet 1/0/1| B[Cisco Nexus 5548UP];
+    B -->|VPN| C[Internet];
+    C --> D[Cloud MySQL];

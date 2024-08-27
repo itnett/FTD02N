@@ -1,0 +1,27 @@
+C4Container
+title Container diagram for Digital Marketing Campaign
+
+System_Ext(email_system, "Email System", "Handles email communications")
+Person(marketingTeam, "Marketing Team", "Plans and executes marketing campaigns")
+
+Container_Boundary(c1, "Marketing Platform") {
+    Container(campaignManager, "Campaign Manager", "JavaScript, Node.js", "Manages campaign creation, updates, and analytics")
+    Container(emailService, "Email Service", "Java, Spring", "Sends campaign emails to customers")
+    ContainerDb(campaignDb, "Campaign Database", "SQL Database", "Stores campaign data and analytics")
+}
+
+System_Ext(socialMediaPlatform, "Social Media Platform", "Platform for social media interactions")
+
+Rel(marketingTeam, campaignManager, "Uses")
+Rel(campaignManager, emailService, "Sends email campaigns via")
+Rel(emailService, email_system, "Uses")
+Rel(campaignManager, socialMediaPlatform, "Posts updates to")
+Rel(campaignManager, campaignDb, "Reads from and writes to")
+Rel(emailService, campaignDb, "Reads from and writes to")
+
+UpdateRelStyle(marketingTeam, campaignManager, $offsetY="60", $offsetX="90")
+UpdateRelStyle(campaignManager, emailService, $offsetY="-40")
+UpdateRelStyle(emailService, email_system, $offsetY="-30")
+UpdateRelStyle(campaignManager, socialMediaPlatform, $offsetX="130")
+UpdateRelStyle(campaignManager, campaignDb, $offsetX="-50")
+UpdateRelStyle(emailService, campaignDb, $offsetX="-50")

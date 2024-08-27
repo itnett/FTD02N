@@ -1,0 +1,24 @@
+C4Component
+    title Frontend - Component Diagram
+    Boundary(Frontend, "Frontend") {
+        Component(HtmlCss, "HTML/CSS", "HTML/CSS", "Presentasjon og layout")
+        Component(ScriptJs, "script.js", "JavaScript", "Håndtering av meny og navigasjon")
+        Component(AlgebraModul, "algebra_modul.js", "JavaScript", "Håndtering av algebrafunksjoner")
+        Component(TrigGeomModul, "trigonometri_geometri_modul.js", "JavaScript", "Håndtering av trigonometri og geometri")
+        Component(FunksjonerModul, "funksjoner_modul.js", "JavaScript", "Håndtering av funksjoner")
+        Component(FysikkModul, "fysikk_modul.js", "JavaScript", "Håndtering av fysikkfunksjoner")
+        Component(StudieretningModul, "studieretning_modul.js", "JavaScript", "Håndtering av studieretningsspesifikke funksjoner")
+    }
+    UpdateElementStyle(HtmlCss, $fontColor="black", $borderColor="blue", $backgroundColor="lightblue")
+    UpdateElementStyle(ScriptJs, $fontColor="black", $borderColor="green", $backgroundColor="lightgreen")
+    UpdateElementStyle(AlgebraModul, $fontColor="black", $borderColor="red", $backgroundColor="lightcoral")
+    UpdateElementStyle(TrigGeomModul, $fontColor="black", $borderColor="orange", $backgroundColor="lightyellow")
+    UpdateElementStyle(FunksjonerModul, $fontColor="black", $borderColor="purple", $backgroundColor="lavender")
+    UpdateElementStyle(FysikkModul, $fontColor="black", $borderColor="brown", $backgroundColor="burlywood")
+    UpdateElementStyle(StudieretningModul, $fontColor="black", $borderColor="gray", $backgroundColor="lightgray")
+    Rel(HtmlCss, ScriptJs, "Inkluderer")
+    Rel(ScriptJs, AlgebraModul, "Bruker")
+    Rel(ScriptJs, TrigGeomModul, "Bruker")
+    Rel(ScriptJs, FunksjonerModul, "Bruker")
+    Rel(ScriptJs, FysikkModul, "Bruker")
+    Rel(ScriptJs, StudieretningModul, "Bruker")

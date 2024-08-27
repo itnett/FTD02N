@@ -1,0 +1,1 @@
+nmap -sZ <target>

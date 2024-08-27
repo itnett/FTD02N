@@ -1,0 +1,14 @@
+graph LR
+    subgraph Kubernetes Cluster
+        Node1["Node 1"]
+        Node2["Node 2"]
+        Node3["Node 3"]
+    end
+    subgraph Application
+        Container1["Container 1"]
+        Container2["Container 2"]
+        Container3["Container 3"]
+    end
+    Node1 --> Container1
+    Node2 --> Container2
+    Node3 --> Container3

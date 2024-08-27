@@ -1,0 +1,32 @@
+---
+- name: Sett opp en PostgreSQL-database i en Docker-container
+  hosts: localhost
+  tasks:
+    - name: Start en PostgreSQL-container
+      docker_container:
+        name: min_postgres_database
+        image: postgres:latest
+        env:
+          POSTGRES_PASSWORD: mitt_sterke_passord
+        ports:
+          - "5432:5432"
+        state: started
+
+    - name: Vent til PostgreSQL er klar
+      wait_for:
+        port: 5432
+        delay: 10
+        timeout: 60
+
+    - name: Opprett en database
+      postgresql_db:
+        name: min_database
+        login_user: postgres
+        login_password: mitt_sterke_passord
+
+    - name: Opprett en bruker
+      postgresql_user:
+        name: min_bruker
+        password: annet_sterkt_passord
+        db: min_database
+        priv: ALL

@@ -1,0 +1,14 @@
+# Log in to Azure
+Connect-AzAccount
+
+# List all subscriptions
+Get-AzSubscription
+
+# List all resource groups in the subscription
+Get-AzResourceGroup
+
+# List all resources in a specific resource group
+Get-AzResource -ResourceGroupName "example-resource-group"
+
+# List virtual machines and their details
+Get-AzVM

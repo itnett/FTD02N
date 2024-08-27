@@ -1,0 +1,1 @@
+nmap -sA <target>

@@ -1,0 +1,17 @@
+course_id,course_name,topic,study_points
+1,RealFaglige Redskap,Matematikk, Fysikk,10
+2,Yrkesrettet Kommunikasjon,Norsk, Engelsk,10
+3,LØM-emnet,Økonomistyring, Organisasjon og ledelse, Markedsføringsledelse,10
+4,IT-infrastruktur,IoT, Maskinvare og bruk av ITD-lab,5
+5,Cybersikkerhet,Cybersikkerhet,5
+6,Programmering,Programmering,10
+7,Nettverk 1,Nettverk 1,5
+8,Database,Database,5
+9,IT-sertifiseringer,CCNA, ITIL,10
+10,Serverdrift med Windows,Windows server, Virtualiseringsteknologi,12.5
+11,Nettverk 2,Nettverk 2, Nettverkssikkerhet,10
+12,Prosjektledelse,Prosjektledelse,2.5
+13,Serverdrift med Linux,Linux og container,5
+14,Monitorering og digital etterforskning,Monitorering, Digital etterforskning,5
+15,Skytjenester,Skytjenester,5
+16,Hovedprosjekt,Hovedprosjekt,10

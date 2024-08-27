@@ -1,0 +1,16 @@
+@startjson
+{
+  "name": "ExampleClass",
+  "attributes": ["id", "name"],
+  "methods": ["getId()", "getName()"]
+}
+@endjson
+
+@startuml
+class ExampleClass {
+  id
+  name
+  getId()
+  getName()
+}
+@enduml

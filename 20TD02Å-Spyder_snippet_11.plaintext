@@ -1,0 +1,6 @@
++----------------------------------+
+  | Infrastructure as Code (IaC)     |
+  +----------------------------------+
+  | deploy_with_cloudformation()     |
+  | - Deploy stack with CloudFormation |
+  +----------------------------------+

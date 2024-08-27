@@ -1,0 +1,5 @@
+algebra factoring {
+    common_factor    ; // Finne felles faktorer
+    quadratic        ; // Faktorisere kvadratisk uttrykk
+    difference_of_squares ; // Faktorisere forskjellen mellom to kvadrater
+}

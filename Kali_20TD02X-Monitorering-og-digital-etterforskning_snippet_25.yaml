@@ -1,0 +1,15 @@
+- name: Install Snort
+  apt:
+    name: snort
+    state: present
+
+- name: Configure Snort
+  copy:
+    src: /path/to/local/snort.conf
+    dest: /etc/snort/snort.conf
+
+- name: Start Snort
+  service:
+    name: snort
+    state: started
+    enabled: yes

@@ -1,0 +1,24 @@
+learning-platform/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── learningplatform/
+│   │   │   │   │   ├── controller/
+│   │   │   │   │   │   ├── MainController.java
+│   │   │   │   │   ├── model/
+│   │   │   │   │   ├── service/
+│   │   ├── resources/
+│   │   │   ├── static/
+│   │   │   │   ├── css/
+│   │   │   │   │   ├── styles.css
+│   │   │   │   ├── js/
+│   │   │   │   │   ├── script.js
+│   │   │   │   │   ├── algebra_modul.js
+│   │   │   │   │   ├── trigonometri_geometri_modul.js
+│   │   │   │   │   ├── funksjoner_modul.js
+│   │   │   │   │   ├── fysikk_modul.js
+│   │   │   │   │   ├── studieretning_modul.js
+│   │   │   │   │   ├── generate_code.js
+│   │   │   ├── templates/
+│   │   │   │   ├── index.html

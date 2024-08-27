@@ -1,0 +1,9 @@
+Funksjon: V(x) = 2000 - 2000 * (1 - x/40)^2
+Skjæringspunkt med y-aksen: C (0, 0)
+Tidspunkt når volumet er 1000 liter: A (40 - 20*sqrt(2), 1000)
+Maksimalt volum: B (40, 2000)
+Gjennomsnitt: 1100.0
+Median: 1100.0
+Første kvartil (Q1): 650.0
+Tredje kvartil (Q3): 1550.0
+Standardavvik: 574.4562646538029

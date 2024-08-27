@@ -1,0 +1,30 @@
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Technical Report}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is the abstract of the report.
+\end{abstract}
+
+\tableofcontents
+
+\chapter{Introduction}
+This is the introduction chapter.
+
+\chapter{Methodology}
+This is the methodology chapter.
+
+\chapter{Results}
+This is the results chapter.
+
+\chapter{Conclusion}
+This is the conclusion chapter.
+
+\end{document}

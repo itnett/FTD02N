@@ -1,0 +1,129 @@
+Gi meg beskjed hvis du vil ha mer detaljerte forklaringer eller eksempler på noen av punktene!
+
+## 1. Planlegging nettverk
+
+### 1.1 VLSM-skjema
+
+| LAN |       Enhet        |    NettID    |     VLAN     | Antall brukere |     Subnett     | CIDR | Wildcard  | 1.brukbare adresse | Siste brukbare |  Broadcast   | Antall tilgjengelige hosts |
+| :-: | :----------------: | :----------: | :----------: | :------------: | :-------------: | :--: | :-------: | :----------------: | :------------: | :----------: | :------------------------: |
+| #1  |      Switch1       |   10.0.0.0   | 90 FORSKNING |       87       | 255.255.255.128 | /25  | 0.0.0.127 |      10.0.0.1      |   10.0.0.126   |  10.0.0.127  |            126             |
+| #2  |      Switch0       |  10.0.0.128  |   80 SALG    |       80       | 255.255.255.128 | /25  | 0.0.0.127 |     10.0.0.129     |   10.0.0.254   |  10.0.0.255  |            126             |
+| #3  | Router4 - Switch4  | 220.82.12.0  | Public nett  |       28       | 255.255.255.224 | /27  | 0.0.0.31  |    220.82.12.1     |  220.82.12.30  | 220.82.12.31 |             30             |
+| #4  | Router5 - Router0  | 220.82.12.32 |      -       |       2        | 255.255.255.252 | /30  |  0.0.0.3  |    220.82.12.33    |  220.82.12.34  | 220.82.12.35 |             2              |
+| #5  | Router 0 - Router2 | 220.82.12.36 |      -       |       2        | 255.255.255.252 | /30  |  0.0.0.3  |    220.82.12.37    |  220.82.12.38  | 220.82.12.39 |             2              |
+| #6  |  Router0-Router2   | 220.82.12.40 |      -       |       2        | 255.255.255.252 | /30  |  0.0.0.3  |    220.82.12.41    |  220.82.12.42  | 220.82.12.43 |             2              |
+| #7  | Router2 - Router3  | 220.82.12.44 |      -       |       2        | 255.255.255.252 | /30  |  0.0.0.3  |    220.82.12.45    |  220.82.12.46  | 220.82.12.47 |             2              |
+| #8  |  Router3-Router1   | 220.82.12.48 |      -       |       2        | 255.255.255.252 | /30  |  0.0.0.3  |    220.82.12.49    |  220.82.12.50  | 220.82.12.51 |             2              |
+| #9  | Router1 - Router4  | 220.82.12.52 |      -       |       2        | 255.255.255.252 | /30  |  0.0.0.3  |    220.82.12.53    |  220.82.12.54  | 220.82.12.55 |             2              |
+
+### Oversikt over IP-adresser
+
+| Interface           | IP-adresse     |
+| :------------------- | :------------- |
+| **Router5**          |                |
+| FastEthernet 0/0.80  | 10.0.0.1       |
+| FastEthernet 0/0.90  | 10.0.0.129     |
+| FastEthernet 0/1    | 220.82.12.33   |
+| **Router0**          |                |
+| FastEthernet 0/0    | 220.82.12.34   |
+| FastEthernet 0/1    | 220.82.12.41   |
+| Serial 1/0          | 220.82.12.37   |
+| **Router2**          |                |
+| FastEthernet 0/0    | 220.82.12.42   |
+| FastEthernet 0/1    | 220.82.12.45   |
+| **Router3**          |                |
+| FastEthernet 0/0    | 220.82.12.46   |
+| FastEthernet 0/1    | 220.82.12.49   |
+| **Router1**          |                |
+| FastEthernet 0/0    | 220.82.12.50   |
+| FastEthernet 0/1    | 220.82.12.53   |
+| Serial 1/0          | 220.82.12.38   |
+| **Router4**          |                |
+| FastEthernet 0/0    | 220.82.12.54   |
+| FastEthernet 0/1    | 220.82.12.1    |
+| **Switch4**          |                |
+| FTP-server          | 220.82.12.2    |
+| Web-server          | 220.82.12.3    |
+| DNS-server          | 220.82.12.4    |
+
+## 2. NAT
+
+Router 5 er konfigurert med NAT overload (PAT) for å oversette private IP-adresser (10.0.0.0/25) til den offentlige IP-adressen 220.82.12.33. FORSKNINGS-VLAN (10.0.0.0/25) er ekskludert fra NAT, slik at disse enhetene ikke har tilgang til det offentlige internettet. NAT overload gjør det mulig for flere enheter å dele én offentlig IP-adresse, noe som sparer offentlige IP-adresser og gir et ekstra lag med sikkerhet ved å skjule de interne IP-adressene.
+
+## 3. DHCP
+
+DHCP er konfigurert på Router 5 for å tildele IP-adresser til enheter i VLAN SALG (10.0.0.128/25) og VLAN FORSKNING (10.0.0.0/25). Subinterfaces er brukt for å skille DHCP-konfigurasjonen for hvert VLAN. IP-adresser som er tildelt routerne og andre enheter som ikke skal motta DHCP-adresser er ekskludert. DNS-serveren er satt til 10.0.0.2 for VLAN FORSKNING og til den offentlige DNS-serveren (220.82.12.4) for VLAN SALG.
+
+## 5. EIGRP-avstand
+
+EIGRP er konfigurert på alle routerne. Ved å bruke kommandoen `show ip route eigrp` på Router 5, ser vi at avstanden (metric) til public-server nettet (220.82.12.0/24) er 40960. EIGRP beregner denne avstanden basert på båndbredde og forsinkelse på lenkene mellom Router 5 og public-server nettet.
+
+## 6. STP
+
+Spanning Tree Protocol (STP) er aktivert i det switchede nettverket til venstre for å forhindre loop i nettverket. STP velger en rotbro (root bridge) og blokkerer overflødige porter for å skape et loopfritt tre. Dette sikrer at datapakker ikke sirkulerer uendelig i nettverket, noe som kan føre til redusert ytelse og ustabilitet. STP gir også feiltoleranse ved å aktivere blokkerte porter hvis en aktiv port feiler.
+
+## 7. Sikkerhet med NAT
+
+NAT-oppsettet på Router 5 gir økt sikkerhet ved å skjule de interne IP-adressene for det offentlige internettet. NAT fungerer som en brannmur ved å blokkere uønsket innkommende trafikk som ikke er initiert fra innsiden av nettverket. Dette gjør det vanskeligere for eksterne angripere å få tilgang til enheter i det private nettverket.
+
+## 8. Fordeler med VLAN
+
+VLAN-oppsettet gir flere fordeler:
+
+*   **Fleksibilitet:** Nettverket kan deles inn i logiske grupper (VLAN) uten å måtte endre den fysiske kablingen. Dette gjør det enklere å administrere og skalere nettverket.
+*   **Sikkerhet:** VLAN kan brukes til å isolere trafikk mellom ulike grupper av enheter, noe som øker sikkerheten ved å begrense tilgangen til sensitive ressurser.
+*   **Ytelse:** VLAN kan forbedre ytelsen ved å segmentere nettverkstrafikk og redusere unødvendig kringkasting. Dette kan føre til redusert trafikkbelastning og bedre responstid for applikasjoner.
+
+## 9. og 10. Verifisering av pakkebane
+
+For å verifisere pakkebanen fra VLAN SALG til public-server nettet, kan du bruke `traceroute` fra en klient i VLAN SALG (f.eks., PC0) til en server i public-server nettet (f.eks., FTP-serveren med IP-adresse 220.82.12.2). Traceroute vil vise hver router som pakken passerer på vei til destinasjonen. Du kan også bruke `show ip route` på routerne for å se rutingtabellen og bekrefte at pakken følger den forventede ruten.
+
+## 11. IP-adressering (OSI-modell)
+
+IP-adressering finner vi på lag 3 (nettverkslaget) i OSI-modellen. IP-adresser brukes til å identifisere enheter på nettverket og rute pakker fra kilde til destinasjon. Hver IP-pakke inneholder kilde- og destinasjons-IP-adresser, som brukes av routere til å videresende pakken mot riktig destinasjon.
+
+## 12. Encapsulation
+
+Encapsulation er prosessen med å legge til headere og trailere til data på hvert lag i OSI-modellen. Hver header inneholder informasjon som er nødvendig for at det tilsvarende laget skal behandle pakken riktig. For eksempel inneholder TCP-header informasjon om portnummer og sekvensnummer, mens IP-header inneholder kilde- og destinasjons-IP-adresser.
+
+## 13. og 14. ACL
+
+Access Control Lists (ACL) er implementert på Router 4 og Router 5 for å kontrollere trafikkflyten mellom VLANene.
+
+**Router 4:**
+
+| Trafikktype | Kilde       | Destinasjon  | Tillatt/Blokkert |
+| :---------- | :---------- | :----------- | :--------------- |
+| ICMP        | 220.82.12.33 | 220.82.12.0/24 | Tillatt         |
+| FTP         | Alle        | 220.82.12.0/24 | Tillatt         |
+| HTTP        | Alle        | 220.82.12.0/24 | Tillatt         |
+| DNS         | Alle        | 220.82.12.0/24 | Tillatt         |
+
+**Router 5:**
+
+| Trafikktype | Kilde            | Destinasjon    | Tillatt/Blokkert |
+| :---------- | :--------------- | :------------- | :--------------- |
+| FTP         | 10.0.0.128/25    | 10.0.0.0/25     | Blokkert        |
+| HTTP        | 10.0.0.128/25    | 10.0.0.0/25     | Blokkert        |
+| HTTPS       | 10.0.0.128/25    | 10.0.0.0/25     | Blokkert        |
+
+Denne konfigurasjonen tillater enheter i VLAN SALG å få tilgang til servere i public-server nettet, mens enheter i VLAN FORSKNING kun kan få tilgang til HTTP- og FTP-servere i VLAN SALG. Trafikk i motsatt retning er blokkert for å øke sikkerheten.
+
+### Improved Guide for `arduino.md`
+
+# Arduino Project Guide
+
+## Introduction
+This guide helps you get started with Arduino projects, covering setup, basic, and advanced projects.
+
+## Step-by-Step Instructions
+
+### Setup and Installation
+1. **Install Arduino IDE**: Download and install from the [official website](https://www.arduino.cc/en/software).
+2. **Connect Arduino Board**: Use a USB cable to connect the Arduino board to your computer.
+
+### Basic Projects
+
+1. **Blink LED**:
+   - **Components**: Arduino board, LED, resistor.
+   - **Code**:

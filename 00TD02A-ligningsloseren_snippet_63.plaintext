@@ -1,0 +1,6 @@
+Diskriminanten er: -12.0
+  Diskriminanten er negativ. Likningen har ingen reelle løsninger.
+  De komplekse løsningene er: x1 = 0.0 + 1.7320508075688772i og x2 = 0.0 - 1.7320508075688772i.
+
+  Spesielt tilfelle: Førstegradsleddet b er null.
+  Ingen reell løsning (vi kan ikke ta kvadratroten av et negativt tall).

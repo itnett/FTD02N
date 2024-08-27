@@ -1,0 +1,1 @@
+skrivHilsen("Ola"); // Kaller metoden med argumentet "Ola"

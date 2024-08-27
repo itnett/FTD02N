@@ -1,0 +1,24 @@
+{
+  "modulesContent": {
+    "$edgeAgent": {
+      "properties.desired": {
+        "modules": {
+          "MyModule": {
+            "settings": {
+              "image": "mcr.microsoft.com/azureiotedge-simulated-temperature-sensor:1.0"
+            },
+            "type": "docker",
+            "status": "running"
+          }
+        }
+      }
+    },
+    "$edgeHub": {
+      "properties.desired": {
+        "routes": {
+          "route": "FROM /messages/* INTO $upstream"
+        }
+      }
+    }
+  }
+}

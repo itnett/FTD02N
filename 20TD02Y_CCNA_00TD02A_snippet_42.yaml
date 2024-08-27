@@ -1,0 +1,10 @@
+- name: Solving Systems of Equations
+  hosts: localhost
+  tasks:
+    - name: Solve by substitution
+      debug:
+        msg: "Solution: {{ system_of_equations | solve_substitution }}"
+
+    - name: Solve by elimination
+      debug:
+        msg: "Solution: {{ system_of_equations | solve_elimination }}"

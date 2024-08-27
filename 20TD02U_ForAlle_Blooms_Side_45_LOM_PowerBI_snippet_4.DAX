@@ -1,0 +1,2 @@
+NPV = SUMX('Kontantstrømmer', 'Kontantstrømmer'[Beløp] / (1 + [Diskonteringsrate]) ^ 'Kontantstrømmer'[Periode])
+IRR = XIRR('Kontantstrømmer'[Beløp], 'Kontantstrømmer'[Dato])

@@ -1,0 +1,4 @@
+physics phase_changes {
+    define_phases           ; // Definere faser (fast, flytende, gass)
+    calculate_phase_change   ; // Beregne faseoverganger (smeltevarme, fordampningsvarme)
+}

@@ -1,0 +1,54 @@
+C4Context
+title System Context diagram for Learning Resources
+
+Enterprise_Boundary(e0, "Learning Resources") {
+    Person(user, "User", "A person looking to learn various IT skills")
+
+    System(codecademy, "Codecademy", "Interactive courses and exercises in Python, JavaScript, HTML, CSS, and more")
+    System(freeCodeCamp, "freeCodeCamp", "Comprehensive curriculum with projects and certifications in web development")
+    System(exercism, "Exercism", "Practice coding challenges in various languages with mentor guidance")
+    System(programiz, "Programiz", "Tutorials and examples in Python, Java, C++, and other languages")
+
+    System(awsEducate, "AWS Educate", "Start with AWS Cloud Practitioner Essentials and explore AWS services free")
+    System(azureLearn, "Microsoft Learn (Azure)", "Learn about Azure services and architecture through interactive modules and sandbox environments")
+    System(googleCloud, "Google Cloud Skills Boost", "Guided labs to learn about Google Cloud Platform")
+
+    System(tryHackMe, "TryHackMe", "Learn ethical hacking and cybersecurity through interactive rooms and challenges")
+    System(hackTheBox, "Hack The Box", "Test your skills in a realistic hacker environment with virtual machines and challenges")
+    System(overTheWire, "OverTheWire", "Learn various security concepts through wargames and challenges")
+    System(portSwigger, "PortSwigger Web Security Academy", "Learn about web vulnerabilities and how to protect against them")
+
+    System(packetTracer, "Packet Tracer (Cisco)", "Simulate and design networks with Cisco's popular tool")
+    System(gns3, "GNS3", "Run virtual routers and switches in a graphical network simulator")
+
+    System(mysqlTutorial, "MySQL Tutorial", "Interactive tutorials and exercises to learn MySQL")
+    System(oracleLiveSQL, "Oracle Live SQL", "Experiment with Oracle Database directly in your browser")
+    System(dbFiddle, "DB Fiddle", "Test and share SQL code across different database systems")
+
+    System(windowsLearn, "Microsoft Learn (Windows Server)", "Free courses and labs on Windows Server administration")
+    System(katacoda, "Katacoda", "Interactive scenarios to learn Linux commands and administration")
+}
+
+Rel(user, codecademy, "Learns programming with")
+Rel(user, freeCodeCamp, "Learns web development with")
+Rel(user, exercism, "Practices coding challenges with")
+Rel(user, programiz, "Reads tutorials on")
+
+Rel(user, awsEducate, "Learns AWS with")
+Rel(user, azureLearn, "Learns Azure with")
+Rel(user, googleCloud, "Learns Google Cloud with")
+
+Rel(user, tryHackMe, "Learns ethical hacking with")
+Rel(user, hackTheBox, "Tests hacking skills with")
+Rel(user, overTheWire, "Learns security concepts with")
+Rel(user, portSwigger, "Learns web security with")
+
+Rel(user, packetTracer, "Simulates networks with")
+Rel(user, gns3, "Runs virtual network simulations with")
+
+Rel(user, mysqlTutorial, "Learns MySQL with")
+Rel(user, oracleLiveSQL, "Experiments with Oracle SQL using")
+Rel(user, dbFiddle, "Tests and shares SQL code using")
+
+Rel(user, windowsLearn, "Learns Windows Server administration with")
+Rel(user, katacoda, "Learns Linux administration with")

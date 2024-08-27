@@ -1,0 +1,3 @@
+v = v_0 + a \cdot t
+s = s_0 + v_0 \cdot t + \frac{1}{2} a \cdot t^2
+v^2 = v_0^2 + 2 \cdot a \cdot (s - s_0)

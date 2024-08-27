@@ -1,0 +1,5 @@
+Oppgave: Omstart server
+    Utløser: Daglig kl. 03:00
+    Handling: Start et program
+    Program/skript: shutdown.exe
+    Argumenter: /r /f /t 0

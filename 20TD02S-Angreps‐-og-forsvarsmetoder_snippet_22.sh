@@ -1,0 +1,1 @@
+parse.py -i /mnt/forensic/Users/User/AppData/Local/Google/Chrome/User Data/Default/History

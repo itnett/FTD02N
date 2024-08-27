@@ -1,0 +1,4 @@
+\usepackage{microtype}
+\begin{document}
+This document uses advanced typographic features provided by the microtype package.
+\end{document}

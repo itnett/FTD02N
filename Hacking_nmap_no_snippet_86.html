@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scan Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Scan Results</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Target</th>
+            <th>Method</th>
+            <th>Date</th>
+            <th>Criticality</th>
+            <th>Comments</th>
+            <th>Actions</th>
+        </tr>
+        {% for scan in scans %}
+        <tr>
+            <td>{{ scan.id }}</td>
+            <td>{{ scan.target }}</td>
+            <td>{{ scan.method }}</td>
+            <td>{{ scan.date }}</td>
+            <td>{{ scan.criticality }}</td>
+            <td>{{ scan.comments }}</td>
+            <td>
+                <form action="/update_scan" method="post">
+                    <input type="hidden" name="scan_id" value="{{ scan.id }}">
+                    <select name="criticality">
+                        <option value="Low" {% if scan.criticality == 'Low' %}selected{% endif %}>Low</option>
+                        <option value="Medium" {% if scan.criticality == 'Medium' %}selected{% endif %}>Medium</option>
+                        <option value="High" {% if scan.criticality == 'High' %}selected{% endif %}>High</option>
+                    </select>
+                    <input type="text" name="comments" value="{{ scan.comments }}">
+                    <button type="submit">Update</button>
+                </form>
+                <a href="/report/{{ scan.id }}">View Report</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Back to Home</a>
+</body>
+</html>

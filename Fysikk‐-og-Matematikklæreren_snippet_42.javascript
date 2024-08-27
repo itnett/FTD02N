@@ -1,0 +1,1 @@
+// ... (funksjoner for briggske logaritmer, kombinatorikk, sannsynlighet/statistikk, faser og faseoverganger, varme og indre energi, termofysikkens 2. lov, varmekapasitet, tallsystemer, algoritmisk tenking)

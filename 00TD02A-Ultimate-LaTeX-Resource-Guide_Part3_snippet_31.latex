@@ -1,0 +1,40 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Thesis Title}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+
+\mainmatter
+\chapter{Introduction}
+This is the introduction chapter.
+
+\chapter{Literature Review}
+This is the literature review chapter.
+
+\chapter{Methodology}
+This is the methodology chapter.
+
+\chapter{Results}
+This is the results chapter.
+
+\chapter{Discussion}
+This is the discussion chapter.
+
+\chapter{Conclusion}
+This is the conclusion chapter.
+
+\backmatter
+\chapter{Appendix}
+This is the appendix.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

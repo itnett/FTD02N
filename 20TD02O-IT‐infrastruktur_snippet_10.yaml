@@ -1,0 +1,12 @@
+- name: Installer og konfigurer Elasticsearch
+    hosts: siem
+    become: yes
+    tasks:
+      - name: Installer Elasticsearch
+        apt:
+          name: elasticsearch
+          state: present
+      - name: Start Elasticsearch
+        service:
+          name: elasticsearch
+          state: started

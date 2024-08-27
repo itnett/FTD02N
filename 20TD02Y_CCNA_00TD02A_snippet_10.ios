@@ -1,0 +1,3 @@
+geometry pythagorean_theorem {
+    apply_theorem         ; // Anvende Pytagoras' setning for å beregne lengden av sider i en rettvinklet trekant
+}

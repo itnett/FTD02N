@@ -1,0 +1,10 @@
+**GeoGebra Instructions:**
+1. Use the Random tool to simulate random processes.
+2. Create a list of random numbers with `Sequence[RandomBetween[1, 6], i, 1, 10]`.
+
+### Python del 23: Sammenligning og logiske tester
+
+**Explanation:**
+Comparison and logical tests are used to make decisions in code.
+
+**Python Example:**

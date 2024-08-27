@@ -1,0 +1,18 @@
+learning-platform/
+├── index.html
+├── style.css
+├── script.js
+├── modules/
+│   ├── algebra_modul.js
+│   ├── trigonometri_geometri_modul.js
+│   ├── funksjoner_modul.js
+│   ├── fysikk_modul.js
+│   ├── studieretning_modul.js
+├── assets/
+│   ├── icons/
+│   ├── images/
+└── vendor/
+    ├── tailwind.css
+    ├── chart.min.js
+    ├── three.min.js
+    ├── mermaid.min.js

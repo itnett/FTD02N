@@ -1,0 +1,5 @@
+Router(config)# router ospf 1
+Router(config-router)# network 192.168.1.0 0.0.0.255 area 0
+Router(config-router)# exit
+Router(config)# exit
+Router# write memory

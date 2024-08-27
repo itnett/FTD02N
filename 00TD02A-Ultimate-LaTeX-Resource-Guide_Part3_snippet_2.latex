@@ -1,0 +1,12 @@
+\documentclass{book}
+\begin{document}
+
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+
+\appendix
+\input{appendices/appendixA}
+\input{appendices/appendixB}
+
+\end{document}

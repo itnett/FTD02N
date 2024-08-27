@@ -1,0 +1,4 @@
+functions exponential {
+    base_exponent_form    ; // f(x) = a * b^x
+    natural_exponential   ; // f(x) = e^x
+}

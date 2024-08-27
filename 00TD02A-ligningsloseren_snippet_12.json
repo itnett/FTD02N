@@ -1,0 +1,4 @@
+{
+  "prompt": "A visual representation of solving non-linear equations using GEKKO in Python. The diagram should include the following elements: \n\n1. **GEKKO Initialization**: A box labeled 'GEKKO Model Initialization' with an arrow pointing to the next step.\n2. **Variables Definition**: Three variables, x, y, and w, with initial guesses, depicted in circles.\n3. **Equations Setup**: Three equations:\n   - x^2 + y^2 = 20\n   - y = x^2\n   - w + 5 = x * y\nEach equation should be shown as a separate box, with arrows pointing to the solver step.\n4. **Solver Execution**: A box labeled 'GEKKO Solver' which solves the equations, with arrows pointing to the output.\n5. **Output Solution**: A box labeled 'Solution Output' displaying the values of x, y, and w.\n\nUse arrows to connect these steps in a logical flow from initialization to output.",
+  "size": "1792x1024"
+}

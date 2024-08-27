@@ -1,0 +1,4 @@
+physics si_units {
+    convert_units    ; // Konvertere mellom SI-enheter
+    use_prefixes     ; // Bruke dekadiske prefikser (kilo-, mega-, etc.)
+}

@@ -1,0 +1,7 @@
+sequenceDiagram
+    Manager->>Request: Request Budget Status
+    Request->>FinanceTeam: Generate Budget Report
+    FinanceTeam->>Prepare: Prepare Report
+    Prepare->>Manager: return Budget Report
+    Manager->>Analyze: Analyze Report
+    Analyze->>Manager: Approve or Adjust

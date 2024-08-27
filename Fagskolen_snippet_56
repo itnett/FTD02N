@@ -1,0 +1,414 @@
+- **Explanation**: This code reads the temperature from the sensor and prints it to the serial monitor.
+
+### Advanced Projects
+
+1. **Home Automation**:
+   - **Components**: Arduino board, relay module, sensors, actuators.
+   - **Code**: [Link to detailed code](https://www.arduino.cc/en/Tutorial/HomeAutomation)
+   - **Explanation**: This project controls home appliances using the Arduino.
+
+2. **Robotics**:
+   - **Components**: Arduino board, motors, motor driver, chassis.
+   - **Code**: [Link to detailed code](https://www.arduino.cc/en/Tutorial/Robotics)
+   - **Explanation**: This project builds and programs a simple robot.
+
+## Troubleshooting Tips
+- **Common Issues**: Unresponsive board, incorrect wiring.
+- **Solutions**: Check connections, ensure proper power supply, re-upload code.
+
+## Conclusion
+Use this guide to explore various Arduino projects, enhancing your skills in electronics and programming.
+
+For more details, visit the original document [here](https://raw.githubusercontent.com/larsenjr/larsenjr.github.io/master/fsi2/arduino.md).
+
+The repository `FSI-18ITD` by Decicus on GitHub contains general documents and configurations related to Fagskolen Innlandet. It includes directories for communication, networking tasks, and programming guides such as MySQL and C# integration. Additional files include layouts, assets, a CNAME record, and configuration files.
+
+To explore more, visit the repository [here](https://github.com/Decicus/FSI-18ITD).
+The `index.md` file in the `FSI-18ITD` repository provides an overview of a statistical project related to network communication. It includes sections on collecting and analyzing data, creating visualizations, and interpreting results. The document guides through various statistical methods and tools used to evaluate network performance and other related metrics.
+
+For more details, you can view the original document [here](https://raw.githubusercontent.com/Decicus/FSI-18ITD/master/Kommunikasjon/Statistikk/index.md).
+
+
+ Innhold   .task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; } body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif; font-size: 14px; line-height: 1.6; }
+
+Arbeidskrav 2 (September 2019) - Nettverkskommunikasjon II - Alex Thomassen
+
+# Innhold
+
+*   [Innhold](#innhold)
+*   [1\. Planlegging av nettverk](#1-planlegging-av-nettverk)
+    *   [Offentlig nett](#offentlig-nett)
+    *   [Private nett bak NAT (Salg/Forskning)](#private-nett-bak-nat-salgforskning)
+    *   [Enhetsnavn, interfacenavn og IP-adresse](#enhetsnavn-interfacenavn-og-ip-adresse)
+    *   [DHCP](#dhcp)
+*   [2\. NAT](#2-nat)
+*   [3\. DHCP](#3-dhcp)
+*   [5\. Hvor lang avstand mener EIGRP det er fra router 5 til public-server nettet?](#5-hvor-lang-avstand-mener-eigrp-det-er-fra-router-5-til-public-server-nettet)
+*   [6\. Hva er oppgaven til STP i det switchede nettverket til venstre](#6-hva-er-oppgaven-til-stp-i-det-switchede-nettverket-til-venstre)
+*   [7\. Hvilken sikkerhet gir NAT-oppsettet på router 5?](#7-hvilken-sikkerhet-gir-nat-oppsettet-p%c3%a5-router-5)
+*   [8\. Hva slags fordeler gir VLAN-oppsettet her oss?](#8-hva-slags-fordeler-gir-vlan-oppsettet-her-oss)
+*   [9\. Hvilken vei tar en pakke fra VLAN salg til Public nett servere? Hvordan kan du verifisere dette fra klienten?](#9-hvilken-vei-tar-en-pakke-fra-vlan-salg-til-public-nett-servere-hvordan-kan-du-verifisere-dette-fra-klienten)
+*   [10\. Beskriv hvordan du verifiserer det samme fra router 0.](#10-beskriv-hvordan-du-verifiserer-det-samme-fra-router-0)
+*   [11\. På hvilket lag i OSI-modellen finner vi IP-adressering?](#11-p%c3%a5-hvilket-lag-i-osi-modellen-finner-vi-ip-adressering)
+*   [12\. Forklar prinsippet med Encapsulation i forbindelse med nettverkskommunikasjon.](#12-forklar-prinsippet-med-encapsulation-i-forbindelse-med-nettverkskommunikasjon)
+*   [13\. Enheter fra VLAN salg skal kunne pinge servere i Public nett. De andre routerene skal ikke kunne gjøre dette. Hvordan vil du løse det? Gjør og forklar.](#13-enheter-fra-vlan-salg-skal-kunne-pinge-servere-i-public-nett-de-andre-routerene-skal-ikke-kunne-gj%c3%b8re-dette-hvordan-vil-du-l%c3%b8se-det-gj%c3%b8r-og-forklar)
+*   [14\. Enheter i VLAN forskning skal kunne kjøre http og FTP mot server i VLAN salg, men ikke omvendt.](#14-enheter-i-vlan-forskning-skal-kunne-kj%c3%b8re-http-og-ftp-mot-server-i-vlan-salg-men-ikke-omvendt)
+
+# 1\. Planlegging av nettverk
+
+For å kunne sette opp serial-link mellom Router0 og Router1 (begge er 2811), må det legges til et ekstra nettverkskort på begge routerne som heter `NM-4A/S`.
+
+### Offentlig nett
+
+| Nettverksnavn | Nett-ID | Broadcast | Nettmaske | CIDR | Antall hosts | Første adresse | Siste adresse | Notat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Offentlig Servernett | 220.82.12.0 | 220.82.12.31 | 255.255.255.224 | 27  | 30  | 220.82.12.1 | 220.82.12.30 | Server-nett med 28 enheter |
+| Offentlig R4-R1 | 220.82.12.32 | 220.82.12.35 | 255.255.255.252 | 30  | 2   | 220.82.12.33 | 220.82.12.34 | Router4-Router1 |
+| Offentlig R1-R3 | 220.82.12.36 | 220.82.12.39 | 255.255.255.252 | 30  | 2   | 220.82.12.37 | 220.82.12.38 | Router1-Router3 |
+| Offentlig R3-R2 | 220.82.12.40 | 220.82.12.43 | 255.255.255.252 | 30  | 2   | 220.82.12.41 | 220.82.12.42 | Router3-Router2 |
+| Offentlig R2-R0 | 220.82.12.44 | 220.82.12.47 | 255.255.255.252 | 30  | 2   | 220.82.12.45 | 220.82.12.46 | Router2-Router0 |
+| Offentlig R0-R5 | 220.82.12.48 | 220.82.12.51 | 255.255.255.252 | 30  | 2   | 220.82.12.49 | 220.82.12.50 | Router0-Router5 |
+| Offentlig R0-R1 | 220.82.12.52 | 220.82.12.55 | 255.255.255.252 | 30  | 2   | 220.82.12.53 | 220.82.12.54 | Router0-Router1 |
+
+### Private nett bak NAT (Salg/Forskning)
+
+| Nettverksnavn | Nett-ID | Broadcast | Nettmaske | CIDR | Antall hosts | Første adresse | Siste adresse | Notat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Privat Salg | 10.0.0.0 | 10.0.0.127 | 255.255.255.128 | 25  | 126 | 10.0.0.1 | 10.0.0.126 | VLAN Salg 80 |
+| Privat Forskning | 10.0.0.128 | 10.0.0.255 | 255.255.255.128 | 25  | 126 | 10.0.0.129 | 10.0.0.254 | VLAN Forskning 90 |
+
+### Enhetsnavn, interfacenavn og IP-adresse
+
+| Enhets- og interfacenavn | IP-adresse | Nettmaske |
+| --- | --- | --- |
+| Router4 FA0/1 | 220.82.12.1 | 255.255.255.224 |
+| FTP | 220.82.12.10 | 255.255.255.224 |
+| WEB | 220.82.12.20 | 255.255.255.224 |
+| DNS | 220.82.12.30 | 255.255.255.224 |
+| Router4 FA0/0 | 220.82.12.33 | 255.255.255.252 |
+| Router1 FA0/1 | 220.82.12.34 | 255.255.255.252 |
+| Router1 FA0/0 | 220.82.12.37 | 255.255.255.252 |
+| Router3 FA0/1 | 220.82.12.38 | 255.255.255.252 |
+| Router3 FA0/0 | 220.82.12.41 | 255.255.255.252 |
+| Router2 FA0/1 | 220.82.12.42 | 255.255.255.252 |
+| Router2 FA0/0 | 220.82.12.45 | 255.255.255.252 |
+| Router0 FA0/0 | 220.82.12.46 | 255.255.255.252 |
+| Router0 FA0/1 | 220.82.12.49 | 255.255.255.252 |
+| Router5 FA0/0 | 220.82.12.50 | 255.255.255.252 |
+| Router0 SE1/0 | 220.82.12.53 | 255.255.255.252 |
+| Router1 SE1/0 | 220.82.12.54 | 255.255.255.252 |
+| Router5 FA0/1.80 (Salg) | 10.0.0.1 | 255.255.255.128 |
+| Router5 FA0/1.90 (Forskning) | 10.0.0.129 | 255.255.255.128 |
+| Server0 (Forskning) | 10.0.0.135 | 255.255.255.128 |
+| Server1 (Salg) | 10.0.0.5 | 255.255.255.128 |
+
+### DHCP
+
+| Nettverk | Excluded range | DHCP Fra adresse | DHCP Til adresse |
+| --- | --- | --- | --- |
+| 10.0.0.0/25 | 10.0.0.1-9 | 10.0.0.10 | 10.0.0.126 |
+| 10.0.0.128/25 | 10.0.0.129-139 | 10.0.0.140 | 10.0.0.254 |
+
+# 2\. NAT
+
+Router5 er satt opp med NAT overload med `220.82.12.50` på utsiden av nettet. Access list er satt opp slik at bare salgsnettet har tilgang til å nå ut til public nett.
+
+# 3\. DHCP
+
+Router5 har 2 forskjellige DHCP pools som er til salgsnettet og forskningsnettet.
+
+Salgsnettet har `10.0.0.0/25` med reserverte adresser: `10.0.0.1-9` med `.1` som routeren. Forskningsnettet har `10.0.0.128/25` med reserverte adresser: `10.0.0.129-139` med `.129` som routeren.
+
+I tillegg har jeg tildelt DNS-serveren i fra public servernett som default DNS server i salgsnettet (`220.82.12.30`). Dette er da ikke gjort med forskningsnettet, siden forskningsnettet ikke når ut til public nett.
+
+# 5\. Hvor lang avstand mener EIGRP det er fra router 5 til public-server nettet?
+
+I følge `show ip route` er "distance" `40960` til det offentlig servernettet.
+
+# 6\. Hva er oppgaven til STP i det switchede nettverket til venstre
+
+STP eller Spanning Tree Protocol er brukt hos switchene for å forhindre at frames går i en evig "loop" (blir sendt til enhver switch for evig).  
+Ved hjelp av STP kan vi også ha backup links mellom switcher, i tilfelle en link mellom switcher blir brutt.
+
+# 7\. Hvilken sikkerhet gir NAT-oppsettet på router 5?
+
+Først og fremst trenger ikke det offentlig nettverket å vite om de interne IP-adressene innenfor nettverket, men det er også slik at bare VLAN `Salg` har tilgang til NAT og ikke enheter i forskningsnettet. Med andre ord, enheter i forskningsnettet har ikke tilgang til internett i det hele tatt. Sikkerheten ved det er at ingen fra utsiden (offentlige nettverket) har direkte tilgang til noen av enhetene på innsiden og eventuelle åpne porter for applikasjoner (f.eks. et web panel som går over HTTP) er ikke tilgjengelig med mindre det forwardes av routeren.
+
+# 8\. Hva slags fordeler gir VLAN-oppsettet her oss?
+
+Vi deler opp avdelingene i forskjellige nettverk og det tillater oss å definere access-list, slik at salgsavdelingen ikke har tilgang til absolutt hele forskningsnettet. Samtidig gir det også mulighet for oss å forhindre at forskningsnettet går ut mot internett.
+
+# 9\. Hvilken vei tar en pakke fra VLAN salg til Public nett servere? Hvordan kan du verifisere dette fra klienten?
+
+Veien fra PC0 (Salg) til offentlig servernett er som følger:
+
+> Router5 -> Router0 -> Router2 -> Router3 -> Router1 -> Router4 -> Offentlig servernett
+
+Dette kan vi verifisere fra en enhet i `Salg` ved hjelp av traceroute. På PC0 er dette: `tracert 220.82.12.30`  
+IPen `220.82.12.30` er DNS-serveren i det offentlige servernettet.
+
+![7e1afa7be22cfd793d23bf42fc4209b2.png](file:///b:\Google Drive\Fagskolen - 18IT-D\Nettverk\Oppgave 2019-09-16 - Arbeidskrav 2\Export-Finished\_resources\18d54038db29486683200ac514c6bd08.png)
+
+# 10\. Beskriv hvordan du verifiserer det samme fra router 0.
+
+Det er nesten helt samme metode på router 0, vi kan bruke traceroute derfra også, men der er kommandoen `traceroute 220.82.12.30`. Alternativt kan vi også bruke `show ip route` for å vise hvordan routingtabellen ser ut.
+
+![b89d422d4168cfdd91797cfe786c1bb9.png](file:///b:\Google Drive\Fagskolen - 18IT-D\Nettverk\Oppgave 2019-09-16 - Arbeidskrav 2\Export-Finished\_resources\e1b802969fb1413c935450045f0a2e55.png)
+
+# 11\. På hvilket lag i OSI-modellen finner vi IP-adressering?
+
+IP-adressering (IPv4/IPv6) ligger på lag 3 i OSI-modellen. På lag 3 blir det sendt pakker bygd opp på følgende måte:
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **IP Destination (Mål/Mottaker)** | **IP Source (Kilde/Sender)** | Protokoll (TCP/UDP) | Data |
+|     | I et NAT-nettverk vil source oversettes fra internt til eksternt nettverk. |     |     |
+
+Det er også på lag 3 hvor vi har protokollen ICMP, som brukes til traceroute/ping.
+
+# 12\. Forklar prinsippet med Encapsulation i forbindelse med nettverkskommunikasjon.
+
+Encapsulation er at man "pakker inn" data ekstra informasjon for å sende det videre til de andre lagene i OSI-modellen.
+
+F.eks. vil TCP/UDP (lag 4) data videresendes til lag 3 hvor man legger til IP-informasjon (source/destination) før det sendes videre til lag 2.
+
+# 13\. Enheter fra VLAN salg skal kunne pinge servere i Public nett. De andre routerene skal ikke kunne gjøre dette. Hvordan vil du løse det? Gjør og forklar.
+
+Jeg brukte ACL (access lists) for å tillate spesifikk trafikk inn på offentlig servernett. Trafikken jeg bestemte meg for å tillate er: FTP, Web (HTTP), DNS og ICMP (ping/traceroute).
+
+Access list er satt til følgende:
+
+*   Tillat FTP fra alle
+*   Tillat WWW (HTTP) fra alle
+*   Tillat DNS fra alle
+*   Tillat ICMP fra 220.82.12.50 (Router5/NAT).
+
+I tillegg gikk jeg inn på interface `fa0/1` som "peker mot" det offentlige servernettet og satte access-list 110 til "out", siden trafikken går ut mot det offentlige servernett: `ip access-group 110 out`
+
+Nederst i access list er det en "implicit deny" for alt annet trafikk. Det vil si at alt annet enn det som er definert i access list blir droppet. I dette tilfellet vil all trafikk som ikke er FTP, HTTP, DNS eller ICMP (fra Router5) bli nektet tilgang inn til offentlig servernett.
+
+Eneste unntak er Router4, som allerede er på "innsiden" av det offentlige servernettet. Router4 har også mulighet til å pinge inn til det offentlige servernettet, men jeg så ingen grunn til å spesifikt blokkere for Router4.
+
+# 14\. Enheter i VLAN forskning skal kunne kjøre http og FTP mot server i VLAN salg, men ikke omvendt.
+
+Jeg satte følgende ACL-regler som utgående trafikk mot VLAN 90 (subinterface fa0/1.90):
+
+*   Blokker FTP fra 10.0.0.0/25 til 10.0.0.128/25
+*   Blokker HTTP fra 10.0.0.0/25 til 10.0.0.128/25
+*   Tillat alt annet TCP (utenom HTTP/FTP) til 10.0.0.128/25
+*   (Implicit deny)
+
+Dette vil da blokkere HTTP/FTP trafikk mot hele salgsnettet. Jeg kunne alternativt ha blokkert for den ene serveren som står i salgsnettet (ved å spesifisere `host 10.0.0.5` i stedet for nettverket), men det ga mer mening å blokkere all slik trafikk inn til salg i tilfelle det kom nye servere med "sensitiv" informasjon.
+
+
+## Arbeidskrav II – Nettverkskommunikasjon II
+
+### 1. Planlegging av nettverk
+
+For å kunne sette opp en serial-link mellom Router0 og Router1 (begge er 2811), må det legges til et ekstra nettverkskort på begge routerne som heter NM-4A/S.
+
+#### Offentlig nett
+
+| Nettverksnavn      | Nett-ID        | Broadcast      | Nettmaske          | CIDR | Antall hosts | Første adresse   | Siste adresse    | Notat                |
+| :----------------- | :------------- | :------------- | :----------------- | :--- | :----------- | :------------- | :-------------- | :-------------------- |
+| Offentlig Servernett | 220.82.12.0   | 220.82.12.31   | 255.255.255.224   | /27  | 30           | 220.82.12.1    | 220.82.12.30   | Server-nett med 28 enheter |
+| Offentlig R4-R1    | 220.82.12.32  | 220.82.12.35  | 255.255.255.252  | /30  | 2            | 220.82.12.33   | 220.82.12.34  | Router4-Router1       |
+| Offentlig R1-R3    | 220.82.12.36  | 220.82.12.39  | 255.255.255.252  | /30  | 2            | 220.82.12.37   | 220.82.12.38  | Router1-Router3       |
+| Offentlig R3-R2    | 220.82.12.40  | 220.82.12.43  | 255.255.255.252  | /30  | 2            | 220.82.12.41   | 220.82.12.42  | Router3-Router2       |
+| Offentlig R2-R0    | 220.82.12.44  | 220.82.12.47  | 255.255.255.252  | /30  | 2            | 220.82.12.45   | 220.82.12.46  | Router2-Router0       |
+| Offentlig R0-R5    | 220.82.12.48  | 220.82.12.51  | 255.255.255.252  | /30  | 2            | 220.82.12.49   | 220.82.12.50  | Router0-Router5       |
+| Offentlig R0-R1    | 220.82.12.52  | 220.82.12.55  | 255.255.255.252  | /30  | 2            | 220.82.12.53   | 220.82.12.54  | Router0-Router1       |
+
+#### Private nett bak NAT (Salg/Forskning)
+
+| Nettverksnavn   | Nett-ID       | Broadcast     | Nettmaske         | CIDR | Antall hosts | Første adresse  | Siste adresse   | Notat          |
+| :-------------- | :------------ | :------------ | :---------------- | :--- | :----------- | :------------- | :-------------- | :------------- |
+| Privat Salg     | 10.0.0.0      | 10.0.0.127    | 255.255.255.128  | /25  | 126          | 10.0.0.1       | 10.0.0.126    | VLAN Salg 80   |
+| Privat Forskning | 10.0.0.128   | 10.0.0.255   | 255.255.255.128  | /25  | 126          | 10.0.0.129    | 10.0.0.254   | VLAN Forskning 90 |
+
+#### Enhetsnavn, interfacenavn og IP-adresse
+
+| Enhets- og interfacenavn | IP-adresse     | Nettmaske         |
+| :----------------------- | :------------- | :---------------- |
+| Router4 FA0/1           | 220.82.12.1    | 255.255.255.224   |
+| FTP                     | 220.82.12.10   | 255.255.255.224   |
+| WEB                     | 220.82.12.20   | 255.255.255.224   |
+| DNS                     | 220.82.12.30   | 255.255.255.224   |
+| Router4 FA0/0           | 220.82.12.33   | 255.255.255.252   |
+| Router1 FA0/1           | 220.82.12.34   | 255.255.255.252   |
+| Router1 FA0/0           | 220.82.12.37   | 255.255.255.252   |
+| Router3 FA0/1           | 220.82.12.38   | 255.255.255.252   |
+| Router3 FA0/0           | 220.82.12.41   | 255.255.255.252   |
+| Router2 FA0/1           | 220.82.12.42   | 255.255.255.252   |
+| Router2 FA0/0           | 220.82.12.45   | 255.255.255.252   |
+| Router0 FA0/0           | 220.82.12.46   | 255.255.255.252   |
+| Router0 FA0/1           | 220.82.12.49   | 255.255.255.252   |
+| Router5 FA0/0           | 220.82.12.50   | 255.255.255.252   |
+| Router0 SE1/0           | 220.82.12.53   | 255.255.255.252   |
+| Router1 SE1/0           | 220.82.12.54   | 255.255.255.252   |
+| Router5 FA0/1.80 (Salg)  | 10.0.0.1       | 255.255.255.128  |
+| Router5 FA0/1.90 (Forskning) | 10.0.0.129    | 255.255.255.128  |
+| Server0 (Forskning)    | 10.0.0.135   | 255.255.255.128  |
+| Server1 (Salg)         | 10.0.0.5       | 25
+
+
+
+The `MySQLCSharpGuide` in the `FSI-18ITD` repository provides instructions on integrating MySQL with C# applications. It includes steps to set up the development environment, create a MySQL database, and connect to it using C#. The guide covers basic CRUD (Create, Read, Update, Delete) operations, connection handling, and error management.
+
+For detailed instructions, you can visit the repository [here](https://github.com/Decicus/FSI-18ITD/tree/master/Programmering/MySQLCSharpGuide).
+
+**Arbeidskrav 1 - Oppgave AD Hierarki - Løsningsforslag**
+
+**Oppgave 1: Strukturering av domenet**
+
+Forslaget ditt for oppsett av domenet med OU'er er godt gjennomtenkt og vil gi en ryddig og skalerbar struktur. Ved å bruke en dedikert OU for hver avdeling og ytterligere dele inn etter enhetstype (stasjonær/bærbar), oppnår du en logisk inndeling som forenkler administrasjon og tilgangsstyring. Navngivningskonvensjonen for datamaskinene er også fornuftig og bidrar til oversikt.
+
+**Oppgave 2 og 3: Gruppenesting (IGDLA) for tilgangsstyring**
+
+Din forståelse av IGDLA-prinsippet er korrekt. Ved å bruke nestede grupper (Identity, Global, Domain Local, Permissions) kan du oppnå en fleksibel og effektiv tilgangsstyring til delte mapper. 
+
+**Eksempel på IGDLA-struktur for tilgang til en delt mappe for avdeling "Snekker":**
+
+*   **I:**  `Snekker_Identitet` (Inneholder alle brukere i snekkeravdelingen)
+*   **G:**  `Snekker_Global_Tilgang` (Inneholder `Snekker_Identitet`)
+*   **DL:** `Snekker_DL_Tilgang` (Inneholder `Snekker_Global_Tilgang`)
+*   **P:**  Tilgang til den delte mappen tildeles gruppen `Snekker_DL_Tilgang`
+
+**Oppgave 4: Hjemmeområder for brukere**
+
+Du presenterer to gode alternativer for å sette opp hjemmeområder:
+
+*   **Netlogon:** Enkelt å sette opp, men krever manuell konfigurasjon per bruker.
+*   **Group Policy:** Mer effektivt for større antall brukere, men krever at brukerne er medlem av riktig OU eller gruppe.
+
+**Anbefalinger:**
+
+*   **Skript for tilbakestilling av mapperettigheter:** Et PowerShell-script kan være nyttig for å sikre riktige rettigheter på delte mapper.
+*   **Deaktivering av arv:** Husk å deaktivere arv av rettigheter når du har satt opp spesifikke tillatelser på en mappe.
+*   **Navngivning av grupper:** Bruk beskrivende navn på grupper for å gjøre det enkelt å forstå hvem som har tilgang til hva.
+*   **Dokumentasjon:** Sørg for å dokumentere strukturen og tilgangsrettighetene godt, slik at det er enkelt å vedlikeholde og feilsøke senere.
+
+**Konklusjon:**
+
+Løsningsforslaget ditt viser en god forståelse av Active Directory-hierarki, gruppenesting og tilgangsstyring. Ved å implementere disse anbefalingene vil Hamar Fotball og Gulv AS få en velfungerende og sikker IT-infrastruktur.
+
+**Lykke til med arbeidskravet!**
+### Various Solutions for "Arbeidskrav 1 - Oppgave AD Hierarki"
+
+#### Scenario
+Company: Hamar Fotball og Gulv AS
+Employees: 340
+Departments: Administrasjon, Ham-Kam, Lager, Snekkere, Støtteapparat
+
+### Solution for Domain and OU Setup
+
+**Objective**: Simplify administration with an efficient Active Directory (AD) hierarchy.
+
+1. **Domain Name**: `HamarFotballGulvAS.local`
+2. **Organizational Units (OUs)**:
+   - Top-Level OU: `HamarFotballGulvAS`
+   - Sub-OUs for Departments:
+     - `Administrasjon`
+     - `Ham-Kam`
+     - `Lager`
+     - `Snekkere`
+     - `Støtteapparat`
+
+**Example for Department Structure**:
+- **Administrasjon**:
+  - OU for Desktops: `Admin_Desktops`
+  - OU for Laptops: `Admin_Laptops`
+- **Ham-Kam**:
+  - OU for Desktops: `HamKam_Desktops`
+  - OU for Laptops: `HamKam_Laptops`
+  
+**Naming Convention**:
+- Desktops: `D<DeptCode><ID>` (e.g., `DADM001`)
+- Laptops: `L<DeptCode><ID>` (e.g., `LHKA001`)
+
+### Solution for Group Nesting (IGDLA)
+
+**Objective**: Manage permissions for shared folders using IGDLA principles.
+
+1. **Global Groups**:
+   - Example: `G_Admin`, `G_HamKam`, etc.
+2. **Domain Local Groups**:
+   - Example: `DL_Admin_Read`, `DL_Admin_Write`, etc.
+3. **Access Control**:
+   - Assign global groups to domain local groups to manage access to shared resources.
+   - Example:
+     - `DL_Admin_Read` includes `G_Admin`
+     - `DL_HamKam_Write` includes `G_HamKam`
+
+### Solution for Home Folders
+
+**Objective**: Set up personalized home directories for users.
+
+1. **Home Folder Path**:
+   - Format: `\\ServerName\Home\%username%`
+2. **Methods**:
+   - **Netlogon Script**:
+     - Command: `net use H: \\ServerName\Home\%username%`
+   - **Group Policy**:
+     - Configure user home folder path in Group Policy Management.
+     - Ensure users are in the correct OU or group for the policy.
+
+**Permissions Setup**:
+- Use advanced security settings in folder properties.
+- Ensure proper permissions are set and inheritance is disabled for security.
+
+### References
+
+- Group Nesting: [Medium Article](https://medium.com/tech-jobs-academy/igdla-and-you-a-fledgling-s-guide-to-nesting-e09b748e3a60)
+- Home Folder Setup: [Spiceworks Guide](https://community.spiceworks.com/how_to/83327-setting-up-home-folder-permissions-for-active-directory)
+
+---
+
+By following these guidelines, the company can ensure a streamlined and secure Active Directory setup, facilitating efficient user and resource management.
+
+### Solutions for AD Hierarki Del II
+
+#### 1. Mappeoppsett fellesområder
+- **Structure**: Use IGDLA principles to manage shared folder access for departments.
+  - **Groups**: READ and WRITE permissions set per department.
+  - **Example Naming**: `G_READ_HamKam` for read access in Ham-Kam.
+  - **Permissions**: Domain Users with READ, specific groups with WRITE.
+
+#### 2. GPO - Komplekse passord og CMD
+- **Password Complexity**: Set minimum of 8 characters via Group Policy.
+- **CMD Restriction**: Allow only Administrasjon access using GPO.
+
+#### 3. Melde inn klient uten internettilgang
+- **Use `djoin` Command**:
+  - Provision a client and save the join file.
+  - Transfer file via Google Drive.
+  - Use `djoin /requestodj` on the client to join the domain offline.
+
+For detailed steps and further configurations, you can refer to the original [document](https://github.com/Decicus/FSI-18ITD/tree/master/AD%20Hierarki%20Del%20II).
+
+### Solutions for "Oppgave GPO og Powershell"
+
+#### GPO
+
+**Oppgave 1: Determine GPO Scope**
+- **WMI Filtering**: Applies GPO based on system attributes like OS version. Example: `SELECT * FROM Win32_OperatingSystem WHERE Version LIKE "10.%"`
+- **Item-Level Targeting (ILT)**: Applies GPO to specific users or groups. Less resource-intensive.
+- **Security Filtering**: Limits GPO application to specific users or computers. Requires read permission on GPO.
+
+**Oppgave 2: Viewing Active GPOs**
+- Use `rsop.msc` or `gpresult /Scope User /v` to view applied GPOs for a user. For computer policies, use `gpresult /Scope Computer /v`.
+
+**Oppgave 3: Install Google Chrome via GPO**
+1. **Download MSI Installer**: Get Chrome MSI from Google's website.
+2. **Create GPO**:
+   - Go to User Configuration -> Policies -> Software Settings -> Software Installation.
+   - Add the MSI file and set to "Assigned".
+   - Apply the GPO to the relevant OU.
+3. **WMI Filter**: `SELECT * FROM Win32_OperatingSystem WHERE Version LIKE "10.%"` to target Windows 10 machines.
+
+**Alternative to GPO for Software Installation**
+- Use **System Center Configuration Manager (SCCM)** for more flexibility and user self-service.
+- Consider **Ninite Pro** for automated deployment of multiple applications.
+
+**Oppgave 4: Restrict User Access due to Virus**
+- **Disable User Account**:

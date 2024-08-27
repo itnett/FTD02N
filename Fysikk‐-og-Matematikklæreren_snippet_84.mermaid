@@ -1,0 +1,21 @@
+classDiagram
+    class Main {
+        +main()
+    }
+    class Algebra {
+        +regneregler()
+        +brok_og_prosentregning()
+        // ... (other algebra functions)
+    }
+    class TrigonometriOgGeometri {
+        +beregn_areal()
+        +beregn_omkrets()
+        // ... (other trigonometry and geometry functions)
+    }
+    // ... (other classes for Funksjoner, Fysikk, Studieretning)
+
+    Main ..> Algebra : uses
+    Main ..> TrigonometriOgGeometri : uses
+    Main ..> Funksjoner : uses
+    Main ..> Fysikk : uses
+    Main ..> Studieretning : uses

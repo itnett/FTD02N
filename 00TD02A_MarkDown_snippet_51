@@ -1,0 +1,31 @@
+### Vektorer i Planet
+Vektorer representerer størrelser som har både retning og størrelse. Vektorer kan legges sammen, subtraheres, og multipliseres med skalarer.
+
+#### Grunnleggende Operasjoner med Vektorer
+1. **Addisjon av vektorer**:
+
+$$\mathbf{a} + \mathbf{b} = (a_1 + b_1, a_2 + b_2)$$
+
+2. **Subtraksjon av vektorer**:
+
+$$\mathbf{a} - \mathbf{b} = (a_1 - b_1, a_2 - b_2)$$
+
+3. **Skalarmultiplikasjon**:
+
+$$k\mathbf{a} = (ka_1, ka_2)$$
+
+
+#### Eksempel
+
+Gitt vektorene $$\mathbf{a} = (2, 3) og \mathbf{b} = (1, 4), finn \mathbf{a} + \mathbf{b} og 2\mathbf{a}$$.
+
+1. Addisjon:
+
+$$\mathbf{a} + \mathbf{b} = (2+1, 3+4) = (3, 7)$$
+
+2. Skalarmultiplikasjon:
+
+$$2\mathbf{a} = 2(2, 3) = (4, 6)$$
+
+
+### Visualisering - Klassediagram for Vektorer i Planet

@@ -1,0 +1,4 @@
+2. **System Design**:
+   - **Class Diagram**: Define classes (Book, Member, Librarian, BorrowTransaction).
+   
+   Example in PlantUML:

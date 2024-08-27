@@ -1,0 +1,15 @@
+gitGraph
+    commit id: "init" tag: "start" type: HIGHLIGHT
+    branch campaignCreation
+    commit id: "creation" tag: "campaignStart" type: NORMAL
+    checkout main
+    merge campaignCreation id: "campaignMerge" tag: "campaignCreated" type: NORMAL
+    branch campaignMonitoring
+    commit id: "monitoring1" type: NORMAL
+    commit id: "monitoring2" type: NORMAL
+    checkout main
+    merge campaignMonitoring id: "monitoringMerge" type: NORMAL
+    branch campaignEvaluation
+    commit id: "evaluation" tag: "campaignEnd" type: NORMAL
+    checkout main
+    merge campaignEvaluation id: "evaluationMerge" type: NORMAL

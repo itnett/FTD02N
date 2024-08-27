@@ -1,0 +1,14 @@
+#### Sannsynlighetsregning og Statistikk
+
+**Sannsynlighet:** Måler sannsynligheten for en hendelse.
+\[ P(A) = \frac{\text{gunstige utfall}}{\text{totale utfall}} \]
+
+**Deskriptiv Statistikk:**
+- Gjennomsnitt: 
+\[ \bar{x} = \frac{\sum_{i=1}^n x_i}{n} \]
+- Varians:
+\[ \sigma^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n} \]
+- Standardavvik:
+\[ \sigma = \sqrt{\sigma^2} \]
+
+### Visualisering - Sannsynlighet og Statistikk

@@ -1,0 +1,1 @@
+strace -o output.txt -e trace=open,read,write -p <pid>

@@ -1,0 +1,13 @@
+Disse eksemplene dekker bredden av matematisk og fysisk kunnskap, og viser hvordan disse kan anvendes systematisk og praktisk innen
+
+To create a database and populate it with test data relevant to the topics in your study program, let's start by defining the database structure and inserting sample data. We'll cover the various study topics, ensuring the data is representative of the different areas.
+
+### Database Schema
+
+1. **Courses**
+2. **Students**
+3. **PerformanceMetrics**
+4. **MathematicsExamples**
+5. **PhysicsExamples**
+
+### SQL Script

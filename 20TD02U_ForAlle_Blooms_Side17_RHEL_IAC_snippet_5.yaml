@@ -1,0 +1,4 @@
+---
+- hosts: rhel_servers
+  roles:
+    - role: webserver

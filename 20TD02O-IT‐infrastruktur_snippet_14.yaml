@@ -1,0 +1,12 @@
+- name: Oppdater servere
+    hosts: all
+    become: yes
+    tasks:
+      - name: Oppdater pakkeliste
+        apt:
+          update_cache: yes
+
+      - name: Oppdater alle pakker
+        apt:
+          name: "*"
+          state: latest

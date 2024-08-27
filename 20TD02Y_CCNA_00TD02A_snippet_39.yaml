@@ -1,0 +1,10 @@
+- name: Standard Form
+  hosts: localhost
+  tasks:
+    - name: Convert to standard form
+      debug:
+        msg: "Standard form: {{ number | scientific }}"
+
+    - name: Convert from standard form
+      debug:
+        msg: "Decimal form: {{ scientific_number | float }}"

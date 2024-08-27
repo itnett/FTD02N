@@ -1,0 +1,18 @@
++-----------------+
+       |  VirtualBox     |
+       |  Admin VM       |
+       +--------+--------+
+                |
+       Virtual Network
+                |
+       +------------------+
+       | Windows Server   |
+       |  (AD, DNS, DHCP) |
+       +------------------+
+                |
+       Virtual Network
+                |
+       +------------------+
+       | Windows Client   |
+       |  (Windows 10/11) |
+       +------------------+

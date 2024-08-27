@@ -1,0 +1,44 @@
+flowchart TD
+    Start(["Start Program"])
+    
+    InputA["Input: a"]
+    InputB["Input: b"]
+    InputC["Input: c"]
+    
+    DefineX["Define x as symbol"]
+    DefineEq["Define equation: ax^2 + bx + c = 0"]
+    SolveEq["Solve equation"]
+    CheckSolutions["Check number of solutions"]
+    
+    NoSolution["No real solutions"]
+    OneSolution["One solution: x"]
+    TwoSolutions["Two solutions: x1, x2"]
+    
+    PlotGraph["Call plot_eq(a, b, c, solutions)"]
+    PlotEq["Plot: f = ax^2 + bx + c"]
+    PlotRoots["Plot roots"]
+    
+    ShowPlot["Show plot"]
+    End(["End Program"])
+    
+    Start --> InputA
+    InputA --> InputB
+    InputB --> InputC
+    
+    InputC --> DefineX
+    DefineX --> DefineEq
+    DefineEq --> SolveEq
+    SolveEq --> CheckSolutions
+    
+    CheckSolutions --> |No solutions| NoSolution
+    CheckSolutions --> |One solution| OneSolution
+    CheckSolutions --> |Two solutions| TwoSolutions
+    
+    NoSolution --> PlotGraph
+    OneSolution --> PlotGraph
+    TwoSolutions --> PlotGraph
+    
+    PlotGraph --> PlotEq
+    PlotEq --> PlotRoots
+    PlotRoots --> ShowPlot
+    ShowPlot --> End

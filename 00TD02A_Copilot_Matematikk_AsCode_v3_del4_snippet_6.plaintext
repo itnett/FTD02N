@@ -1,0 +1,8 @@
++------------+          +-----------+          +-------------+
+| Customers  |          | Orders    |          | OrderDetails|
++------------+          +-----------+          +-------------+
+| customer_id|<---------| order_id  |          | order_detail_id|
+| name       |          | customer_id|-------->| order_id    |
++------------+          | order_date|          | product_id  |
+                        +-----------+          | quantity    |
+                                               +-------------+

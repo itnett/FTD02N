@@ -1,0 +1,14 @@
+algebra fractions {
+    simplify        ; // Forenkle en brøk
+    add             ; // Legge sammen to brøker
+    subtract        ; // Trekke fra en brøk fra en annen
+    multiply        ; // Multiplisere to brøker
+    divide          ; // Dele en brøk med en annen
+}
+
+algebra percentages {
+    calculate_percentage    ; // Beregne prosentandelen av et tall
+    convert_to_percentage   ; // Konvertere et desimaltall til prosent
+    percentage_increase     ; // Beregne prosentvis økning
+    percentage_decrease     ; // Beregne prosentvis nedgang
+}

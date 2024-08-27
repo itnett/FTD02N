@@ -1,0 +1,20 @@
+mindmap
+root((Regneregler))
+  De fire grunnleggende regneoperasjonene
+    Addisjon
+      Forklaring: Legge sammen tall
+    Subtraksjon
+      Forklaring: Finne forskjellen mellom tall
+    Multiplikasjon
+      Forklaring: Gjentatt addisjon
+    Divisjon
+      Forklaring: Dele et tall i like deler
+  Rekkefølgen av operasjoner
+    Parenteser først
+      Forklaring: Beregn uttrykk inni parenteser først
+    Eksponenter
+      Forklaring: Beregn eksponenter (potenser og røtter)
+    Multiplikasjon og Divisjon
+      Forklaring: Beregn multiplikasjon og divisjon fra venstre til høyre
+    Addisjon og Subtraksjon
+      Forklaring: Beregn addisjon og subtraksjon fra venstre til høyre

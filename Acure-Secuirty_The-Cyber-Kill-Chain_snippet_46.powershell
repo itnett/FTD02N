@@ -1,0 +1,13 @@
+# Install Microsoft.Graph module if not already installed
+Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber
+
+# Authenticate to Microsoft Graph
+$tenantId = "your-tenant-id"
+$clientId = "your-client-id"
+$clientSecret = "your-client-secret"
+$token = Get-MgGraphAccessToken -TenantId $tenantId -ClientId $clientId -ClientSecret $clientSecret
+
+# Set the authentication header
+$headers = @{
+    "Authorization" = "Bearer $token"
+}

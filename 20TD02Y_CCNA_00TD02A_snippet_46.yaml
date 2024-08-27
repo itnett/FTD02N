@@ -1,0 +1,14 @@
+- name: Trigonometry in Right Triangles
+  hosts: localhost
+  tasks:
+    - name: Calculate sine
+      debug:
+        msg: "Sine: {{ opposite / hypotenuse }}"
+      
+    - name: Calculate cosine
+      debug:
+        msg: "Cosine: {{ adjacent / hypotenuse }}"
+      
+    - name: Calculate tangent
+      debug:
+        msg: "Tangent: {{ opposite / adjacent }}"

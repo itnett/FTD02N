@@ -1,0 +1,31 @@
+# Reconnaissance function
+function reconnaissance(domain):
+    dns_records = collect_dns_records(domain)
+    whois_info = collect_whois_info(domain)
+    ssl_certificates = collect_ssl_certificates(domain)
+    shodan_info = collect_shodan_info(domain)
+    google_dorks = perform_google_dorking(domain)
+    bing_results = perform_bing_search(domain)
+    virustotal_report = get_virustotal_report(domain)
+    subdomains = collect_subdomains(domain)
+    email_addresses = collect_email_addresses(domain)
+    historical_dns = get_historical_dns(domain)
+    exchange_legacy_services = check_exchange_and_legacy_services(domain)
+    tenant_info = get_tenant_info(domain)
+    return {
+        "dns_records": dns_records,
+        "whois_info": whois_info,
+        "ssl_certificates": ssl_certificates,
+        "shodan_info": shodan_info,
+        "google_dorks": google_dorks,
+        "bing_results": bing_results,
+        "virustotal_report": virustotal_report,
+        "subdomains": subdomains,
+        "email_addresses": email_addresses,
+        "historical_dns": historical_dns,
+        "exchange_legacy_services": exchange_legacy_services,
+        "tenant_info": tenant_info
+    }
+
+# Example usage
+recon_data = reconnaissance("example.com")

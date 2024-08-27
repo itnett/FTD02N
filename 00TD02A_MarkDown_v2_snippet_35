@@ -1,0 +1,30 @@
++++
+
++++
+
+# Dypdykk i Funksjoner
+
+## Funksjoner
+
+### Rette Linjer
+
+#### Forstå Rette Linjer
+En rett linje kan beskrives med formelen for en lineær funksjon:
+$$y = mx + b$$
+hvor:
+- $$\(m\)$$ er stigningstallet (endringen i y per enhetsendring i x).
+- $$\(b\)$$ er y-akseskjæringen (der linjen krysser y-aksen).
+
+#### Eksempel
+Finn likningen for en linje som går gjennom punktene (2, 3) og (4, 7).
+
+1. Finn stigningstallet:
+$$m = \frac{(7 - 3)}{(4 - 2)} = \frac{4}{2} = 2$$
+
+2. Bruk ett av punktene for å finne y-akseskjæringen:
+$$3 = 2(2) + b \implies 3 = 4 + b \implies b = -1$$
+
+3. Sett sammen formelen:
+$$y = 2x - 1$$
+
+#### Visualisering - Graf av Rette Linjer

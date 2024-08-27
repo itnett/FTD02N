@@ -1,0 +1,8 @@
+- name: Opprett prosjektmapper
+      file:
+        path: "{{ project_root }}/{{ item }}"
+        state: directory
+      loop:
+        - dokumentasjon
+        - kode
+        - tester

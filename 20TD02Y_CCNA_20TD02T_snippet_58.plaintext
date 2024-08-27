@@ -1,0 +1,3 @@
+[Server1] -- [Catalyst 3750G] -- [VLAN 10]
+[Server2] -- [Catalyst 3750G] -- [VLAN 20]
+[Server3] -- [Catalyst 3750G] -- [VLAN 30]

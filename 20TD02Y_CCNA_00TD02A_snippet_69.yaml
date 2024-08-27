@@ -1,0 +1,10 @@
+- name: Number Systems
+  hosts: localhost
+  tasks:
+    - name: Convert binary to decimal
+      debug:
+        msg: "Decimal: {{ binary_value | binary_to_decimal }}"
+      
+    - name: Convert decimal to hexadecimal
+      debug:
+        msg: "Hexadecimal: {{ decimal_value | decimal_to_hexadecimal }}"

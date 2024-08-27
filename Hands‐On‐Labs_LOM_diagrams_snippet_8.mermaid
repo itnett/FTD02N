@@ -1,0 +1,17 @@
+erDiagram
+    MARKEDSFORINGSSTRATEGI {
+        string navn
+        string beskrivelse
+    }
+    KAMPANJE {
+        string navn
+        double budsjett
+    }
+    MARKEDSANALYSE {
+        string type
+        string resultat
+    }
+
+    MARKEDSFORINGSSTRATEGI ||--o{ KAMPANJE : inkluderer // One MARKEDSFORINGSSTRATEGI includes many KAMPANJE
+    MARKEDSFORINGSSTRATEGI ||--o{ MARKEDSANALYSE : baserer_paa // One MARKEDSFORINGSSTRATEGI is based on many MARKEDSANALYSE
+    KAMPANJE ||--o{ MARKEDSANALYSE : evaluerer // One KAMPANJE evaluates many MARKEDSANALYSE

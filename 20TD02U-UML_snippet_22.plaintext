@@ -1,0 +1,11 @@
+@startuml
+start
+:Start Process;
+if (Condition A) then (yes)
+  :Perform Action A;
+else (no)
+  :Perform Action B;
+endif
+:End Process;
+stop
+@enduml

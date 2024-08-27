@@ -1,0 +1,5 @@
+- name: Install and configure Wireshark
+  hosts: all
+  become: yes
+  roles:
+    - wireshark

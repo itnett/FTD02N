@@ -1,0 +1,6 @@
+- name: Second Law of Thermodynamics
+  hosts: localhost
+  tasks:
+    - name: Apply second law
+      debug:
+        msg: "Entropy of an isolated system always increases"

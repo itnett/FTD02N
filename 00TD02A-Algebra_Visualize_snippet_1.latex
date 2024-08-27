@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Regneregler}
+
+\subsection*{De fire grunnleggende regneoperasjonene:}
+
+\subsubsection*{Addisjon (+):}
+Å legge sammen to eller flere tall. Resultatet kalles summen.\\
+Eksempel: $3 + 4 = 7$
+
+\subsubsection*{Subtraksjon (-):}
+Å finne forskjellen mellom to tall. Resultatet kalles differansen.\\
+Eksempel: $7 - 4 = 3$
+
+\subsubsection*{Multiplikasjon (*):}
+Gjentatt addisjon av et tall. Resultatet kalles produktet.\\
+Eksempel: $3 \times 4 = 12$ (3 lagt til seg selv 4 ganger)
+
+\subsubsection*{Divisjon (/):}
+Å dele et tall i like store deler. Resultatet kalles kvotienten.\\
+Eksempel: $12 / 4 = 3$ (12 delt i 4 like store deler)
+
+\subsection*{Rekkefølgen av operasjoner (PEMDAS/BODMAS):}
+\begin{itemize}
+    \item P/B: Parenteser/Braketter først
+    \item E/O: Eksponenter/Orden (potenser og røtter)
+    \item MD: Multiplikasjon og Divisjon (fra venstre til høyre)
+    \item AS: Addisjon og Subtraksjon (fra venstre til høyre)
+\end{itemize}
+
+\subsubsection*{Eksempel:}
+\[ 3 + 5 \times (2^2 - 1) = 3 + 5 \times (4 - 1) = 3 + 5 \times 3 = 3 + 15 = 18 \]
+
+\end{document}

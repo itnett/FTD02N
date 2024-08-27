@@ -1,0 +1,50 @@
+@startuml
+actor Student
+
+Student -> "Grunnleggende Regning og Algebra" : Start
+"Grunnleggende Regning og Algebra" -> "Algebra" : Utforsk
+"Algebra" -> "Algebra Activities" : Bruk
+"Algebra" -> "Khan Academy Algebra" : Bruk
+"Algebra" -> "Interactive Algebra Labs" : Bruk
+
+"Grunnleggende Regning og Algebra" -> "Regneregler" : Utforsk
+"Regneregler" -> "Math Skills Labs" : Bruk
+"Regneregler" -> "Khan Academy Basic Arithmetic" : Bruk
+
+"Grunnleggende Regning og Algebra" -> "Brøk og Prosentregning" : Utforsk
+"Brøk og Prosentregning" -> "Khan Academy Fractions" : Bruk
+"Brøk og Prosentregning" -> "Math Playground Fraction Games" : Bruk
+"Brøk og Prosentregning" -> "Math is Fun - Percentages" : Bruk
+
+Student -> "Geometri og Trigonometri" : Neste
+"Geometri og Trigonometri" -> "Areal, Omkrets, Volum og Overflate" : Utforsk
+"Areal, Omkrets, Volum og Overflate" -> "Geometry Labs" : Bruk
+"Areal, Omkrets, Volum og Overflate" -> "Math Playground Geometry Games" : Bruk
+
+"Geometri og Trigonometri" -> "Pytagoras' Setning" : Utforsk
+"Pytagoras' Setning" -> "Pythagorean Theorem Labs" : Bruk
+
+"Geometri og Trigonometri" -> "Trigonometri i Rettvinklede Trekanter" : Utforsk
+"Trigonometri i Rettvinklede Trekanter" -> "Right Triangle Trigonometry Labs" : Bruk
+"Trigonometri i Rettvinklede Trekanter" -> "Math is Fun - Trigonometry" : Bruk
+
+"Geometri og Trigonometri" -> "Vektorer i Planet" : Utforsk
+"Vektorer i Planet" -> "Vector Labs" : Bruk
+
+Student -> "Funksjoner" : Neste
+"Funksjoner" -> "Rette Linjer" : Utforsk
+"Rette Linjer" -> "Linear Functions Labs" : Bruk
+
+"Funksjoner" -> "Polynomfunksjoner" : Utforsk
+"Polynomfunksjoner" -> "Polynomial Functions Labs" : Bruk
+
+"Funksjoner" -> "Eksponentialfunksjoner" : Utforsk
+"Eksponentialfunksjoner" -> "Exponential Functions Labs" : Bruk
+
+"Funksjoner" -> "Derivasjon av Polynomfunksjoner" : Utforsk
+"Derivasjon av Polynomfunksjoner" -> "Calculus Labs" : Bruk
+
+"Funksjoner" -> "Regresjon ved Hjelp av Digitale Hjelpemidler" : Utforsk
+"Regresjon ved Hjelp av Digitale Hjelpemidler" -> "Regression Analysis Labs" : Bruk
+
+@enduml

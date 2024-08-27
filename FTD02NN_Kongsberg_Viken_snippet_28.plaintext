@@ -1,0 +1,9 @@
+Router(config)# ipv6 dhcp pool LAN1
+Router(config-dhcpv6)# address prefix 2001:db8:1:1::/64
+Router(config-dhcpv6)# dns-server 2001:4860:4860::8888
+Router(config-dhcpv6)# exit
+Router(config)# interface GigabitEthernet0/0
+Router(config-if)# ipv6 dhcp server LAN1
+Router(config-if)# exit
+Router(config)# exit
+Router# write memory

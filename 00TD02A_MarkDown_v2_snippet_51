@@ -1,0 +1,19 @@
+## Kombinatorikk
+
+### Grunnleggende Prinsipper
+Kombinatorikk handler om å telle, arrangere og kombinere objekter på bestemte måter.
+
+#### Permutasjoner
+Permutasjoner er antall måter å arrangere en mengde objekter på.
+$$P(n) = n!$$
+hvor \(n!\) er fakultet av \(n\).
+
+#### Kombinasjoner
+Kombinasjoner er antall måter å velge en undergruppe fra en større mengde uten å bry seg om rekkefølgen.
+$$C(n, k) = \frac{n!}{k!(n - k)!}$$
+
+#### Eksempel
+Finn antall måter å velge 2 elementer fra en mengde på 5.
+$$C(5, 2) = \frac{5!}{2!(5 - 2)!} = \frac{5 \cdot 4 \cdot 3!}{2 \cdot 1 \cdot 3!} = \frac{20}{2} = 10$$
+
+#### Visualisering - Mindmap for Kombinatorikk

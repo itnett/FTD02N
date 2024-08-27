@@ -1,0 +1,15 @@
+gitGraph
+    commit id: "init" tag: "start" type: HIGHLIGHT
+    branch kampanjeOppretting
+    commit id: "oppretting" tag: "kampanjeStart" type: NORMAL
+    checkout main
+    merge kampanjeOppretting id: "kampanjeSammen" tag: "kampanjeOpprettet" type: NORMAL
+    branch kampanjeOvervåking
+    commit id: "overvåking1" type: NORMAL
+    commit id: "overvåking2" type: NORMAL
+    checkout main
+    merge kampanjeOvervåking id: "overvåkingSammen" type: NORMAL
+    branch kampanjeEvaluering
+    commit id: "evaluering" tag: "kampanjeSlutt" type: NORMAL
+    checkout main
+    merge kampanjeEvaluering id: "evalueringSammen" type: NORMAL

@@ -1,0 +1,1 @@
+person1.hils(); // Kaller metoden `hils()` på objektet `person1`

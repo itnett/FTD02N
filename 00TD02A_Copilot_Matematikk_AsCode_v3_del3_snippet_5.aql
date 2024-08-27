@@ -1,0 +1,19 @@
+-- Create the collection
+db._create('PerformanceMetrics');
+
+-- Insert data
+db.PerformanceMetrics.insert({
+    student_id: 1,
+    cpu_usage: 75.5,
+    memory_usage: 60.2,
+    network_traffic: 500.0,
+    disk_usage: 250.0,
+    network_latency: 20.5
+});
+
+-- Query to calculate percentage utilization
+FOR metric IN PerformanceMetrics
+RETURN {
+    student_id: metric.student_id,
+    percentage_utilization: ((metric.cpu_usage + metric.memory_usage) / 2) * 100
+}

@@ -1,0 +1,2 @@
+Bruttofortjeneste = SUM('Regnskap'[Inntekter]) - SUM('Regnskap'[Utgifter])
+Driftsmargin = DIVIDE([Bruttofortjeneste], SUM('Regnskap'[Inntekter]), 0)

@@ -1,0 +1,6 @@
+## Logging
+Alle handlinger og resultater logges til `scan_results.log`.
+
+## Notater
+- Skriptet utfører en idle-skanning ved bruk av en zombie-vert. Sørg for å erstatte `<zombie_host>` med en gyldig IP-adresse i skriptet.
+- Noen skanningsteknikker kan kreve forhøyede rettigheter. Kjør skriptet som root hvis nødvendig:

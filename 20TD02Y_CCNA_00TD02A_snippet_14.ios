@@ -1,0 +1,5 @@
+functions polynomial {
+    degree          ; // Beregne graden av en polynomfunksjon
+    factor          ; // Faktorisere en polynomfunksjon
+    evaluate        ; // Evaluere en polynomfunksjon for en gitt verdi
+}

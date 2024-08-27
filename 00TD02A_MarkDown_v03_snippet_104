@@ -1,0 +1,17 @@
+### Bevegelseslikninger ved Konstant Fart og Konstant Akselerasjon
+
+**Konstant Fart:**
+\[ v = \frac{s}{t} \]
+hvor \( v \) er fart, \( s \) er distanse og \( t \) er tid.
+
+**Konstant Akselerasjon:**
+\[ v = u + at \]
+\[ s = ut + \frac{1}{2}at^2 \]
+\[ v^2 = u^2 + 2as \]
+hvor \( u \) er startfart, \( a \) er akselerasjon, \( t \) er tid, og \( s \) er distanse.
+
+#### Eksempel
+En bil starter fra ro (u = 0) og akselererer med 2 m/s² i 5 sekunder. Sluttfarten er:
+\[ v = 0 + 2 \times 5 = 10 \, \text{m/s} \]
+
+### Visualisering - Bevegelseslikninger

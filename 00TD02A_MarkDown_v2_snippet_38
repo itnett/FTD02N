@@ -1,0 +1,13 @@
+### Derivasjon av Polynomfunksjoner
+
+#### Forstå Derivasjon
+Derivasjon er prosessen med å finne den deriverte av en funksjon, som gir oss stigningstallet til tangenten til grafen på hvert punkt. For polynomfunksjoner bruker vi reglene for derivasjon:
+$$\frac{d}{dx}(x^n) = nx^{n-1}$$
+
+#### Eksempel
+Finn den deriverte av $$\(f(x) = 3x^2 - 4x + 5\)$$.
+
+1. Deriver hvert ledd:
+$$f'(x) = 6x - 4$$
+
+#### Visualisering - Sekvensdiagram for Derivasjon

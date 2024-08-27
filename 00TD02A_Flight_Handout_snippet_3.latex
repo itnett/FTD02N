@@ -1,0 +1,29 @@
+\section{Algebra}
+\subsection{Regneregler}
+Grunnleggende aritmetiske operasjoner:
+\begin{align*}
+&\text{Addisjon: } a + b \\
+&\text{Subtraksjon: } a - b \\
+&\text{Multiplikasjon: } a \times b \\
+&\text{Divisjon: } \frac{a}{b}
+\end{align*}
+
+\subsection{Brøk og prosentregning}
+\begin{align*}
+&\text{Multiplisere brøker: } \frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \\
+&\text{Prosentformel: } P = \frac{D}{T} \times 100\%
+\end{align*}
+
+\subsection{Potenser}
+\begin{align*}
+&a^m \times a^n = a^{m+n} \\
+&\left(a^m\right)^n = a^{m \cdot n} \\
+&\frac{a^m}{a^n} = a^{m-n}
+\end{align*}
+
+\subsection{Tall på standardform}
+\begin{align*}
+&N \times 10^n
+\end{align*}
+Eksempel: 3.45 \times 10^5
+\newpage

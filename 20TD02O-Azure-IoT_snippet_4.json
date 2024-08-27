@@ -1,0 +1,15 @@
+{
+  "searchSpan": {
+    "from": "2021-01-01T00:00:00Z",
+    "to": "2021-01-02T00:00:00Z"
+  },
+  "predicate": {
+    "type": "Comparison",
+    "operator": "GreaterThan",
+    "target": {
+      "property": "temperature",
+      "type": "Double"
+    },
+    "value": 30
+  }
+}

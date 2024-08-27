@@ -1,0 +1,2 @@
+netstat -tuln
+     arp -a

@@ -1,0 +1,4 @@
+physics heat_internal_energy {
+    calculate_heat_transfer      ; // Beregne varmeoverføring
+    calculate_internal_energy    ; // Beregne indre energi
+}

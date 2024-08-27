@@ -1,0 +1,9 @@
+VirtualBox Host
+    |
+    | Virtual Network
+    |
+Windows Server VM (AD, DNS, DHCP, File Server, VPN)
+    |
+    | Virtual Network
+    |
+Windows Client VM (Windows 10/11)

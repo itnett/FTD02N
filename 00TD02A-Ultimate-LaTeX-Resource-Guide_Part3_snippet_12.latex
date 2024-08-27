@@ -1,0 +1,6 @@
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\begin{document}
+This document uses Times New Roman font.
+\end{document}

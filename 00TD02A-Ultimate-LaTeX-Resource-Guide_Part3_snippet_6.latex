@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+    title={Complex Plot},
+    xlabel={X-axis},
+    ylabel={Y-axis},
+    legend pos=outer north east,
+]
+\addplot coordinates {
+    (0,0) (1,1) (2,4) (3,9)
+};
+\addlegendentry{Data Set 1}
+
+\addplot coordinates {
+    (0,0) (1,2) (2,8) (3,18)
+};
+\addlegendentry{Data Set 2}
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,10 @@
+C4Context
+title System Context diagram for SQLBolt
+
+Enterprise_Boundary(e0, "SQLBolt") {
+    Person(user, "User", "A person looking to learn SQL interactively")
+
+    System(sqlBolt, "Interactive SQL Tutorial", "An interactive guide that teaches SQL through practical exercises and examples")
+}
+
+Rel(user, sqlBolt, "Learns SQL with")

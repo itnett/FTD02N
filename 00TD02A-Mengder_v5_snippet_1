@@ -1,0 +1,24 @@
+Person
+|-- PersonID
+|-- Navn
+|-- Alder
+|-- Kjønn
+|-- Vekt
+
+Koffert
+|-- KoffertID
+|-- Type
+|-- Vekt
+|-- PersonID (FK)
+
+Alkohol
+|-- AlkoholID
+|-- Type
+|-- Mengde
+|-- PersonID (FK)
+
+Faktor
+|-- FaktorID
+|-- Type
+|-- Verdi
+|-- PersonID (FK)

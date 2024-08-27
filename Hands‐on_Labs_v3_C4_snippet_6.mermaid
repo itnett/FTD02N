@@ -1,0 +1,10 @@
+C4Context
+title System Context diagram for W3Schools SQL Tutorial
+
+Enterprise_Boundary(e0, "W3Schools SQL Tutorial") {
+    Person(user, "User", "A person looking to learn SQL basics")
+
+    System(w3schoolsSQL, "SQL Tutorial", "Learn the basics of SQL, including creating tables, retrieving data, filtering, and sorting results")
+}
+
+Rel(user, w3schoolsSQL, "Learns SQL with")

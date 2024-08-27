@@ -1,0 +1,9 @@
+Likningen du har oppgitt er: 1x^2 + -5x + 6 = 0
+
+Dette er en andregradslikning.
+Identifiserte koeffisienter: a = 1, b = -5, c = 6
+Bruker abc-formelen for å løse andregradslikningen.
+abc-formelen er: x = (-b ± sqrt(b^2 - 4ac)) / 2a
+Diskriminanten (b^2 - 4ac) er: 1
+Løsningene er: x1 = 3, x2 = 2
+Løsningen er verifisert.

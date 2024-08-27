@@ -1,0 +1,8 @@
+collector:
+     zipkin:
+       http-port: 9411
+   agent:
+     strategies:
+       sampling:
+         type: const
+         param: 1

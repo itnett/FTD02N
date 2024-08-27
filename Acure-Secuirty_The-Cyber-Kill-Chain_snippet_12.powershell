@@ -1,0 +1,1 @@
+Search-AzGraph -Query 'where type == "microsoft.network/networksecuritygroups" and properties.rules.contains("C2Server")'

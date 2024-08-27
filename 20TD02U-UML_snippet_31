@@ -1,0 +1,4 @@
+2. **Structural Patterns**: Deal with object composition or structure.
+   - **Adapter Pattern**: Allows incompatible interfaces to work together.
+   
+   Example in PlantUML:

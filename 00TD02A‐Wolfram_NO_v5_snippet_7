@@ -1,0 +1,2 @@
+Inline: $a^2 + b^2 = c^2$
+Blokk: $$ \mathbf{A} = \begin{pmatrix} a \\ b \end{pmatrix} $$

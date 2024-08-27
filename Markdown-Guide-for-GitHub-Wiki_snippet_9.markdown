@@ -1,0 +1,2 @@
+- [x] Fullført oppgave
+- [ ] Ufullført oppgave

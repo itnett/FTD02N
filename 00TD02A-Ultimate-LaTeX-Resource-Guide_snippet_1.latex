@@ -1,0 +1,5 @@
+% Define a new command \vect for vectors
+\newcommand{\vect}[1]{\mathbf{#1}}
+
+% Usage: 
+\vect{a} + \vect{b}

@@ -1,0 +1,11 @@
++-------------------+   +--------------------+   +--------------------+
+|   Konfidensialitet|   |     Integritet     |   |   Tilgjengelighet  |
++-------------------+   +--------------------+   +--------------------+
+| - Kryptering      |   | - Hashing          |   | - Redundans        |
+| - Tilgangskontroll|   | - Digitale signaturer| | - Backups          |
+| - Autentisering   |   | - Input validering |   | - IDPS             |
++-------------------+   +--------------------+   +--------------------+
+|  Beskyttelse mot  |   | Sikring mot        |   | Sikring av system- |
+|  uautorisert      |   | manipulering av    |   | tilgjengelighet og |
+|  tilgang          |   | data               |   | oppetid            |
++-------------------+   +--------------------+   +--------------------+

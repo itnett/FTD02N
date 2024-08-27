@@ -1,0 +1,28 @@
+sequenceDiagram
+    participant Main as run_linux_and_container_examples()
+    participant Logger as logger
+    participant System as Systemdrift og Linux Distribusjoner
+    participant User as Brukeradministrasjon og Installasjon
+    participant Network as Nettverk og Prosesser
+    participant Terminal as Terminal og Pakkesystemer
+    participant Storage as Lagring og Filsystemer
+    participant Container as Containere og Automatisering
+
+    Main ->> Logger: logger.info("Starter eksempler på Linux og containere...")
+    Main ->> System: check_linux_distribution()
+    System ->> Logger: logger.info(result.stdout)
+    Main ->> User: create_user('testuser')
+    User ->> Logger: logger.info("Brukeren testuser ble opprettet.")
+    Main ->> Network: list_network_interfaces()
+    Network ->> Logger: logger.info(result.stdout)
+    Main ->> Network: list_processes()
+    Network ->> Logger: logger.info(result.stdout)
+    Main ->> Terminal: install_package('htop')
+    Terminal ->> Logger: logger.info("Pakken htop ble installert.")
+    Main ->> Storage: list_filesystem()
+    Storage ->> Logger: logger.info(result.stdout)
+    Main ->> Container: run_docker_container('hello-world')
+    Container ->> Logger: logger.info("Docker Container {container.short_id} kjører med bilde hello-world")
+    Main ->> Container: list_docker_containers()
+    Container ->> Logger: logger.info("Container {container.short_id} kjører med bilde {container.image.tags}")
+    Main ->> Logger: logger.info("Eksempler på Linux og containere fullført.")

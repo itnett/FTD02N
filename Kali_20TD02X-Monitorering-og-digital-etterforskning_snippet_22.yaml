@@ -1,0 +1,15 @@
+- name: Install Nagios
+  apt:
+    name: nagios3
+    state: present
+
+- name: Configure Nagios
+  copy:
+    src: /path/to/local/nagios.cfg
+    dest: /etc/nagios3/nagios.cfg
+
+- name: Start Nagios service
+  service:
+    name: nagios3
+    state: started
+    enabled: yes

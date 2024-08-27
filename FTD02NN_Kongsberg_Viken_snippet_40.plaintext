@@ -1,0 +1,18 @@
+! Definer soner
+zone security INSIDE
+zone security OUTSIDE
+
+! Tildel grensesnitt til soner
+interface GigabitEthernet0/0
+ zone-member security INSIDE
+interface GigabitEthernet0/1
+ zone-member security OUTSIDE
+
+! Opprett policy for trafikk mellom soner
+policy-map type inspect INSIDE_TO_OUTSIDE
+ class type inspect match-all TRAFFIC
+  inspect
+
+! Anvend policy på soner
+zone-pair security INSIDE_TO_OUTSIDE source INSIDE destination OUTSIDE
+ service-policy type inspect INSIDE_TO_OUTSIDE

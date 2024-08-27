@@ -1,0 +1,9 @@
+\documentclass{article}
+\usepackage{knitr}
+
+\begin{document}
+<<echo=FALSE>>=
+summary(cars)
+@
+
+\end{document}

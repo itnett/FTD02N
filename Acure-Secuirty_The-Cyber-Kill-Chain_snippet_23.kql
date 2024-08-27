@@ -1,0 +1,3 @@
+SecurityAlert
+| where AlertName == "Suspicious Activity"
+| summarize Count = count() by AlertName, Description, Severity, StartTimeUtc

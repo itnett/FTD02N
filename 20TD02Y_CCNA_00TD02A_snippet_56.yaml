@@ -1,0 +1,16 @@
+- name: Newton's Laws
+  hosts: localhost
+  tasks:
+    - name: Apply first law
+
+
+      debug:
+        msg: "First law: Inertia"
+
+    - name: Apply second law
+      debug:
+        msg: "Second law: F = m * a"
+      
+    - name: Apply third law
+      debug:
+        msg: "Third law: Action = -Reaction"

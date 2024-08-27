@@ -1,0 +1,52 @@
+graph TD
+    A[Imports and Configuration]
+    B[Basic Cloud Services]
+    C[IaaS, PaaS, and SaaS]
+    D[Security in Cloud Services]
+    E[Infrastructure as Code]
+    F[Main Function]
+
+    A --> G[Configure LocalStack]
+    A --> H[Setup Logging]
+
+    B --> I[list_s3_buckets]
+    B --> J[create_s3_bucket]
+
+    C --> K[deploy_iaas_instance]
+    C --> L[deploy_paas_application]
+    C --> M[use_saas_service]
+
+    D --> N[enforce_s3_bucket_policy]
+
+    E --> O[deploy_with_cloudformation]
+
+    F --> P[Call examples]
+
+    subgraph Basic_Cloud_Services
+        I --> Q[List S3 buckets]
+        J --> R[Create S3 bucket]
+    end
+
+    subgraph IaaS_PaaS_SaaS
+        K --> S[Create EC2 instance]
+        L --> T[Create Beanstalk app]
+        M --> U[Get weather data]
+    end
+
+    subgraph Security_in_Cloud_Services
+        N --> V[Apply S3 policy]
+    end
+
+    subgraph Infrastructure_as_Code
+        O --> W[Deploy with CloudFormation]
+    end
+
+    subgraph Main_Function
+        P --> X[Call list_s3_buckets]
+        P --> Y[Call create_s3_bucket]
+        P --> Z[Call deploy_iaas_instance]
+        P --> AA[Call deploy_paas_application]
+        P --> AB[Call use_saas_service]
+        P --> AC[Call enforce_s3_bucket_policy]
+        P --> AD[Call deploy_with_cloudformation]
+    end

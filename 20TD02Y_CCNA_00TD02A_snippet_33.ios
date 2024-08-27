@@ -1,0 +1,4 @@
+physics calorimetry {
+    calculate_heat_capacity      ; // Beregne varmekapasitet
+    perform_calorimetry          ; // Utføre kalorimetriske beregninger
+}

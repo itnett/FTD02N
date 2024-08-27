@@ -1,0 +1,5 @@
+Explanation: This query selects all columns from `table_name`.
+
+2. **Joins**:
+   - **Problem 2**: Perform a join between two tables.
+   - **Solution**:

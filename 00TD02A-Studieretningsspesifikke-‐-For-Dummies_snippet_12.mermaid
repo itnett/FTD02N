@@ -1,0 +1,57 @@
+classDiagram
+class Main {
+  +main()
+}
+
+class Algebra {
+  +regneregler()
+  +brok_og_prosentregning()
+  +potenser()
+  +tall_pa_standardform()
+  +sammentrekning_og_faktorisering()
+  +los_forstegradslikning()
+  +los_andregradslikning()
+  +los_likningssett()
+}
+
+class TrigonometriOgGeometri {
+  +beregn_areal()
+  +beregn_omkrets()
+  +beregn_volum()
+  +beregn_overflate()
+  +pythagoras()
+  +trigonometri()
+  +vektorer()
+}
+
+class Funksjoner {
+  +rette_linjer()
+  +polynomfunksjoner()
+  +eksponentialfunksjoner()
+  +derivasjon_av_polynomfunksjoner()
+  +regresjon()
+}
+
+class Fysikk {
+  +innledende_fysikk()
+  +kraft_og_rettlinjet_bevegelse()
+  +energi()
+}
+
+class TermodynamikkOgStudieretning {
+  +briggske_logaritmer()
+  +kombinatorikk()
+  +sannsynlighet_og_statistikk()
+  +faser_og_faseoverganger()
+  +varme_og_indre_energi()
+  +termofysikkens_2_hovedsetning()
+  +varmekapasitet_og_kalorimetri()
+  +tallsystemer()
+  +algoritmisk_tenking()
+}
+
+Main ..> Algebra : bruker
+Main ..> TrigonometriOgGeometri : bruker
+Main ..> Funksjoner : bruker
+Main ..> Fysikk : bruker
+Main ..> TermodynamikkOgStudieretning : bruker

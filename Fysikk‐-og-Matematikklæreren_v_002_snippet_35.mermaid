@@ -1,0 +1,29 @@
+stateDiagram-v2
+    state "LærerApp" as A {
+        [*] --> Hovedmeny
+        Hovedmeny --> Matematikk
+        Hovedmeny --> Fysikk
+        Hovedmeny --> Studieretning
+        state Matematikk {
+            [*] --> Algebra
+            [*] --> TrigonometriGeometri
+            [*] --> Funksjoner
+        }
+        state Fysikk {
+            [*] --> InnledendeFysikk
+            [*] --> KraftOgRettlinjetBevegelse
+            [*] --> EnergiOgArbeid
+            [*] --> Termodynamikk
+        }
+        state Studieretning {
+            [*] --> BriggskeLogaritmer
+            [*] --> Kombinatorikk
+            [*] --> Sannsynlighetsregning
+            [*] --> FaserOgFaseoverganger
+            [*] --> VarmeOgIndreEnergi
+            [*] --> TermofysikkensAndreLov
+            [*] --> VarmekapasitetOgKalorimetri
+            [*] --> Tallsystemer
+            [*] --> AlgoritmiskTenking
+        }
+    }

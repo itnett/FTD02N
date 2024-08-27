@@ -1,0 +1,16 @@
+- name: Installer og konfigurer brannmur
+  hosts: all
+  become: yes
+  tasks:
+    - name: Installer ufw
+      apt:
+        name: ufw
+        state: present
+    - name: Tillat SSH
+      ufw:
+        rule: allow
+        port: 22
+        proto: tcp
+    - name: Aktiver brannmur
+      ufw:
+        state: enabled

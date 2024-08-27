@@ -1,0 +1,13 @@
+pipeline:
+  stages:
+    - name: Static Analysis
+      script:
+        - bandit -r myproject/
+
+    - name: Dependency Check
+      script:
+        - safety check
+
+    - name: Security Testing
+      script:
+        - zap-baseline.py -t http://myapp

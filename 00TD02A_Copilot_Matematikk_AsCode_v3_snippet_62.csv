@@ -1,0 +1,5 @@
+assignment_id,course_id,title,description,due_date
+1,1,Windows Server Installation,Install and configure a Windows Server,2024-09-10
+2,1,Active Directory Setup,Set up and configure Active Directory,2024-09-20
+3,2,Linux Installation,Install and configure a Linux distribution,2024-09-15
+4,2,Docker Containers,Set up and manage Docker containers,2024-09-25

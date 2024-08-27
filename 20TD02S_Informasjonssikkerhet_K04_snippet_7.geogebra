@@ -1,0 +1,18 @@
+// Definer et primtall p og en generator g
+p = 23
+g = 5
+
+// Definer hemmelige nøkler a og b
+a = 6
+b = 15
+
+// Beregn offentlige verdier A og B
+A = Mod(g^a, p)
+B = Mod(g^b, p)
+
+// Beregn den delte hemmelige nøkkelen K
+K_a = Mod(B^a, p)
+K_b = Mod(A^b, p)
+
+// Kontroller at K_a og K_b er like
+K_a == K_b

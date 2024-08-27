@@ -1,0 +1,29 @@
+sequenceDiagram
+    participant User
+    participant MainApp
+    participant AlgebraModule
+    participant TrigonometryGeometryModule
+    participant FunctionsModule
+    participant PhysicsModule
+    participant SpecialTopicsModule
+
+    User ->> MainApp: Selects Main Menu
+    MainApp ->> User: Displays Main Menu
+
+    User ->> MainApp: Selects Mathematics Menu
+    MainApp ->> AlgebraModule: Loads Algebra Module
+    AlgebraModule ->> User: Displays Algebra Menu
+
+    User ->> AlgebraModule: Selects Regneregler
+    AlgebraModule ->> User: Displays Regneregler Input
+    User ->> AlgebraModule: Inputs Data
+    AlgebraModule ->> User: Displays Result
+
+    User ->> MainApp: Selects Physics Menu
+    MainApp ->> PhysicsModule: Loads Physics Module
+    PhysicsModule ->> User: Displays Physics Menu
+
+    User ->> PhysicsModule: Selects Introductory Physics
+    PhysicsModule ->> User: Displays Physics Input
+    User ->> PhysicsModule: Inputs Data
+    PhysicsModule ->> User: Displays Result

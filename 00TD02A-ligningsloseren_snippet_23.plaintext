@@ -1,0 +1,17 @@
+Start
+            |
+   -----------------
+   |               |
+Input Ligninger    |
+   |               |
+   |        Kontrollere Linearitet
+   |               |
+   |       ------------------------
+   |       |                      |
+Solve Linear  <--->  Solve Ikke-linear
+   |                       |
+   -------------------------
+            |
+          Plott
+            |
+          Slutt

@@ -1,0 +1,5 @@
+[{"id":"n1","type":"mqtt in","z":"n1","name":"","topic":"home/+/status","qos":"2","broker":"mqtt_broker","x":100,"y":100,"wires":[["n2"]]},
+      {"id":"n2","type":"switch","z":"n1","name":"","property":"topic","propertyType":"msg","rules":[{"t":"eq","v":"home/livingroom/status","vt":"str"},
+      {"t":"eq","v":"home/kitchen/status","vt":"str"}],"checkall":"true","repair":false,"outputs":2,"x":250,"y":100,"wires":[["n3"],["n4"]]},
+      {"id":"n3","type":"function","z":"n1","name":"Living Room Control","func":"if (msg.payload === 'ON') {\n    // Turn on lights\n}","outputs":1,"noerr":0,"x":400,"y":100,"wires":[["n5"]]},
+      {"id":"n4","type":"function","z":"n1","name":"Kitchen Control","func":"if (msg.payload === 'ON') {\n    // Turn on appliances\n}","outputs":1,"noerr":0,"x":400,"y":150,"wires":[["n6"]]}]

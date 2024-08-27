@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant Bruker
+    participant System
+    participant Database
+    
+    Bruker->>System: Logg inn
+    System->>Database: Sjekk legitimasjon
+    Database-->>System: Returner status
+    System-->>Bruker: Vis resultat

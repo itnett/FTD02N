@@ -1,0 +1,16 @@
+roles/
+  webserver/
+    tasks/
+      main.yml
+    handlers/
+      main.yml
+    templates/
+      httpd.conf.j2
+    files/
+      index.html
+    vars/
+      main.yml
+    defaults/
+      main.yml
+    meta/
+      main.yml

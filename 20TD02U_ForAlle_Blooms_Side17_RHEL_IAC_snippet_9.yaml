@@ -1,0 +1,15 @@
+---
+- hosts: rhel_servers
+  become: yes
+  tasks:
+    - name: Sett SELinux til permissive
+      selinux:
+        policy: targeted
+        state: permissive
+
+    - name: Åpne HTTP-port i firewalld
+      firewalld:
+        service: http
+        permanent: yes
+        state: enabled
+        immediate: yes

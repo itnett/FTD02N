@@ -1,0 +1,18 @@
+- name: Probability and Statistics
+  hosts: localhost
+  tasks:
+    - name: Calculate probability
+      debug:
+        msg: "Probability: {{ favorable_outcomes / total_outcomes }}"
+      
+    - name: Calculate mean
+      debug:
+        msg: "Mean: {{ values | mean }}"
+      
+    - name: Calculate median
+      debug:
+        msg: "Median: {{ values | median }}"
+      
+    - name: Calculate standard deviation
+      debug:
+        msg: "Standard Deviation: {{ values | stdev }}"

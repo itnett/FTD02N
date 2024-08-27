@@ -1,0 +1,4 @@
+- name: Install Metasploit
+  apt:
+    name: metasploit-framework
+    state: present

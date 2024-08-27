@@ -1,0 +1,9 @@
+network_scan/
+├── app.py
+├── templates/
+│   ├── index.html
+│   ├── results.html
+├── static/
+│   ├── style.css
+└── scans/
+    └── intelligent_scan.sh

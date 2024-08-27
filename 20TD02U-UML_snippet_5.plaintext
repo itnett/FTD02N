@@ -1,0 +1,22 @@
++-----------------+
+|    Person       |
++-----------------+
+| - name: String  |
+| - age: int      |
++-----------------+
+| + getName():    |
+| + getAge(): int |
++-----------------+
+       |
+       |
+     -----
+       |
++------------------+
+|    Employee      |
++------------------+
+| - employeeID: int|
+| - department: String|
++------------------+
+| + getEmployeeID(): int |
+| + getDepartment(): String |
++------------------+

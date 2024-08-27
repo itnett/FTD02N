@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LØM Assistent</title>
+    <script>
+        async function sendSporsmal() {
+            const sporsmal = document.getElementById("sporsmal").value;
+            const response = await fetch('/api/svar', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ sporsmal: sporsmal })
+            });
+            const data = await response.json();
+            document.getElementById("svar").innerText = data.svar;
+        }
+    </script>
+</head>
+<body>
+    <h1>LØM Assistent</h1>
+    <input type="text" id="sporsmal" placeholder="Skriv ditt spørsmål her">
+    <button onclick="sendSporsmal()">Send</button>
+    <p id="svar"></p>
+</body>
+</html>

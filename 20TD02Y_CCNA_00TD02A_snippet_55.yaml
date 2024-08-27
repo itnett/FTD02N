@@ -1,0 +1,10 @@
+- name: Precision and Significant Figures
+  hosts: localhost
+  tasks:
+    - name: Calculate uncertainty
+      debug:
+        msg: "Uncertainty: {{ measurement | calculate_uncertainty }}"
+      
+    - name: Apply significant figures
+      debug:
+        msg: "Value with significant figures: {{ value | significant_figures }}"

@@ -1,0 +1,20 @@
+Resources:
+  MyPipeline:
+   
+
+ Type: 'AWS::CodePipeline::Pipeline'
+    Properties:
+      Stages:
+        - Name: Source
+          Actions:
+            - Name: Source
+              ActionTypeId:
+                Category: Source
+                Owner: AWS
+                Provider: S3
+                Version: 1
+              OutputArtifacts:
+                - Name: SourceOutput
+              Configuration:
+                S3Bucket: 'source-bucket'
+                S3ObjectKey: 'source.zip'

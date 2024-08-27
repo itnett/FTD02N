@@ -1,0 +1,63 @@
+classDiagram
+    class LærerApp {
+        - meny: div
+        - innhold: div
+        + byggHovedmeny()
+        + byggMatematikkMeny()
+        + byggFysikkMeny()
+        + byggStudieretningMeny()
+    }
+    class AlgebraModul {
+        + algebra_meny()
+        + regneregler()
+        + brok_og_prosentregning()
+        + potenser()
+        + tall_pa_standardform()
+        + sammentrekning_og_faktorisering()
+        + los_forstegradslikning()
+        + los_andregradslikning()
+        + los_likningssett()
+        + tilpasse_og_omforme_formler()
+    }
+    class TrigonometriGeometriModul {
+        + trigonometri_og_geometri()
+        + beregn_areal()
+        + beregn_omkrets()
+        + beregn_volum()
+        + beregn_overflate()
+        + pythagoras()
+        + trigonometri()
+        + vektorer()
+    }
+    class FunksjonerModul {
+        + funksjoner()
+        + retteLinjer()
+        + polynomfunksjoner()
+        + eksponentialfunksjoner()
+        + derivasjonAvPolynomfunksjoner()
+        + regresjon()
+    }
+    class FysikkModul {
+        + fysikk_meny()
+        + innledendeFysikk()
+        + kraftOgRettlinjetBevegelse()
+        + energiOgArbeid()
+        + termodynamikk()
+    }
+    class StudieretningModul {
+        + studieretning_meny()
+        + briggskeLogaritmer()
+        + kombinatorikk()
+        + sannsynlighetOgStatistikk()
+        + faserOgFaseoverganger()
+        + varmeOgIndreEnergi()
+        + termofysikkensAndreLov()
+        + varmekapasitetOgKalorimetri()
+        + tallsystemer()
+        + algoritmiskTenking()
+    }
+    LærerApp --> AlgebraModul
+    LærerApp --> TrigonometriGeometriModul
+    LærerApp --> FunksjonerModul
+    LærerApp --> FysikkModul
+    LærerApp --> StudieretningModul

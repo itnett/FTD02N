@@ -1,0 +1,10 @@
+- name: Regression Using Digital Tools
+  hosts: localhost
+  tasks:
+    - name: Perform linear regression
+      debug:
+        msg: "Linear regression: {{ data | linear_regression }}"
+      
+    - name: Perform polynomial regression
+      debug:
+        msg: "Polynomial regression: {{ data | polynomial_regression }}"

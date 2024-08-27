@@ -1,0 +1,11 @@
+# URL til den originale Wiki-repoen som skal klones
+wiki_repo_url: "https://github.com/itnett/FTD02H-N.wiki.git"
+
+# Sti til katalogen hvor den klonede Wiki-repoen skal lagres midlertidig
+dump_directory: "C:\\WikiMigration\\git\\code_dump"
+
+# URL til den nye kode-repoen hvor skript skal lagres
+code_repo_url: "https://github.com/itnett/FTD02N"
+
+# Sti til katalogen hvor skriptene fra Wiki-repoen skal lagres
+code_repo_directory: "C:\\WikiMigration\\git\\code_repo"

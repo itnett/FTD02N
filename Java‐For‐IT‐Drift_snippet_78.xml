@@ -1,0 +1,5 @@
+<dependency>
+       <groupId>com.azure</groupId>
+       <artifactId>azure-storage-blob</artifactId>
+       <version>12.10.2</version>
+   </dependency>

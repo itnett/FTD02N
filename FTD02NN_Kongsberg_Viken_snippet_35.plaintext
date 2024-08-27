@@ -1,0 +1,9 @@
+Router> enable
+Router# configure terminal
+Router(config)# aaa new-model
+Router(config)# aaa authentication login default local
+Router(config)# aaa authorization exec default local
+Router(config)# aaa accounting exec default start-stop group radius
+Router(config)# radius-server host 192.168.1.100 key secretkey
+Router(config)# exit
+Router# write memory

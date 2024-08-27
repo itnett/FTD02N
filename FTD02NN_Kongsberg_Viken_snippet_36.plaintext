@@ -1,0 +1,18 @@
+Router> enable
+Router# configure terminal
+
+! Standard ACL
+Router(config)# access-list 1 permit 192.168.1.0 0.0.0.255
+Router(config)# interface GigabitEthernet0/0
+Router(config-if)# ip access-group 1 in
+Router(config-if)# exit
+
+! Utvidet ACL
+Router(config)# access-list 100 permit tcp any any eq 80
+Router(config)# access-list 100 deny ip any any
+Router(config)# interface GigabitEthernet0/1
+Router(config-if)# ip access-group 100 in
+Router(config-if)# exit
+
+Router(config)# exit
+Router# write memory

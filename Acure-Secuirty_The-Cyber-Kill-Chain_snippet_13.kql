@@ -1,0 +1,3 @@
+AzureDiagnostics
+| where ResourceType == "STORAGEACCOUNTS" and OperationNameValue == "GetBlob"
+| summarize Count = count() by Resource, CallerIpAddress, _ResourceId

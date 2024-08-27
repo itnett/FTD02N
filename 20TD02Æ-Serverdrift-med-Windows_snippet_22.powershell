@@ -1,0 +1,4 @@
+Get-LocalUser
+    Get-LocalGroup
+    New-LocalUser
+    Add-LocalGroupMember

@@ -1,0 +1,24 @@
+\documentclass[conference]{IEEEtran}
+\begin{document}
+\title{Technical Report}
+\author{Author Name}
+
+\maketitle
+
+\begin{abstract}
+This is the abstract.
+\end{abstract}
+
+\section{Introduction}
+This is the introduction section.
+
+\section{Methodology}
+This is the methodology section.
+
+\section{Results}
+This is the results section.
+
+\section{Conclusion}
+This is the conclusion section.
+
+\end{document}

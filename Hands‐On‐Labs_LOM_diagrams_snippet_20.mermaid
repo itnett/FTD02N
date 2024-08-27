@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant Markedsføringsteam
+    participant SosialMediaPlattform
+    participant AnalyseVerktøy
+
+    Markedsføringsteam->>SosialMediaPlattform: Planlegg kampanje
+    SosialMediaPlattform-->>Markedsføringsteam: Kampanje opprettet
+    Markedsføringsteam->>SosialMediaPlattform: Start kampanje
+    loop Overvåk kampanje
+        SosialMediaPlattform->>AnalyseVerktøy: Send kampanjedata
+        AnalyseVerktøy-->>Markedsføringsteam: Oppdater statistikk
+    end
+    Markedsføringsteam->>SosialMediaPlattform: Avslutt kampanje
+    SosialMediaPlattform-->>Markedsføringsteam: Kampanje avsluttet
+    Markedsføringsteam->>AnalyseVerktøy: Generer sluttrapport
+    AnalyseVerktøy-->>Markedsføringsteam: Sluttrapport

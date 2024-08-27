@@ -1,0 +1,13 @@
+### Eksponentialfunksjoner
+
+#### Forstå Eksponentialfunksjoner
+En eksponentialfunksjon er på formen:
+$$f(x) = a \cdot b^x$$
+hvor:
+- $\(a\)$ er startverdien (verdien når $\(x = 0\))$.
+- $\(b\)$ er vekstfaktoren (hvis $\(b > 1\)$, øker funksjonen; hvis $\(0 < b < 1\)$, avtar funksjonen).
+
+#### Eksempel
+Grafen til funksjonen $$\(f(x) = 2 \cdot 3^x\)$$.
+
+#### Visualisering - Graf av Eksponentialfunksjoner

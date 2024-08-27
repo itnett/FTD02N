@@ -1,0 +1,127 @@
+#### Hva man kan lære seg
+1. **Hashing med Python**: Lær hvordan man bruker Python til å generere og sammenligne hash-verdier ved hjelp av SHA256-algoritmen.
+2. **Filhåndtering i Python**: Forstå hvordan man leser og skriver filer i Python.
+3. **Git og GitHub**: Lær hvordan man bruker Git for versjonskontroll og hvordan man publiserer kode på GitHub.
+4. **Lisensiering av programvare**: Forstå viktigheten av å velge riktig lisens for et prosjekt og hvordan man dokumenterer valget.
+
+### Kilder på nettet for dypere forståelse
+- [Python Documentation - hashlib](https://docs.python.org/3/library/hashlib.html)
+- [Real Python - Working with Files in Python](https://realpython.com/working-with-files-in-python/)
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [Choose a License](https://choosealicense.com/)
+
+---
+
+### Repository: [tverrfaglig-prosjekt](https://github.com/kristersoberg/tverrfaglig-prosjekt)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder koden og dokumentasjonen for et tverrfaglig prosjekt.
+
+#### Hva man kan lære seg
+1. **Tverrfaglige ferdigheter**: Forstå hvordan man kombinerer kunnskap fra forskjellige fagområder i ett prosjekt.
+2. **Prosjektledelse**: Lær hvordan man organiserer og administrerer et prosjekt fra start til slutt.
+3. **Samarbeid og kommunikasjon**: Forstå viktigheten av samarbeid og effektiv kommunikasjon i tverrfaglige team.
+4. **Teknisk dokumentasjon**: Lær hvordan man dokumenterer prosjekter på en måte som er forståelig for alle interessenter.
+
+### Kilder på nettet for dypere forståelse
+- [Project Management Institute](https://www.pmi.org/)
+- [Atlassian - Project Management](https://www.atlassian.com/software/jira/guides/use-cases/project-management)
+- [Technical Writing Courses](https://developers.google.com/tech-writing)
+
+Disse repositoryene gir en omfattende innsikt i ulike aspekter av programmering, prosjektledelse og samarbeid. Ved å utforske disse prosjektene og bruke de nevnte kildene, kan man få en solid forståelse av moderne programmeringsteknikker, prosjektledelsesmetoder, og hvordan man effektivt samarbeider i tverrfaglige team.
+
+### Repository: [DecAPI](https://github.com/Decicus/DecAPI)
+
+#### Innhold i Repository
+- **.docker**: Inneholder Docker-relaterte filer.
+- **.dockerignore**: Fil som spesifiserer hvilke filer og mapper som skal ignoreres av Docker.
+- **.editorconfig**: Konfigurasjonsfil for editorinnstillinger.
+- **.env.example**: Eksempelfil for miljøvariabler.
+- **.gitattributes**: Fil som spesifiserer Git-attributter.
+- **.github**: Inneholder GitHub Actions arbeidsflyter.
+- **.gitignore**: Fil som spesifiserer hvilke filer og mapper som skal ignoreres av Git.
+- **Dockerfile**: Inneholder instruksjoner for å bygge en Docker-bilde.
+- **LICENSE**: Lisensfil for prosjektet.
+- **composer.json**: Definerer PHP-avhengigheter for prosjektet.
+- **composer.lock**: Låsefil for PHP-avhengigheter.
+- **gulpfile.js**: Konfigurasjonsfil for Gulp, en JavaScript-oppgavekjører.
+- **package.json**: Definerer JavaScript-avhengigheter for prosjektet.
+- **phpunit.xml**: Konfigurasjonsfil for PHPUnit, et enhetstestverktøy for PHP.
+- **server.php**: Hovedfil for å kjøre serveren.
+- Diverse mapper som `app`, `bootstrap`, `config`, `database`, `public`, `resources`, `routes`, `storage`, `tests` som inneholder kildekoden og konfigurasjonsfiler for prosjektet.
+
+#### README.md
+README.md gir en oversikt over prosjektet og instruksjoner for hvordan man setter opp og bruker det. Prosjektet DecAPI er en API-tjeneste som ble designet for å håndtere forespørsler til eksterne API-er, spesielt for Twitch-chatbots.
+
+#### Hva man kan lære seg
+1. **API-utvikling**: Forstå hvordan man utvikler og vedlikeholder en API-tjeneste.
+2. **PHP-utvikling**: Lær hvordan man bruker PHP til å bygge webapplikasjoner og API-tjenester.
+3. **Bruk av Laravel**: Forstå hvordan Laravel-rammeverket brukes til å strukturere og organisere et webprosjekt.
+4. **Docker**: Lær hvordan man bruker Docker for å containerisere applikasjoner, noe som gjør dem enkle å distribuere og skalere.
+5. **Enhetstesting med PHPUnit**: Forstå hvordan man skriver og kjører enhetstester i PHP for å sikre at koden fungerer som forventet.
+6. **Kontinuerlig integrasjon med GitHub Actions**: Lær hvordan man setter opp CI/CD-rørledninger for automatisk testing og distribusjon av koden.
+
+### Kilder på nettet for dypere forståelse
+- [Laravel Documentation](https://laravel.com/docs)
+- [PHP: The Right Way](https://phptherightway.com/)
+- [Docker Documentation](https://docs.docker.com/)
+- [PHPUnit Documentation](https://phpunit.de/documentation.html)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+
+---
+
+### Repository: [DecAPI-Docs](https://github.com/Decicus/DecAPI-Docs)
+
+#### Innhold i Repository
+- **index.html**: Hovedfilen for dokumentasjonsnettstedet.
+- **css**: Katalog som sannsynligvis inneholder stilfiler (CSS).
+- **js**: Katalog som sannsynligvis inneholder JavaScript-filer.
+- **assets**: Katalog som sannsynligvis inneholder bilder og andre statiske ressurser.
+
+#### Hva man kan lære seg
+1. **Dokumentasjonsoppsett**: Forstå hvordan man setter opp og vedlikeholder dokumentasjon for et API.
+2. **HTML og CSS**: Lær hvordan man strukturerer og stiler en dokumentasjonsside.
+3. **JavaScript**: Forstå hvordan man bruker JavaScript for å forbedre interaktiviteten på en dokumentasjonsside.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [API Documentation Best Practices](https://swagger.io/resources/articles/documenting-apis/)
+
+---
+
+### Repository: [DecAPI-Docs-V2](https://github.com/Decicus/DecAPI-Docs-V2)
+
+#### Innhold i Repository
+- **index.html**: Hovedfilen for den andre versjonen av dokumentasjonsnettstedet.
+- **css**: Katalog som sannsynligvis inneholder stilfiler (CSS).
+- **js**: Katalog som sannsynligvis inneholder JavaScript-filer.
+- **assets**: Katalog som sannsynligvis inneholder bilder og andre statiske ressurser.
+
+#### Hva man kan lære seg
+1. **Forbedret dokumentasjon**: Forstå hvordan man kan iterere og forbedre dokumentasjon basert på tilbakemeldinger og behov.
+2. **Responsivt design**: Lær hvordan man gjør dokumentasjonssider responsivt for ulike enheter.
+3. **Forbedret brukeropplevelse (UX)**: Forstå hvordan man forbedrer brukeropplevelsen gjennom bedre design og interaktivitet.
+
+### Kilder på nettet for dypere forståelse
+- [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive)
+- [User Experience Design](https://www.usability.gov/what-and-why/user-experience.html)
+- [MDN Web Docs - Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+
+Ved å utforske disse repositoryene og bruke de nevnte kildene, kan man få en grundig forståelse av moderne API-utvikling, dokumentasjonspraksis, og webdesignteknikker.
+
+### Repository: [HomeLoanCalculator](https://github.com/AnX1001/HomeLoanCalculator)
+
+#### Innhold i Repository
+- **.gitignore**: Fil som spesifiserer hvilke filer og mapper som skal ignoreres av Git.
+- **LICENSE**: Lisensfil for prosjektet.
+- **README.md**: Beskrivelse av prosjektet.
+- **package-lock.json**: Låsefil for npm-pakker.
+- **package.json**: Definerer prosjektets JavaScript-avhengigheter.
+- **public**: Katalog som sannsynligvis inneholder statiske ressurser som HTML og bilder.
+- **src**: Katalog som inneholder kildekoden for prosjektet.
+- **tsconfig.json**: TypeScript-konfigurasjonsfil.
+
+#### README.md
+README.md gir en oversikt over prosjektet og instruksjoner for hvordan man setter opp og kjører det. Prosjektet er en boliglånskalkulator bygget med Create React App.

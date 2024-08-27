@@ -1,0 +1,7 @@
+Omløpsmidler = 150000
+KortsiktigGjeld = 75000
+Likviditetsgrad1 = Omløpsmidler / KortsiktigGjeld
+Varelager = 30000
+Likviditetsgrad2 = (Omløpsmidler - Varelager) / KortsiktigGjeld
+Likviditetsgrad1
+Likviditetsgrad2

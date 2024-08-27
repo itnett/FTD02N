@@ -1,0 +1,9 @@
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{My Custom Header}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+This document has custom headers and footers.
+\end{document}

@@ -1,0 +1,1 @@
+python -c "import os, stat; os.chmod('pack-08be10109a296bd725ba4aaccddaa5ac7633f6b5.idx', stat.S_IWRITE); os.remove('pack-08be10109a296bd725ba4aaccddaa5ac7633f6b5.idx')"

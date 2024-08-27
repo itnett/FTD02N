@@ -1,0 +1,14 @@
+requirementDiagram
+    requirement budsjett_req {
+        id: 1
+        text: Budsjettet må være realistisk og basert på tidligere års data.
+        risk: medium
+        verifymethod: analysis
+    }
+
+    element budsjett_prosess {
+        type: dokument
+        docref: "https://www.eksempel.com/budsjettprosess"
+    }
+
+    budsjett_prosess - satisfies -> budsjett_req

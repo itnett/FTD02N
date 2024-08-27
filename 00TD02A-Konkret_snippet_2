@@ -1,0 +1,5 @@
+Største_tall = liste[0]
+For hver tall i listen:
+  Hvis tall > Største_tall:
+    Største_tall = tall
+Returner Største_tall

@@ -1,0 +1,14 @@
+erDiagram
+    INVESTERINGSANALYSE {
+        double initialKostnad
+        int forventetLevetid
+        double vedlikeholdskostnader
+        double forventedeInntekter
+    }
+    KOSTNADSSTYRING {
+        double produksjonskostnader
+        double salgsinntekter
+        string kostnadsreduksjonsomrader
+    }
+
+    INVESTERINGSANALYSE ||--o{ KOSTNADSSTYRING : påvirker // One INVESTERINGSANALYSE affects many KOSTNADSSTYRING

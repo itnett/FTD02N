@@ -1,0 +1,4 @@
+#... (previous code)
+
+build:
+   pull: true

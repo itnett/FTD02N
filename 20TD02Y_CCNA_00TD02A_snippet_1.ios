@@ -1,0 +1,6 @@
+algebra rules {
+    addition       ; // Legge sammen to tall
+    subtraction    ; // Trekke fra et tall fra et annet
+    multiplication ; // Multiplisere to tall
+    division       ; // Dele et tall på et annet
+}

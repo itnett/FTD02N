@@ -1,0 +1,10 @@
+- name: Phases and Phase Transitions
+  hosts: localhost
+  tasks:
+    - name: Identify phase
+      debug:
+        msg: "Phase: {{ substance | phase_at_temperature(temperature) }}"
+      
+    - name: Calculate phase transition energy
+      debug:
+        msg: "Transition Energy: {{ mass * heat_of_transition }}"

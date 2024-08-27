@@ -1,0 +1,21 @@
+---
+- name: Konfigurer RHEL-server
+  hosts: rhel_servers
+  become: yes
+
+  tasks:
+    - name: Installer Apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Start og aktiver Apache
+      systemd:
+        name: httpd
+        state: started
+        enabled: yes
+
+    - name: Kopier index.html
+      copy:
+        src: /path/to/index.html
+        dest: /var/www/html/index.html

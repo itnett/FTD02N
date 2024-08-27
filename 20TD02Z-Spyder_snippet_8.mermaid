@@ -1,0 +1,26 @@
+graph TD;
+    subgraph Kravspesifikasjon
+        A[create_requirement_specification]
+        B[save_specification_to_file]
+    end
+    subgraph Initiering
+        C[initiate_project]
+    end
+    subgraph Ressursstyring
+        D[add_resource]
+        E[add_task]
+    end
+    subgraph Planlegging
+        F[calculate_project_schedule]
+        G[generate_gantt_chart]
+    end
+    subgraph Risikostyring
+        H[assess_risk]
+    end
+    subgraph Dokumentasjon
+        I[generate_project_report]
+        J[save_report_to_file]
+    end
+    A --> B --> C --> D --> E --> F --> G
+    C --> H
+    F --> I --> J

@@ -1,0 +1,22 @@
+## Sammenleggbar Innhold
+
+<details>
+  <summary>Klikk for mer informasjon</summary>
+  Dette er mer detaljert informasjon om prosjektet.
+</details>
+
+## Emojis
+
+:tada: :sparkles:
+
+---
+
+Ved å bruke disse teknikkene kan du lage pene og forståelige algebra-guider med LaTeX på GitHub. For mer informasjon om algebra og LaTeX, se [Typora-dokumentasjonen for LaTeX](https://support.typora.io/Markdown-Reference/#math-block).
+
+---
+
+Klipp og lim denne koden inn i din GitHub Wiki-side, og det bør vises korrekt med både matematikkformler og diagrammer. Kontroller at du har aktivert LaTeX og Mermaid i innstillingene for Wiki hvis nødvendig.
+
+Jeg har sjekket siden din [00TD02A-Algebra v2](https://github.com/itnett/FTD02H-N/wiki/00TD02A-Algebra-v2), og her er noen endringer og tips for å få LaTeX-uttrykkene til å vises korrekt:
+
+1. **Sjekk LaTeX-støtte:** Sørg for at GitHub Wiki-siden støtter LaTeX for rendering av matematiske uttrykk. GitHub støtter ikke LaTeX natively, men ved hjelp av mathjax kan det fungere. Prøv å legge til følgende MathJax script i en HTML-blokk øverst på siden:

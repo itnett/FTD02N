@@ -1,0 +1,6 @@
+- name: Conservation of Energy
+  hosts: localhost
+  tasks:
+    - name: Apply conservation principle
+      debug:
+        msg: "Total energy is constant: E_initial = E_final"

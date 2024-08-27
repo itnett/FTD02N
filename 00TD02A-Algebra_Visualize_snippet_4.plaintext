@@ -1,0 +1,17 @@
+mindmap
+root((Algebra))
+  Løse Lineære Ligninger
+    Form: ax + b = 0
+    Løsning: Isoler x
+    Eksempel: x = -b/a
+  Løse Kvadratiske Ligninger
+    Form: ax^2 + bx + c = 0
+    Løsning: Kvadratisk Formel
+      Formel: x = (-b ± √(b^2 - 4ac)) / 2a
+    Eksempel: 3x^2 - 2x - 5 = 0
+      Løsning: x = (2 ± √(4 + 60)) / 6
+      Resultat: x = 5/3 eller x = -1
+  Algebraiske Uttrykk
+    Forenkle Uttrykk
+    Faktorisering
+    Utvidelse

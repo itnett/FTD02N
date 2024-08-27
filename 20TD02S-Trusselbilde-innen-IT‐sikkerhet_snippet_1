@@ -1,0 +1,10 @@
++---------------------------------+---------------------------+-------------------------------------+-----------------------------+
+| Verdifulle Ressurser            | Trusler                   | Sårbarheter                         | Mottiltak                   |
++---------------------------------+---------------------------+-------------------------------------+-----------------------------+
+| Kundedata                       | Innsidertrusler           | Utilstrekkelig tilgangskontroll     | Implementere RBAC           |
+|                                 | Eksterne hackere          | Svake passord                       | Bruk av MFA                 |
+|                                 |                           | Usikre APIer                        | API-sikkerhetssjekker       |
++---------------------------------+---------------------------+-------------------------------------+-----------------------------+
+| Immaterielle rettigheter        | Industri spionasje        | Ubeskyttet datalagring              | Kryptering av data          |
+|                                 |                           | Mangel på nettverkssegmentering     | Segmentering av nettverk    |
++---------------------------------+---------------------------+-------------------------------------+-----------------------------+

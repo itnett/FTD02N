@@ -1,0 +1,10 @@
+- name: Installer IIS
+      win_feature:
+        name: Web-Server
+        state: present
+
+    - name: Opprett et nettsted
+      win_iis_website:
+        name: MyWebsite
+        state: started
+        physical_path: C:\inetpub\wwwroot\MyWebsite

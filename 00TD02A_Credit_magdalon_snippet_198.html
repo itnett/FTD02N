@@ -1,0 +1,18 @@
+<table>
+    <thead>
+        <tr>
+            <th>Protokoll</th>
+            <th>Port</th>
+            <th>Handling</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for regel in brannmur_regler %}
+            <tr>
+                <td>{{ regel.protokoll }}</td>
+                <td>{{ regel.port }}</td>
+                <td>{{ regel.handling }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

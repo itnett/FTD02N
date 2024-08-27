@@ -1,0 +1,25 @@
+// Definer to primtall p og q
+p = 61
+q = 53
+
+// Beregn n og φ(n)
+n = p * q
+φ_n = (p - 1) * (q - 1)
+
+// Velg en eksponent e som er relativt prim til φ(n)
+e = 17
+
+// Beregn den private eksponenten d
+d = ModInverse(e, φ_n)
+
+// Definer en melding m (må være mindre enn n)
+m = 65
+
+// Krypter meldingen
+c = Mod(m^e, n)
+
+// Dekrypter meldingen
+m_decrypted = Mod(c^d, n)
+
+// Kontroller at m_decrypted er lik m
+m == m_decrypted

@@ -1,0 +1,25 @@
+- name: Install Zabbix Server and Agent
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - zabbix-server-mysql
+    - zabbix-frontend-php
+    - zabbix-agent
+
+- name: Configure Zabbix Server
+  copy:
+    src: /path/to/local/zabbix_server.conf
+    dest: /etc/zabbix/zabbix_server.conf
+
+- name: Start Zabbix Server
+  service:
+    name: zabbix-server
+    state: started
+    enabled: yes
+
+- name: Start Zabbix Agent
+  service:
+    name: zabbix-agent
+    state: started
+    enabled: yes

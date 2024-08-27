@@ -1,0 +1,21 @@
+\ProvidesClass{myclass}[2024/07/24 Custom LaTeX Class]
+\LoadClass{article}
+
+% Custom class options
+\newcommand{\setauthor}[1]{\renewcommand{\@author}{#1}}
+
+% Redefine maketitle
+\renewcommand{\maketitle}{
+  \begin{center}
+    {\huge \@title \par}
+    \vskip 1em
+    {\large \@author \par}
+    \vskip 1em
+    {\today \par}
+  \end{center}
+}
+
+% Custom commands
+\newcommand{\highlight}[1]{\textbf{\textcolor{blue}{#1}}}
+
+\endinput

@@ -1,0 +1,15 @@
+---
+- name: Konfigurer webserver
+  hosts: web_servers
+  become: yes
+  tasks:
+    - name: Installer Apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Start og aktiver Apache
+      systemd:
+        name: httpd
+        state: started
+        enabled: yes

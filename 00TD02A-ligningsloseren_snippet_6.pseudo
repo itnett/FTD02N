@@ -1,0 +1,13 @@
+funksjon main():
+    print "Løsning av differensiallikninger med SymPy"
+    
+    // SymPy løsninger
+    solve_first_order_ode_sympy()
+    solve_nonlinear_ode_sympy()
+    solve_second_order_ode_sympy()
+    solve_third_order_ode_sympy()
+    
+    print "Løsning av differensiallikninger med PINNs (DeepXDE)"
+    
+    // PINNs løsning
+    solve_ode_pinn()

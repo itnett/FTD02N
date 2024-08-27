@@ -1,0 +1,12 @@
++-------------------+   +--------------------+   +--------------------+
+|   Konfidensialitet|   |     Integritet     |   |   Tilgjengelighet  |
++-------------------+   +--------------------+   +--------------------+
+| - AES-256         |   | - SHA-256          |   | - Failover Systems |
+| - TLS 1.3         |   | - Digitale Signaturer | | - Load Balancers  |
+| - RBAC            |   | - Input Validering |   | - Backups          |
+| - MFA             |   | - PKI              |   | - IDPS             |
++-------------------+   +--------------------+   +--------------------+
+|  Beskyttelse mot  |   | Sikring mot        |   | Sikring av system- |
+|  uautorisert      |   | manipulering av    |   | tilgjengelighet og |
+|  tilgang          |   | data               |   | oppetid            |
++-------------------+   +--------------------+   +--------------------+

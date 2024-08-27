@@ -1,0 +1,108 @@
+#### Hva man kan lære seg
+1. **Webdesign**: Lær hvordan man designer og bygger en porteføljeside ved hjelp av HTML, CSS, og JavaScript.
+2. **Brukeropplevelse (UX)**: Forstå hvordan man skaper en brukervennlig og visuelt tiltalende nettside.
+3. **Responsivt design**: Lær hvordan man gjør nettsiden tilpasset ulike enheter og skjermstørrelser.
+4. **Git og GitHub**: Forstå hvordan man bruker Git og GitHub for versjonskontroll og distribusjon av prosjekter.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [W3Schools - Web Development Tutorials](https://www.w3schools.com/)
+
+---
+
+### Repository: [kunstplass](https://github.com/annamariabukalska/kunstplass)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder kode og ressurser for et kunstprosjekt.
+
+#### Hva man kan lære seg
+1. **Kreativ webutvikling**: Forstå hvordan man bruker webteknologier for å skape interaktive kunstprosjekter.
+2. **Bruk av multimedia**: Lær hvordan man integrerer bilder, video og lyd i nettsider.
+3. **JavaScript-animasjoner**: Lær hvordan man bruker JavaScript for å lage interaktive og dynamiske brukeropplevelser.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - Multimedia](https://developer.mozilla.org/en-US/docs/Web/Media)
+- [Three.js Documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+- [Creative Coding Resources](https://creative-coding.decontextualize.com/)
+
+---
+
+### Repository: [plantmeg](https://github.com/annamariabukalska/plantmeg)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder et prosjekt relatert til planteidentifikasjon eller -administrasjon.
+
+#### Hva man kan lære seg
+1. **Webapplikasjonsutvikling**: Forstå hvordan man bygger en webapplikasjon med frontend- og backend-komponenter.
+2. **Datahåndtering**: Lær hvordan man håndterer og presenterer data fra en database eller API.
+3. **Brukergrensesnitt**: Forstå hvordan man designer og implementerer et brukervennlig grensesnitt for en applikasjon.
+
+### Kilder på nettet for dypere forståelse
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [MDN Web Docs - Working with APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+
+---
+
+### Repository: [tema-8](https://github.com/annamariabukalska/tema-8)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til tema 8 i en kursserie.
+
+#### Hva man kan lære seg
+1. **Spesifikke kurskonsepter**: Forstå de spesifikke konseptene og ferdighetene som dekkes i tema 8.
+2. **Problemløsning**: Lær hvordan man løser konkrete oppgaver og problemer relatert til temaet.
+3. **Praktisk anvendelse**: Forstå hvordan man anvender teoretisk kunnskap i praktiske prosjekter.
+
+### Kilder på nettet for dypere forståelse
+- [Khan Academy - Computer Programming](https://www.khanacademy.org/computing/computer-programming)
+- [Coursera - Online Courses](https://www.coursera.org/)
+- [edX - Free Online Courses](https://www.edx.org/)
+
+---
+
+### Repository: [Multiplication](https://github.com/annamariabukalska/Multiplication)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder et prosjekt relatert til multiplikasjon, muligens et læringsverktøy eller et spill.
+
+#### Hva man kan lære seg
+1. **Interaktiv læring**: Forstå hvordan man bygger interaktive læringsverktøy eller spill.
+2. **Matematisk programmering**: Lær hvordan man implementerer matematiske konsepter i kode.
+3. **Brukerengasjement**: Forstå hvordan man skaper engasjerende brukeropplevelser gjennom interaktivitet.
+
+### Kilder på nettet for dypere forståelse
+- [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
+- [MDN Web Docs - Math in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- [Scratch - Creative Computing](https://scratch.mit.edu/)
+
+---
+
+### Repository: [polarisering](https://github.com/annamariabukalska/polarisering)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder et prosjekt relatert til polarisering, muligens et vitenskapelig eller sosialt emne.
+
+#### Hva man kan lære seg
+1. **Vitenskapelig programmering**: Forstå hvordan man bruker programmering for å utforske vitenskapelige konsepter.
+2. **Dataanalyse**: Lær hvordan man analyserer og visualiserer data for å trekke konklusjoner.
+3. **Tverrfaglig forskning**: Forstå hvordan man kombinerer ulike fagområder i ett prosjekt.
+
+### Kilder på nettet for dypere forståelse
+- [Khan Academy - Data Analysis](https://www.khanacademy.org/math/statistics-probability)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [R for Data Science](https://r4ds.had.co.nz/)
+
+Disse repositoryene gir en omfattende innsikt i ulike aspekter av webutvikling, interaktiv læring, dataanalyse og vitenskapelig forskning. Ved å utforske disse prosjektene og bruke de nevnte kildene, kan man få en solid forståelse av moderne webdesignteknikker, brukeropplevelse, interaktiv programmering, og dataanalyse.
+
+### Repository: [git-1](https://github.com/Inetklund0/git-1)
+
+#### Innhold i Repository
+- **.gitattributes**: Fil som spesifiserer Git-attributter.
+- **LICENSE**: Lisensfil for prosjektet.
+- **README.md**: Kort beskrivelse av prosjektet.
+
+#### README.md
+Innholdet i README.md-filen:

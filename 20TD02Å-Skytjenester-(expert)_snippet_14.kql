@@ -1,0 +1,3 @@
+AzureActivity
+     | where ActivityStatus == "Failed"
+     | summarize count() by bin(TimeGenerated, 1h)

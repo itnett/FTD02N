@@ -1,0 +1,11 @@
+C4Context
+    title Container Diagram
+
+    Boundary(B2, "Learning Platform") {
+        Container(webapp, "Web Application", "HTML/CSS/JS", "Hosts the interactive learning platform")
+        Container(database, "Database", "SQL/NoSQL", "Stores user data and content")
+        Container(codeGenerator, "Code Generator", "JavaScript", "Generates code for Trinket.io, GeoGebra, and Casio fx-991CW")
+        
+        webapp -> database : Reads/Writes Data
+        webapp -> codeGenerator : Generates Code
+    }

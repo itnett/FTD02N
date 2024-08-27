@@ -1,0 +1,11 @@
+Switch> enable
+Switch# configure terminal
+Switch(config)# interface GigabitEthernet0/1
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport port-security
+Switch(config-if)# switchport port-security maximum 2
+Switch(config-if)# switchport port-security violation restrict
+Switch(config-if)# switchport port-security mac-address sticky
+Switch(config-if)# exit
+Switch(config)# exit
+Switch# write memory

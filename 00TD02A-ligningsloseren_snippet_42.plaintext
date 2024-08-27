@@ -1,0 +1,6 @@
+Løsning av likningen 1.0x^2 + 0.0x + 3.0 = 0
+
+  Spesielt tilfelle: Førstegradsleddet b er null.
+  Likningen kan skrives som ax^2 + c = 0.
+  Vi flytter c til høyre side og får: ax^2 = -c.
+  Ingen reell løsning (vi kan ikke ta kvadratroten av et negativt tall).

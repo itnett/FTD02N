@@ -1,0 +1,11 @@
+@startuml
+skinparam class {
+  BackgroundColor Yellow
+  BorderColor Black
+  ArrowColor Red
+}
+class ExampleClass {
+  id
+  name
+}
+@enduml

@@ -1,0 +1,57 @@
+with open(wiki_filepath, 'w', encoding='utf-8') as f:
+                        f.write(updated_content)
+
+                    log(f"Processed {wiki_filepath} and moved code to {code_repo_dir}")
+    except Exception as e:
+        log_exception(e)
+        raise
+
+def update_changelog(code_repo_dir, log_message):
+    try:
+        changelog_path = os.path.join(code_repo_dir, "CHANGELOG.md")
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        log_entry = f"{timestamp} - {log_message}\n"
+
+        with open(changelog_path, 'a' if os.path.exists(changelog_path) else 'w', encoding='utf-8') as changelog_file:
+            if not os.path.exists(changelog_path):
+                changelog_file.write("# CHANGELOG\n\n")
+            changelog_file.write(log_entry)
+
+        log(f"Updated CHANGELOG.md with: {log_message}")
+    except Exception as e:
+        log_exception(e)
+        raise
+
+def init_commit_code_repo(code_repo_dir, commit_message):
+    try:
+        if not os.path.exists(os.path.join(code_repo_dir, ".git")):
+            run_git_command(["git", "init"], cwd=code_repo_dir)
+            log("Initialized a new git repo.")
+        else:
+            log("Git repo already initialized.")
+
+        run_git_command(["git", "add", "."], cwd=code_repo_dir)
+        run_git_command(["git", "commit", "-m", commit_message], cwd=code_repo_dir)
+        log(f"Committed changes with message: {commit_message}")
+    except Exception as e:
+        log_exception(e)
+        raise
+
+def main():
+    try:
+        config = load_input_config("input.yml")
+        wiki_repo_url = config['wiki_repo_url']
+        dump_directory = config['dump_directory']
+        code_repo_url = config['code_repo_url']
+        code_repo_directory = config['code_repo_directory']
+
+        clone_wiki_repo(wiki_repo_url, dump_directory)
+        process_wiki_files(dump_directory, code_repo_url, code_repo_directory)
+        update_changelog(code_repo_directory, "Moved code from Wiki to code repository.")
+        init_commit_code_repo(code_repo_directory, "Initial commit: Imported code from Wiki.")
+    except Exception as e:
+        log_exception(e)
+        raise
+
+if __name__ == "__main__":
+    main()

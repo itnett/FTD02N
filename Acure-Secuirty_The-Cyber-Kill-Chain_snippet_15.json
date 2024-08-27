@@ -1,0 +1,106 @@
+{
+  "properties": {
+    "blueprintName": "CyberKillChainSecurityBlueprint",
+    "description": "Blueprint for securing Azure services against the Cyber Kill Chain.",
+    "targetScope": "subscription",
+    "parameters": {},
+    "resourceGroups": {
+      "rg-security": {
+        "description": "Resource group for security resources",
+        "location": "eastus"
+      }
+    },
+    "policies": [
+      {
+        "name": "Deploy-SecurityCenter",
+        "properties": {
+          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6a0e173e-cfda-4d7e-9d25-05297c431407",
+          "parameters": {}
+        }
+      },
+      {
+        "name": "Deploy-ATP",
+        "properties": {
+          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2cd9e1e5-7787-4e96-abc7-f853b5d73a5c",
+          "parameters": {}
+        }
+      },
+      {
+        "name": "Deploy-DefenderForO365",
+        "properties": {
+          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9c8a3bf6-e749-4f7c-9533-1e5b7b007dd5",
+          "parameters": {}
+        }
+      },
+      {
+        "name": "Deploy-UpdateManagement",
+        "properties": {
+          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/51e24237-4c27-4a53-826b-1b5d531726d4",
+          "parameters": {}
+        }
+      },
+      {
+        "name": "Deploy-NetworkWatcher",
+        "properties": {
+          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/77ac1eb7-341f-4db6-b877-b32e7b44304b",
+          "parameters": {}
+        }
+      },
+      {
+        "name": "Deploy-AzureFirewall",
+        "properties": {
+          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/af3400cf-8488-4c7e-94e2-1155027e55c6",
+          "parameters": {}
+        }
+      }
+    ],
+    "roleAssignments": [
+      {
+        "principalIds": [],
+        "roleDefinitionId": "/providers/Microsoft.Authorization/roleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+        "principalType": "User"
+      }
+    ],
+    "artifacts": [
+      {
+        "type": "Azure Resource Manager template",
+        "name": "Deploy-Sentinel",
+        "properties": {
+          "template": {
+            "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+            "contentVersion": "1.0.0.0",
+            "resources": [
+              {
+                "type": "Microsoft.OperationalInsights/workspaces",
+                "apiVersion": "2019-09-01",
+                "name": "[parameters('workspaceName')]",
+                "location": "[resourceGroup().location]",
+                "properties": {
+                  "sku": {
+                    "name": "PerGB2018"
+                  }
+                }
+              },
+              {
+                "type": "Microsoft.SecurityInsights/alertRules",
+                "apiVersion": "2020-01-01-preview",
+                "name": "[concat(parameters('workspaceName'), '/DataExfiltrationAlert')]",
+                "properties": {
+                  "enabled": true,
+                  "query": "AzureDiagnostics | where ResourceType == 'STORAGEACCOUNTS' and OperationNameValue == 'GetBlob' | summarize Count = count() by Resource, CallerIpAddress, _ResourceId",
+                  "queryFrequency": "PT5M",
+                  "queryPeriod": "PT5M",
+                  "severity": "High",
+                  "triggerOperator": "GreaterThan",
+                  "triggerThreshold": 0,
+                  "displayName": "Potential Data Exfiltration",
+                  "description": "Detects potential data exfiltration activities."
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

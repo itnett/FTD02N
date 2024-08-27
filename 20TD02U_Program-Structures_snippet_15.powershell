@@ -1,0 +1,5 @@
+if ($age -ge 18) {
+    Write-Output "You are an adult."
+} else {
+    Write-Output "You are a minor."
+}

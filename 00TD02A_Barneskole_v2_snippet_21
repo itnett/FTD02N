@@ -1,0 +1,3 @@
+a² = b² + c² - 2bc * cos A
+b² = a² + c² - 2ac * cos B
+c² = a² + b² - 2ab * cos C

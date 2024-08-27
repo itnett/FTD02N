@@ -1,0 +1,11 @@
+**GeoGebra Instructions:**
+1. Open GeoGebra.
+2. Use the Function tool to plot `f(x) = sin(x)`.
+3. Customize the graph using the styling options available.
+
+### Python del 21: if-setningen
+
+**Explanation:**
+The if statement is used to execute code based on conditions.
+
+**Python Example:**

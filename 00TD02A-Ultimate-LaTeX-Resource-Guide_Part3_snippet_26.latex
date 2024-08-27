@@ -1,0 +1,6 @@
+\documentclass{article}
+\usepackage{mypackage}
+
+\begin{document}
+This is a document using \bluebold{custom commands} from the package.
+\end{document}

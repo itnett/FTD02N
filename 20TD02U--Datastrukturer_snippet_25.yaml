@@ -1,0 +1,29 @@
+---
+- name: Install Java
+  apt:
+    name: "openjdk-{{ java_version }}-jdk"
+    state: present
+
+- name: Verify Java installation
+  command: java -version
+  register: java_version_result
+  ignore_errors: yes
+
+- name: Set Java home
+  shell: echo "JAVA_HOME=/usr/lib/jvm/java-{{ java_version }}-openjdk-amd64" >> /etc/environment
+  when: java_version_result.rc == 0
+  notify:
+    - Restart Java-dependent services
+
+- name: Deploy Java application
+  copy:
+    src: "{{ app_src }}"
+    dest: "/opt/{{ app_name }}"
+    owner: ansible_user
+    group: ansible_user
+    mode: '0755'
+
+- name: Compile Java application
+  command: javac Main.java
+  args:
+    chdir: "/opt/{{ app_name }}"

@@ -1,0 +1,8 @@
+flowchart TD
+    Start --> Input_Ligninger
+    Input_Ligninger --> Check_Linearity
+    Check_Linearity -->|Linear| Solve_and_Plot_Linear
+    Check_Linearity -->|Non-Linear| Solve_and_Plot_Nonlinear
+    Solve_and_Plot_Linear --> Plot
+    Solve_and_Plot_Nonlinear --> Plot
+    Plot --> End

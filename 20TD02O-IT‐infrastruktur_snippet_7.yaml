@@ -1,0 +1,8 @@
+- name: Installer Apache
+    hosts: webservers
+    become: yes
+    tasks:
+      - name: Installer Apache
+        apt:
+          name: apache2
+          state: present

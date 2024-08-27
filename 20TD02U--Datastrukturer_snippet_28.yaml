@@ -1,0 +1,6 @@
+---
+- name: Setup Data Structures Application
+  hosts: servers
+  roles:
+    - common
+    - java

@@ -1,0 +1,8 @@
+@startuml
+state CompositeState {
+  [*] --> SubState1
+  SubState1 --> SubState2 : transition
+  SubState2 --> [*]
+}
+[*] --> CompositeState
+@enduml

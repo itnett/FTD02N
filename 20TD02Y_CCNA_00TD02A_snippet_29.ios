@@ -1,0 +1,4 @@
+statistics probability {
+    calculate_probability       ; // Beregne sannsynlighet
+    apply_statistical_methods   ; // Anvende statistiske metoder
+}

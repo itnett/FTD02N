@@ -1,0 +1,15 @@
+gitGraph
+    commit id: "init" tag: "start" type: HIGHLIGHT // Initial commit with a highlight
+    branch kampanjeOppretting // Create a new branch for 'kampanjeOppretting'
+    commit id: "oppretting" tag: "kampanjeStart" type: NORMAL // Commit on 'kampanjeOppretting'
+    checkout main // Switch back to the main branch
+    merge kampanjeOppretting id: "kampanjeSammen" tag: "kampanjeOpprettet" type: NORMAL // Merge 'kampanjeOppretting' into main
+    branch kampanjeOvervåking // Create a new branch for 'kampanjeOvervåking'
+    commit id: "overvåking1" type: NORMAL // First commit on 'kampanjeOvervåking'
+    commit id: "overvåking2" type: NORMAL // Second commit on 'kampanjeOvervåking'
+    checkout main // Switch back to the main branch
+    merge kampanjeOvervåking id: "overvåkingSammen" type: NORMAL // Merge 'kampanjeOvervåking' into main
+    branch kampanjeEvaluering // Create a new branch for 'kampanjeEvaluering'
+    commit id: "evaluering" tag: "kampanjeSlutt" type: NORMAL // Commit on 'kampanjeEvaluering'
+    checkout main // Switch back to the main branch
+    merge kampanjeEvaluering id: "evalueringSammen" type: NORMAL // Merge 'kampanjeEvaluering' into main

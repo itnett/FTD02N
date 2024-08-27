@@ -1,0 +1,3 @@
+BudgetRevenue = 100000
+  BudgetExpenses = 80000
+  NetIncome = BudgetRevenue - BudgetExpenses

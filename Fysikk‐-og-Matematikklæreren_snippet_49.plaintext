@@ -1,0 +1,108 @@
++------------------------------+
+|          LærerApp            |
++------------------------------+
+| - meny                       |
+| - innhold                    |
++------------------------------+
+| + byggHovedmeny()            |
+| + byggMatematikkMeny()       |
+| + byggFysikkMeny()           |
+| + byggStudieretningMeny()    |
++------------------------------+
+                |
+                |
+                v
++------------------------------+
+|         AlgebraModul         |
++------------------------------+
+| + algebra_meny()             |
+| + regneregler()              |
+| + regnUtRegneregler()        |
+| + brok_og_prosentregning()   |
+| + addere_broker()            |
+| + regnUtBrokAddisjon()       |
+| + potenser()                 |
+| + tall_pa_standardform()     |
+| + sammentrekning_og_faktorisering() |
+| + los_forstegradslikning()   |
+| + los_andregradslikning()    |
+| + los_likningssett()         |
+| + tilpasse_og_omforme_formler() |
++------------------------------+
+                |
+                |
+                v
++------------------------------+
+|  TrigonometriGeometriModul   |
++------------------------------+
+| + trigonometri_og_geometri() |
+| + beregn_areal()             |
+| + regnUtAreal()              |
+| + beregn_omkrets()           |
+| + regnUtOmkrets()            |
+| + beregn_volum()             |
+| + regnUtVolum()              |
+| + beregn_overflate()         |
+| + regnUtOverflate()          |
+| + pythagoras()               |
+| + regnUtPythagoras()         |
+| + trigonometri()             |
+| + regnUtTrigonometri()       |
+| + vektorer()                 |
+| + regnUtVektorer()           |
++------------------------------+
+                |
+                |
+                v
++------------------------------+
+|       FunksjonerModul        |
++------------------------------+
+| + funksjoner()               |
+| + retteLinjer()              |
+| + regnUtRettLinje()          |
+| + polynomfunksjoner()        |
+| + tegnPolynomGraf()          |
+| + eksponentialfunksjoner()   |
+| + regnUtEksponentialfunksjoner() |
+| + derivasjonAvPolynomfunksjoner() |
+| + regnUtDerivasjon()         |
+| + regresjon()                |
+| + regnUtRegresjon()          |
++------------------------------+
+                |
+                |
+                v
++------------------------------+
+|        FysikkModul           |
++------------------------------+
+| + fysikk_meny()              |
+| + innledendeFysikk()         |
+| + kraftOgRettlinjetBevegelse() |
+| + energiOgArbeid()           |
+| + termodynamikk()            |
++------------------------------+
+                |
+                |
+                v
++------------------------------+
+|  StudieretningModul          |
++------------------------------+
+| + studieretning_meny()       |
+| + briggskeLogaritmer()       |
+| + regnUtBriggskLogaritme()   |
+| + kombinatorikk()            |
+| + regnUtKombinatorikk()      |
+| + sannsynlighetOgStatistikk() |
+| + beregnSannsynlighet()      |
+| + regnUtSannsynlighet()      |
+| + beregnGjennomsnitt()       |
+| + regnUtGjennomsnitt()       |
+| + beregnVarians()            |
+| + regnUtVarians()            |
+| + faserOgFaseoverganger()    |
+| + varmeOgIndreEnergi()       |
+| + termofysikkensAndreLov()   |
+| + varmekapasitetOgKalorimetri() |
+| + tallsystemer()             |
+| + algoritmiskTenking()       |
++------------------------------+

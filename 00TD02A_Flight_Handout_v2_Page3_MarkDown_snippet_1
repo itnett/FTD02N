@@ -1,0 +1,11 @@
+Algorithm: Find Maximum
+Input: A list of numbers
+Output: The maximum number in the list
+
+1. Start
+2. Set max to the first number in the list
+3. For each number in the list
+    a. If the number is greater than max
+        i. Set max to the number
+4. End
+5. Return max

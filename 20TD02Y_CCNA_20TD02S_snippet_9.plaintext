@@ -1,0 +1,4 @@
+graph TD;
+    A[PC1] -->|GigabitEthernet 0/1| B[Catalyst 2960G];
+    B -->|VLAN 10| C[Unifi 8-porters PoE Switch];
+    D[PC2] -->|Port 1| C;

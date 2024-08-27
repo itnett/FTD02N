@@ -1,0 +1,10 @@
+- name: Algorithmic Thinking
+  hosts: localhost
+  tasks:
+    - name: Apply boolean algebra
+      debug:
+        msg: "Boolean Algebra Result: {{ expression | evaluate_boolean }}"
+      
+    - name: Program simple algorithms
+      debug:
+        msg: "Algorithm Output: {{ algorithm | execute }}"

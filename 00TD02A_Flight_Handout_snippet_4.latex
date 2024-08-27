@@ -1,0 +1,39 @@
+\section{Sammentrekning og Faktorisering}
+\subsection{Sammentrekning}
+Eksempler:
+\begin{align*}
+&3x + 4x = 7x \\
+&2a - 5a = -3a
+\end{align*}
+Øvingsoppgaver:
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+Oppgave & Løsning & Svar \\
+\hline
+5y + 2y & & \\
+\hline
+3a - a & & \\
+\hline
+4b + 6b - 2b & & \\
+\hline
+\end{tabularx}
+
+\subsection{Faktorisering}
+Eksempler:
+\begin{align*}
+&x^2 - 9 = (x + 3)(x - 3) \\
+&a^2 + 2ab + b^2 = (a + b)^2
+\end{align*}
+Øvingsoppgaver:
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+Oppgave & Løsning & Svar \\
+\hline
+x^2 - 16 & & \\
+\hline
+a^2 - 4ab + 4b^2 & & \\
+\hline
+x^2 + 6x + 9 & & \\
+\hline
+\end{tabularx}
+\newpage

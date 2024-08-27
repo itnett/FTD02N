@@ -1,0 +1,20 @@
+input {
+     file {
+       path => "/var/log/myapp.log"
+       start_position => "beginning"
+     }
+   }
+
+   filter {
+     grok {
+       match => { "message" => "%{COMMONAPACHELOG}" }
+     }
+   }
+
+   output {
+     elasticsearch {
+       hosts => ["localhost:9200"]
+       index => "myapp-logs"
+     }
+     stdout { codec => rubydebug }
+   }

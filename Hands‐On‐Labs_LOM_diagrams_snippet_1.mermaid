@@ -1,0 +1,21 @@
+classDiagram
+    class Budget {
+        +double totalAmount
+        +double allocatedAmount
+        +allocate(amount)
+        +deallocate(amount)
+    }
+
+    class Expense {
+        +double amount
+        +String description
+        +addExpense()
+        +removeExpense()
+    }
+
+    class Revenue {
+        +double amount
+        +String source
+        +addRevenue()
+        +removeRevenue()
+    }

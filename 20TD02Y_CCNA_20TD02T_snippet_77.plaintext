@@ -1,0 +1,3 @@
+graph TD;
+    A[Visualization Server] -->|GigabitEthernet 0/1| B[Catalyst 2960G];
+    B -->|VLAN 50| C[Nettverk];

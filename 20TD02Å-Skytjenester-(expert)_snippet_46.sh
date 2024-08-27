@@ -1,0 +1,1 @@
+az boards work-item update --id <work-item-id> --fields "System.State=Closed"

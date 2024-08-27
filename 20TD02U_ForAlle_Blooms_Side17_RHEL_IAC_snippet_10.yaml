@@ -1,0 +1,14 @@
+---
+- hosts: rhel_servers
+  become: yes
+  tasks:
+    - name: Konfigurer Rsyslog for ekstern logging
+      lineinfile:
+        path: /etc/rsyslog.conf
+        state: present
+        line: "*.* @@logserver.example.com:514"
+    - name: Start og aktiver Rsyslog
+      systemd:
+        name: rsyslog
+        state: started
+        enabled: yes

@@ -1,0 +1,3 @@
+{% for oppføring in loggoppføringer if oppføring.nivå == "FEIL" %}
+    <p>{{ oppføring.tidspunkt }} - {{ oppføring.melding }}</p>
+{% endfor %}

@@ -1,0 +1,212 @@
+#### Hva man kan lære seg
+1. **Grunnleggende Git-bruk**: Forstå hvordan man oppretter og administrerer et Git-repository.
+2. **Versjonskontroll**: Lær hvordan man bruker Git til å holde styr på endringer i koden over tid.
+3. **Introduksjon til GitHub**: Forstå hvordan man bruker GitHub til å samarbeide og dele kode.
+
+### Kilder på nettet for dypere forståelse
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [GitHub Guides](https://guides.github.com/)
+- [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+
+---
+
+### Repository: [skjemaer](https://github.com/krli008/skjemaer)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder koden og ressursene for et prosjekt relatert til skjemaer.
+
+#### Hva man kan lære seg
+1. **HTML-skjemaer**: Forstå hvordan man oppretter og bruker HTML-skjemaer for å samle inn data fra brukere.
+2. **Validering av skjemaer**: Lær hvordan man validerer data i skjemaer både på klientsiden (med JavaScript) og på serversiden.
+3. **Brukeropplevelse (UX) med skjemaer**: Forstå hvordan man designer skjemaer som er brukervennlige og intuitive.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - HTML Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [W3Schools - HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp)
+- [JavaScript Form Validation](https://www.the-art-of-web.com/javascript/validate/)
+
+---
+
+### Repository: [tema-1](https://github.com/krli008/tema-1)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til tema 1 i en kursserie.
+
+#### Hva man kan lære seg
+1. **Grunnleggende webutvikling**: Forstå grunnleggende konsepter i HTML, CSS, og JavaScript.
+2. **Introduksjon til programmering**: Lær grunnleggende programmeringsprinsipper og -teknikker ved hjelp av JavaScript.
+3. **Koding og debugging**: Forstå hvordan man skriver, tester, og feilsøker kode i et webprosjekt.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - Getting started with the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+- [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+
+---
+
+### Repository: [frontend-tema2-dag1](https://github.com/krli008/frontend-tema2-dag1)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til dag 1 av tema 2 i en kursserie om frontend-utvikling.
+
+#### Hva man kan lære seg
+1. **Videregående HTML og CSS**: Forstå mer avanserte konsepter i HTML og CSS, inkludert responsive design og CSS grid/flexbox.
+2. **JavaScript-grunnleggende**: Lær hvordan man bruker JavaScript for å gjøre nettsider interaktive.
+3. **Frontend-rammeverk**: Få en introduksjon til populære frontend-rammeverk som React, Vue eller Angular.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS-Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS-Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+
+---
+
+### Repository: [krli008-frontend-tema2-dag2](https://github.com/krli008/krli008-frontend-tema2-dag2)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til dag 2 av tema 2 i en kursserie om frontend-utvikling.
+
+#### Hva man kan lære seg
+1. **Videregående JavaScript**: Forstå mer avanserte JavaScript-konsepter som asynkron programmering, løfter (promises), og moduler.
+2. **Frontend-utvikling**: Lær hvordan man bygger mer komplekse og interaktive brukergrensesnitt med JavaScript og eventuelt et frontend-rammeverk.
+3. **Prosjektorganisering**: Forstå hvordan man organiserer og strukturerer et større webprosjekt.
+
+### Kilder på nettet for dypere forståelse
+- [JavaScript.info](https://javascript.info/)
+- [MDN Web Docs - Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Vue.js Documentation](https://vuejs.org/v2/guide/)
+
+---
+
+### Repository: [Tema-2-felles-oppgave](https://github.com/krli008/Tema-2-felles-oppgave)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder koden og ressursene for en felles oppgave relatert til tema 2 i en kursserie om frontend-utvikling.
+
+#### Hva man kan lære seg
+1. **Samarbeid i webutvikling**: Forstå hvordan man samarbeider om et prosjekt ved hjelp av verktøy som Git og GitHub.
+2. **Frontend-utvikling**: Lær hvordan man bygger komplekse brukergrensesnitt og applikasjoner med HTML, CSS, og JavaScript.
+3. **Prosjektledelse**: Forstå hvordan man planlegger, organiserer og gjennomfører et webutviklingsprosjekt som et team.
+
+### Kilder på nettet for dypere forståelse
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [GitHub Guides](https://guides.github.com/)
+- [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+Ved å utforske disse repositoryene og bruke de nevnte kildene, kan man få en omfattende forståelse av ulike aspekter av webutvikling, fra grunnleggende HTML og CSS til avansert JavaScript og bruk av frontend-rammeverk. Man lærer også viktige prinsipper for samarbeid og prosjektledelse i programvareutvikling.
+
+https://github.com/KjetilIN
+
+
+Let's dive deeper into the repositories listed:
+
+### 1. [Renewable-Energy-REST-API](https://github.com/KjetilIN/Renewable-Energy-REST-API)
+**Overview:**
+This repository is designed to provide a RESTful API for renewable energy data. The API allows users to query information about various renewable energy sources, their statistics, and usage.
+
+**Key Learning Points:**
+- **RESTful API Design:** Understanding how to design and implement a RESTful API.
+- **Data Handling:** Managing and querying renewable energy data.
+- **API Endpoints:** Setting up different endpoints for various data retrieval purposes.
+
+**Online Resources:**
+- [RESTful Web Services](https://www.tutorialspoint.com/restful/index.htm) - Tutorialspoint
+- [What is a REST API?](https://restfulapi.net/) - restfulapi.net
+
+### 2. [WarGames](https://github.com/KjetilIN/WarGames)
+**Overview:**
+This repository contains a project named "WarGames" which likely simulates or models aspects of warfare, strategy, or conflict scenarios. The exact details couldn't be fetched.
+
+**Key Learning Points:**
+- **Simulation and Modeling:** Techniques for creating simulations.
+- **Game Development:** Understanding the basics of game logic and design.
+
+**Online Resources:**
+- [Game Development Fundamentals](https://www.coursera.org/learn/game-development) - Coursera
+- [Introduction to Simulation](https://www.anylogic.com/resources/articles/an-introduction-to-simulation/) - AnyLogic
+
+### 3. [rs-search-engine](https://github.com/KjetilIN/rs-search-engine)
+**Overview:**
+This project is a custom search engine built with Rust. It processes HTML files, tokenizes the content, and calculates TF-IDF scores to determine the relevance of documents based on search terms.
+
+**Key Learning Points:**
+- **Rust Programming:** Learning Rust for building efficient and safe systems.
+- **Search Engine Fundamentals:** Understanding the basics of search engines, including indexing and ranking.
+- **TF-IDF:** Learning about Term Frequency-Inverse Document Frequency and its application in information retrieval.
+
+**Online Resources:**
+- [Rust Programming Language](https://www.rust-lang.org/learn) - Rust Official Site
+- [How Search Engines Work](https://www.howstuffworks.com/internet/basics/search-engine.htm) - HowStuffWorks
+- [TF-IDF and Its Applications](https://www.geeksforgeeks.org/tf-idf-model-in-information-retrieval/) - GeeksforGeeks
+
+### 4. [OpenCV_Server](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server)
+**Overview:**
+This repository is for a server application using OpenCV, an open-source computer vision library. It is likely designed for processing images or video feeds and performing various computer vision tasks.
+
+**Key Learning Points:**
+- **Computer Vision:** Understanding the principles and applications of computer vision.
+- **OpenCV:** Learning how to use the OpenCV library for image and video processing.
+- **Server-Client Architecture:** Implementing a server that handles computer vision tasks.
+
+**Online Resources:**
+- [OpenCV Documentation](https://docs.opencv.org/master/) - OpenCV.org
+- [Introduction to Computer Vision](https://www.coursera.org/learn/computer-vision-basics) - Coursera
+
+### 5. [startgjovik_website](https://github.com/IT-Start-Gjovik/startgjovik_website)
+**Overview:**
+This repository contains the source code for a website project. It likely includes various frontend and backend components, possibly for a community or educational initiative.
+
+**Key Learning Points:**
+- **Web Development:** Building and maintaining websites.
+- **Frontend Technologies:** Learning HTML, CSS, and JavaScript.
+- **Backend Integration:** Understanding how to connect frontend with backend services.
+
+**Online Resources:**
+- [Mozilla Web Development](https://developer.mozilla.org/en-US/docs/Learn) - MDN Web Docs
+- [Full-Stack Web Development](https://www.freecodecamp.org/learn) - freeCodeCamp
+
+These repositories collectively offer a diverse set of learning opportunities, from RESTful API design and game development to search engine implementation, computer vision, and web development. Exploring these repositories will provide practical experience and enhance understanding of these topics.
+
+### Repository: [Project-in-Object-Oriented-Programming](https://github.com/Celebrian/Project-in-Object-Oriented-Programming)
+
+#### Innhold i Repository
+- **DELTAGERE.DTA**: Datafil som sannsynligvis inneholder informasjon om deltagere.
+- **GRENER.DTA**: Datafil som sannsynligvis inneholder informasjon om grener eller kategorier.
+- **ListTool2B.cpp**: Implementasjonsfil for listeverktøy.
+- **ListTool2B.h**: Header-fil for listeverktøy.
+- **MEDALJER.DTA**: Datafil som sannsynligvis inneholder informasjon om medaljer.
+- **NASJONER.DTA**: Datafil som sannsynligvis inneholder informasjon om nasjoner.
+- **POENG.DTA**: Datafil som sannsynligvis inneholder informasjon om poeng.
+- **README.md**: Beskrivelse av prosjektet.
+- **const.h**: Header-fil som sannsynligvis inneholder konstante definisjoner.
+- **deltager.cpp**: Implementasjonsfil for deltager-klassen.
+- **deltager.h**: Header-fil for deltager-klassen.
+- **deltagere.cpp**: Implementasjonsfil for deltagere-klassen.
+- **deltagere.h**: Header-fil for deltagere-klassen.
+- **enum.h**: Header-fil som sannsynligvis inneholder enums brukt i prosjektet.
+- **funksjoner.cpp**: Implementasjonsfil for funksjoner.
+- **funksjoner.h**: Header-fil for funksjoner.
+- **gren.cpp**: Implementasjonsfil for gren-klassen.
+- **gren.h**: Header-fil for gren-klassen.
+- **grener.cpp**: Implementasjonsfil for grener-klassen.
+- **grener.h**: Header-fil for grener-klassen.
+- **main.cpp**: Hovedprogrammet som sannsynligvis starter applikasjonen.
+- **medaljer.cpp**: Implementasjonsfil for medaljer-klassen.
+- **medaljer.h**: Header-fil for medaljer-klassen.
+- **nasjon.cpp**: Implementasjonsfil for nasjon-klassen.
+- **nasjon.h**: Header-fil for nasjon-klassen.
+- **nasjoner.cpp**: Implementasjonsfil for nasjoner-klassen.
+- **nasjoner.h**: Header-fil for nasjoner-klassen.
+- **ovelse.cpp**: Implementasjonsfil for øvelse-klassen.
+- **ovelse.h**: Header-fil for øvelse-klassen.
+- **poeng.cpp**: Implementasjonsfil for poeng-klassen.
+- **poeng.h**: Header-fil for poeng-klassen.
+- **statestikk.cpp**: Implementasjonsfil for statistikk.
+- **statestikk.h**: Header-fil for statistikk.
+
+#### README.md
+Innholdet i README.md-filen, oversatt til klartekst:

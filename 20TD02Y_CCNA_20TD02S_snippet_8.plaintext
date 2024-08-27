@@ -1,0 +1,6 @@
+graph TD;
+    A[VM1] -->|GigabitEthernet 1/0/1| B[Catalyst 3750G];
+    B -->|VLAN 10| C[VM2];
+    B -->|V
+
+LAN 20| D[VM3];

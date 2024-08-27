@@ -1,0 +1,6 @@
+BudgetRevenue = 200000000
+VariableCosts = 0.6 * BudgetRevenue
+FixedCosts = 50000000
+NetIncome = BudgetRevenue - VariableCosts - FixedCosts
+
+NetIncome

@@ -1,0 +1,99 @@
+#### Hva man kan lære seg
+1. **Grunnleggende Git-bruk**: Forstå hvordan man oppretter og administrerer et Git-repository.
+2. **Versjonskontroll**: Lær hvordan man bruker Git til å holde styr på endringer i koden over tid.
+3. **Lisensiering**: Forstå viktigheten av lisensiering i programvareprosjekter.
+
+### Kilder på nettet for dypere forståelse
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [GitHub Guides](https://guides.github.com/)
+- [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+
+---
+
+### Repository: [justify-content](https://github.com/Inetklund0/justify-content)
+
+#### Innhold i Repository
+- Diverse filer som sannsynligvis inneholder eksempler på bruk av `justify-content` i CSS.
+
+#### Hva man kan lære seg
+1. **CSS Flexbox**: Forstå hvordan man bruker Flexbox-layout i CSS for å justere og fordele plass mellom elementer.
+2. **Justify-content**: Lær hvordan man bruker `justify-content`-egenskapen til å justere hvordan innhold plasseres langs hovedaksen i en flex-container.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+- [CSS-Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [W3Schools - CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+
+---
+
+### Repository: [css-animated](https://github.com/Inetklund0/css-animated)
+
+#### Innhold i Repository
+- Diverse filer som sannsynligvis inneholder eksempler på CSS-animasjoner.
+
+#### Hva man kan lære seg
+1. **CSS Animasjoner**: Forstå hvordan man lager animasjoner ved hjelp av CSS.
+2. **Keyframes**: Lær hvordan man bruker `@keyframes`-regler for å definere animasjonssekvenser.
+3. **Transisjoner og transformasjoner**: Forstå hvordan man bruker CSS-transisjoner og transformasjoner for å skape glidende overganger og endringer i elementers tilstand.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [CSS-Tricks - A Complete Guide to CSS Animations](https://css-tricks.com/almanac/properties/a/animation/)
+- [W3Schools - CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
+
+---
+
+### Repository: [Temaoppgave4](https://github.com/Inetklund0/Temaoppgave4)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til tema 4 i en kursserie.
+
+#### Hva man kan lære seg
+1. **Spesifikke kurskonsepter**: Forstå de spesifikke konseptene og ferdighetene som dekkes i tema 4.
+2. **Problemløsning**: Lær hvordan man løser konkrete oppgaver og problemer relatert til temaet.
+3. **Praktisk anvendelse**: Forstå hvordan man anvender teoretisk kunnskap i praktiske prosjekter.
+
+### Kilder på nettet for dypere forståelse
+- [Khan Academy - Computer Programming](https://www.khanacademy.org/computing/computer-programming)
+- [Coursera - Online Courses](https://www.coursera.org/)
+- [edX - Free Online Courses](https://www.edx.org/)
+
+---
+
+### Repository: [Oppgavesett-4](https://github.com/Inetklund0/Oppgavesett-4)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til oppgavesett 4.
+
+#### Hva man kan lære seg
+1. **Problemløsning**: Forstå hvordan man nærmer seg og løser spesifikke programmeringsoppgaver.
+2. **Kodingsteknikker**: Lær forskjellige teknikker og metoder for effektiv programmering.
+3. **Konsolidering av ferdigheter**: Forstå hvordan man anvender tidligere lærte konsepter i nye og mer komplekse situasjoner.
+
+### Kilder på nettet for dypere forståelse
+- [LeetCode](https://leetcode.com/) - For å øve på programmeringsoppgaver.
+- [HackerRank](https://www.hackerrank.com/) - For å øve på algoritme- og datastrukturproblemer.
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) - For dyptgående artikler og opplæringsprogrammer.
+
+---
+
+### Repository: [Oppgavesett-5](https://github.com/Inetklund0/Oppgavesett-5)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til oppgavesett 5.
+
+#### Hva man kan lære seg
+1. **Problemløsning**: Forstå hvordan man nærmer seg og løser spesifikke programmeringsoppgaver.
+2. **Kodingsteknikker**: Lær forskjellige teknikker og metoder for effektiv programmering.
+3. **Konsolidering av ferdigheter**: Forstå hvordan man anvender tidligere lærte konsepter i nye og mer komplekse situasjoner.
+
+### Kilder på nettet for dypere forståelse
+- [LeetCode](https://leetcode.com/) - For å øve på programmeringsoppgaver.
+- [HackerRank](https://www.hackerrank.com/) - For å øve på algoritme- og datastrukturproblemer.
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) - For dyptgående artikler og opplæringsprogrammer.
+
+Disse repositoryene gir en omfattende innsikt i ulike aspekter av programmering, webdesign og problemløsning. Ved å utforske disse prosjektene og bruke de nevnte kildene, kan man få en solid forståelse av moderne webdesignteknikker, brukeropplevelse, interaktiv programmering, og dataanalyse.
+
+Absolutt! Her er hvordan du kan lage disse Python-skriptene, sette opp et GitHub-repository, og forklare lisenskonseptet:
+
+**Script 1: Hash-generering**

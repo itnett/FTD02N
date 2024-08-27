@@ -1,0 +1,15 @@
+---
+- name: Installer OpenShift-kluster
+  hosts: masters
+  become: yes
+  tasks:
+    - name: Installere OpenShift Origin
+      yum:
+        name: origin
+        state: present
+
+    - name: Start og aktiver OpenShift Origin
+      systemd:
+        name: origin
+        state: started
+        enabled: yes

@@ -1,0 +1,1 @@
+Get-WmiObject -Class Win32_LogicalDisk -Filter "DriveType = 3" | Select-Object DeviceID, FreeSpace, Size

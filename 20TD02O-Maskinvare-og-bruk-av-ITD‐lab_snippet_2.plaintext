@@ -1,0 +1,2 @@
+interface fa0/24
+   switchport mode trunk

@@ -1,0 +1,10 @@
+@startuml
+state ForkJoinExample {
+  state ForkedState {
+    state StateA
+    state StateB
+  }
+  [*] --> ForkedState : fork
+  ForkedState --> [*] : join
+}
+@enduml

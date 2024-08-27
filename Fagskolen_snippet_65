@@ -1,0 +1,111 @@
+#### Hva man kan lære seg
+1. **CSS-animasjoner**: Lær hvordan man bruker CSS for å lage animasjoner, spesielt hover-animasjoner.
+2. **HTML-struktur**: Forstå hvordan man strukturerer en webside for å inkludere og bruke CSS-filer.
+3. **Konfigurasjonsfiler**: Lær hvordan man bruker konfigurasjonsfiler som `.gitattributes` og `_config.yml` i et prosjekt.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [W3Schools - CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
+- [CSS Tricks - A Complete Guide to CSS Animations](https://css-tricks.com/almanac/properties/a/animation/)
+
+---
+
+### Repository: [Produktnettside](https://github.com/99Gran/Produktnettside)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder koden for en produktnettside.
+
+#### Hva man kan lære seg
+1. **Webutvikling**: Forstå grunnleggende webutviklingsteknikker som HTML, CSS og JavaScript.
+2. **Responsivt design**: Lær hvordan man lager nettsider som fungerer godt på ulike skjermstørrelser.
+3. **Brukeropplevelse (UX)**: Forstå hvordan man designer en brukervennlig produktnettside.
+
+### Kilder på nettet for dypere forståelse
+- [MDN Web Docs - Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [A List Apart - Articles on Web Design](https://alistapart.com/topic/design/)
+- [W3Schools - HTML, CSS, JavaScript Tutorials](https://www.w3schools.com/)
+
+---
+
+### Repository: [id-oppgavesett-04](https://github.com/99Gran/id-oppgavesett-04)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til interaksjonsdesign.
+
+#### Hva man kan lære seg
+1. **Interaksjonsdesign**: Forstå hvordan man designer intuitive og effektive brukergrensesnitt.
+2. **Brukertesting**: Lær hvordan man utfører brukertesting for å forbedre designet basert på tilbakemeldinger.
+3. **Prototyping**: Forstå hvordan man lager prototyper av brukergrensesnitt.
+
+### Kilder på nettet for dypere forståelse
+- [Interaction Design Foundation](https://www.interaction-design.org/)
+- [Nielsen Norman Group - UX Research](https://www.nngroup.com/articles/)
+- [Coursera - Interaction Design Specialization](https://www.coursera.org/specializations/interaction-design)
+
+---
+
+### Repository: [id-04-t7](https://github.com/99Gran/id-04-t7)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til interaksjonsdesign.
+
+#### Hva man kan lære seg
+1. **Interaksjonsdesign**: Forstå prinsipper for å designe brukergrensesnitt.
+2. **Designverktøy**: Lær å bruke verktøy for å lage og teste design.
+3. **Evaluering av brukeropplevelse**: Forstå hvordan man evaluerer og forbedrer brukeropplevelsen.
+
+### Kilder på nettet for dypere forståelse
+- [Interaction Design Foundation](https://www.interaction-design.org/)
+- [UX Design Institute](https://www.uxdesigninstitute.com/)
+- [Adobe XD Tutorials](https://helpx.adobe.com/xd/tutorials.html)
+
+---
+
+### Repository: [id-oppgavesett-05](https://github.com/99Gran/id-oppgavesett-05)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til interaksjonsdesign.
+
+#### Hva man kan lære seg
+1. **Interaksjonsdesign**: Forstå hvordan man skaper intuitive brukeropplevelser.
+2. **Iterativ designprosess**: Lær hvordan man itererer over design for å forbedre det basert på brukertesting.
+3. **Designmønstre**: Forstå vanlige designmønstre og hvordan de kan anvendes i prosjekter.
+
+### Kilder på nettet for dypere forståelse
+- [UX Design Institute](https://www.uxdesigninstitute.com/)
+- [Interaction Design Foundation](https://www.interaction-design.org/)
+- [Design Thinking by IDEO](https://designthinking.ideo.com/)
+
+---
+
+### Repository: [id-oppgavesett-01](https://github.com/99Gran/id-oppgavesett-01)
+
+#### Innhold i Repository
+- Diverse filer og mapper som sannsynligvis inneholder oppgaver og løsninger relatert til interaksjonsdesign.
+
+#### Hva man kan lære seg
+1. **Grunnleggende interaksjonsdesign**: Forstå grunnleggende konsepter i interaksjonsdesign.
+2. **Brukersentrert design**: Lær hvordan man setter brukeren i sentrum av designprosessen.
+3. **Prototyping og testing**: Forstå hvordan man lager og tester prototyper.
+
+### Kilder på nettet for dypere forståelse
+- [Interaction Design Foundation](https://www.interaction-design.org/)
+- [Nielsen Norman Group - UX Research](https://www.nngroup.com/articles/)
+- [Coursera - Interaction Design Specialization](https://www.coursera.org/specializations/interaction-design)
+
+Disse repositoryene gir en omfattende innsikt i ulike aspekter av webutvikling og interaksjonsdesign. Ved å utforske disse prosjektene og bruke de nevnte kildene, kan man få en solid forståelse av moderne webdesignteknikker, prinsipper for brukeropplevelse, og metoder for brukertesting og iterativ design.
+
+### Repository: [portfolio](https://github.com/annamariabukalska/portfolio)
+
+#### Innhold i Repository
+- **.gitattributes**: Fil som spesifiserer Git-attributter.
+- **.gitignore**: Fil som spesifiserer hvilke filer og mapper som skal ignoreres av Git.
+- **LICENSE**: Lisensfil for prosjektet.
+- **README.md**: Kort beskrivelse av prosjektet.
+- **Diverse HTML-filer**: Forskjellige prosjekter og sider som viser ulike design og funksjoner.
+- **js**: Katalog som sannsynligvis inneholder JavaScript-filer.
+- **resources**: Katalog for ressurser som bilder og andre mediefiler.
+- **style**: Katalog for CSS-filer.
+
+#### README.md
+README.md-filen inneholder en kort velkomstmelding og en lenke til porteføljen:

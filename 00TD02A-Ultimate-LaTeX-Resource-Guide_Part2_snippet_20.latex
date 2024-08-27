@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Custom LaTeX Template}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This is an abstract.
+\end{abstract}
+
+\section{Introduction}
+This is the introduction section.
+
+\section{Methods}
+This is the methods section.
+
+\section{Results}
+This is the results section.
+
+\section{Conclusion}
+This is the conclusion section.
+
+\end{document}

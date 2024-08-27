@@ -1,0 +1,6 @@
+geometry measurements {
+    calculate_area        ; // Beregne areal
+    calculate_perimeter   ; // Beregne omkrets
+    calculate_volume      ; // Beregne volum
+    calculate_surface_area; // Beregne overflateareal
+}

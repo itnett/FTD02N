@@ -1,0 +1,1 @@
+sudo mount -o loop,ro ~/image.img /mnt/forensic

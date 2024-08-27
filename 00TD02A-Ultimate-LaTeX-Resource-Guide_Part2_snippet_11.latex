@@ -1,0 +1,6 @@
+\usepackage{pythontex}
+\begin{document}
+\begin{pycode}
+print("Hello from Python!")
+\end{pycode}
+\end{document}

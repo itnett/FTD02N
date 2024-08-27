@@ -1,0 +1,67 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #333;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --dark-bg-color: #333;
+  --dark-text-color: #fff;
+  --dark-primary-color: #0d6efd;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-menu {
+  width: 250px;
+  background-color: var(--primary-color);
+  color: var(--dark-text-color);
+}
+
+.main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu ul li {
+  padding: 20px;
+  text-align: center;
+}
+
+.main-menu ul li a {
+  color: var(--dark-text-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .main-menu {
+  background-color: var(--dark-primary-color);
+}
+
+button.generateCodeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

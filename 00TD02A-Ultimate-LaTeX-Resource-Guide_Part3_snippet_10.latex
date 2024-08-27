@@ -1,0 +1,9 @@
+\documentclass{beamer}
+\begin{document}
+
+\begin{frame}
+  \frametitle{Sample Slide}
+  This is a sample slide.
+\end{frame}
+
+\end{document}

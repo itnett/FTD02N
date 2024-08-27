@@ -1,0 +1,17 @@
+## Energi
+
+### Beregne Arbeid, Effekt og Virkningsgrad
+
+#### Arbeid
+Arbeid utført av en kraft er produktet av kraften og distansen i kraftens retning:
+$$W = F \cdot d$$
+
+#### Effekt
+Effekt er arbeid utført per tidsenhet:
+$$P = \frac{W}{t}$$
+
+#### Virkningsgrad
+Virkningsgrad er forholdet mellom nyttig energi ut og total energi inn:
+$$\eta = \frac{nyttig \, energi \, ut}{total \, energi \, inn} \times 100\%$$
+
+#### Visualisering - Klassediagram for Energi Beregninger

@@ -1,0 +1,19 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+    title={Example Plot},
+    xlabel={X-axis},
+    ylabel={Y-axis},
+]
+\addplot[smooth,mark=*,blue] plot coordinates {
+    (0,0)
+    (1,1)
+    (2,4)
+    (3,9)
+};
+\end{axis}
+\end{tikzpicture}
+\end{document}

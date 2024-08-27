@@ -1,0 +1,11 @@
+{
+  "policyRule": {
+    "if": {
+      "field": "location",
+      "notIn": ["westeurope", "northeurope"]
+    },
+    "then": {
+      "effect": "deny"
+    }
+  }
+}

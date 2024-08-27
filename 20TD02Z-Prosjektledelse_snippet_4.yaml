@@ -1,0 +1,6 @@
+- name: Send prosjektrapport via e-post
+      mail:
+        to: "{{ stakeholders }}"
+        subject: Prosjektrapport - {{ project_name }}
+        body: Vedlagt finner du prosjektrapporten for {{ project_name }}.
+        attach: "{{ project_root }}/dokumentasjon/rapport.pdf"

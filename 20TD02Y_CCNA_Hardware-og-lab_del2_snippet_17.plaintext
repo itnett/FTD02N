@@ -1,0 +1,17 @@
++----------------------+
+        |   Cisco Nexus 5548UP |
+        |   SPAN Configuration |
+        +----------+-----------+
+                   |
+                   |
+                   |
+               +---+---+
+               |Virtual |
+               | Box    |
+               | (Nagios|
+               |/Zabbix)|
+               +-------+
+               |Virtual |
+               | Box    |
+               | (Autopsy)|
+               +-------+

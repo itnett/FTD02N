@@ -1,0 +1,13 @@
+stateDiagram-v2
+    [*] --> MainMenu
+    MainMenu --> AlgebraModule : Algebra selected
+    MainMenu --> TrigonometryGeometryModule : Trigonometry & Geometry selected
+    MainMenu --> FunctionsGraphsModule : Functions & Graphs selected
+    MainMenu --> PhysicsModule : Physics selected
+    MainMenu --> StudyDirectionModule : Study Direction selected
+
+    AlgebraModule --> MainMenu : Back to Menu
+    TrigonometryGeometryModule --> MainMenu : Back to Menu
+    FunctionsGraphsModule --> MainMenu : Back to Menu
+    PhysicsModule --> MainMenu : Back to Menu
+    StudyDirectionModule --> MainMenu : Back to Menu

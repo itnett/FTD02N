@@ -1,0 +1,17 @@
+mindmap
+root((Algebra))
+  Lose Lineaere Ligninger
+    Form: ax + b = 0
+    Losning: Isoler x
+    Eksempel: x = -b/a
+  Lose Kvadratiske Ligninger
+    Form: ax^2 + bx + c = 0
+    Losning: Kvadratisk Formel
+      Formel: x = (-b pluss-minus roten-av(b^2 - 4ac)) / 2a
+    Eksempel: 3x^2 - 2x - 5 = 0
+      Losning: x = (2 pluss-minus roten-av(4 + 60)) / 6
+      Resultat: x = 5/3 eller x = -1
+  Algebraiske Uttrykk
+    Forenkle Uttrykk
+    Faktorisering
+    Utvidelse

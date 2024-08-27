@@ -1,0 +1,5 @@
+Løsning når konstantleddet (c) mangler:
+  Likningen kan skrives som ax^2 + bx = 0.
+  Vi faktoriserer ut x fra begge leddene: x(ax + b) = 0.
+  Ifølge nullregelen må enten x = 0 eller ax + b = 0.
+  Løsningene er: x = 0 og x = 3.0.

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Platform</title>
+  <link href="vendor/tailwind.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="vendor/mermaid.min.js"></script>
+  <script type="module" src="vendor/chart.min.js"></script>
+  <script type="module" src="vendor/three.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <nav class="w-64 bg-gray-800 p-6 flex flex-col space-y-4">
+      <h1 class="text-3xl font-bold">Learning Platform</h1>
+      <ul class="space-y-2">
+        <li><a href="#" class="block py-2 px-4 rounded hover:bg-gray-700" id="mathematics-menu">Mathematics</a></li>
+        <li><a href="#" class="block py-2 px-4 rounded hover:bg-gray-700" id="physics-menu">Physics</a></li>
+        <li><a href="#" class="block py-2 px-4 rounded hover:bg-gray-700" id="special-topics-menu">Special Topics</a></li>
+      </ul>
+    </nav>
+    <!-- Main Content -->
+    <main class="flex-1 p-6" id="content">
+      <!-- Dynamic content will be loaded here -->
+    </main>
+  </div>
+</body>
+</html>

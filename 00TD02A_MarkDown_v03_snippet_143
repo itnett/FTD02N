@@ -1,0 +1,13 @@
+#### Kombinatorikk
+
+**Permutasjoner:** Antall måter å arrangere en mengde objekter på.
+\[ P(n) = n! \]
+
+**Kombinasjoner:** Antall måter å velge en undergruppe fra en større mengde uten rekkefølge.
+\[ C(n, k) = \frac{n!}{k!(n - k)!} \]
+
+#### Eksempel
+Finn antall måter å velge 2 elementer fra en mengde på 5:
+\[ C(5, 2) = \frac{5!}{2!(5 - 2)!} = 10 \]
+
+### Visualisering - Kombinatorikk

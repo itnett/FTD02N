@@ -1,0 +1,10 @@
+- name: Exponential Functions
+  hosts: localhost
+  tasks:
+    - name: Base-exponent form
+      debug:
+        msg: "f(x) = a * b^x: {{ a * b**x }}"
+      
+    - name: Natural exponential
+      debug:
+        msg: "f(x) = e^x: {{ e**x }}"

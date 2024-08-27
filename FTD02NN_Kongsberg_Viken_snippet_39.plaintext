@@ -1,0 +1,6 @@
+! Eksempel på standard ACL
+access-list 10 permit 192.168.1.0 0.0.0.255
+
+! Eksempel på utvidet ACL
+access-list 100 permit tcp any any eq 80
+access-list 100 deny ip any any

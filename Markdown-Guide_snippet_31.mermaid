@@ -1,0 +1,21 @@
+classDiagram
+    class Bruker {
+      - int id
+      - string navn
+      + loggInn()
+      + loggUt()
+    }
+    
+    class System {
+      - Database database
+      + autentiser()
+      + søk()
+    }
+    
+    class Database {
+      - string URL
+      + query()
+    }
+    
+    Bruker --> System: Bruker systemet
+    System --> Database: Spørring

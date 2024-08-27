@@ -1,0 +1,19 @@
+\documentclass{beamer}
+\usepackage{tikz}
+
+\setbeamercolor{title}{fg=blue}
+\setbeamerfont{title}{series=\bfseries}
+\setbeamertemplate{frametitle}
+{
+  \begin{tikzpicture}
+    \draw[fill=blue!20] (0,0) rectangle (\paperwidth,2);
+    \node[anchor=west] at (0,1) {\insertframetitle};
+  \end{tikzpicture}
+}
+
+\begin{document}
+\begin{frame}
+  \frametitle{Advanced Custom Themed Slide}
+  This slide uses an advanced custom Beamer theme.
+\end{frame}
+\end{document}

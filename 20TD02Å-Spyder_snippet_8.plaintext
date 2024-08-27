@@ -1,0 +1,8 @@
++----------------------------------+
+  |      Basic Cloud Services        |
+  +----------------------------------+
+  | 1. list_s3_buckets()             |
+  |    - List all S3 buckets         |
+  | 2. create_s3_bucket(bucket_name) |
+  |    - Create a new S3 bucket      |
+  +----------------------------------+

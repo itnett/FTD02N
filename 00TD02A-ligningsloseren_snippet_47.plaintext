@@ -1,0 +1,8 @@
+Løsning av likningen 2.0x^2 + 0.0x + -8.0 = 0
+  Diskriminanten er: 64.0
+  Diskriminanten er positiv. Likningen har to reelle løsninger.
+  Løsningene er: x1 = 2.0 og x2 = -2.0.
+
+  Spesielt tilfelle: Konstantleddet c er null.
+  Løsningene er: x = 0.0 og x = 4.0.
+  Forklaring: Vi har faktorisert likningen som x(ax + b) = 0, som gir løsningene x = 0 og x = -b/a.

@@ -1,0 +1,10 @@
+### Polynomfunksjoner
+
+#### Forstå Polynomfunksjoner
+En polynomfunksjon er på formen:
+$$P(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0$$
+
+#### Eksempel
+Grafen til funksjonen $$\(P(x) = x^3 - 4x + 1\)$$.
+
+#### Visualisering - Graf av Polynomfunksjoner

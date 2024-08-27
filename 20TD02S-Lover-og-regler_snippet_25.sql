@@ -1,0 +1,1 @@
+CREATE INDEX idx_compliance_check_regulation ON compliance_check(regulation);

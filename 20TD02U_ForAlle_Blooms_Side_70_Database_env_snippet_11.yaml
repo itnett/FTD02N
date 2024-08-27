@@ -1,0 +1,17 @@
+---
+- name: Installer PostgreSQL på Ubuntu
+  hosts: ubuntu_server
+  become: yes
+  tasks:
+    - name: Installer PostgreSQL
+      apt:
+        name:
+          - postgresql
+          - postgresql-contrib
+        state: present
+
+    - name: Start PostgreSQL-tjenesten
+      service:
+        name: postgresql
+        state: started
+        enabled: yes

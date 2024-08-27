@@ -1,0 +1,9 @@
+4. **Implementation**:
+   - Use the class and sequence diagrams to guide coding.
+   - Regularly update UML diagrams to reflect changes.
+
+5. **Testing**:
+   - **Activity Diagram**: Model test workflows.
+   - **State Diagram**: Validate state transitions (e.g., Book availability).
+
+   Example in PlantUML:

@@ -1,0 +1,13 @@
+flowchart LR
+    A[User accesses website] --> B[Main menu is displayed]
+    B --> C{User selects a module}
+    C -->|Algebra| D[Load Algebra Module]
+    C -->|Trigonometry & Geometry| E[Load Trigonometry & Geometry Module]
+    C -->|Functions & Graphs| F[Load Functions & Graphs Module]
+    C -->|Physics| G[Load Physics Module]
+    C -->|Study Direction| H[Load Study Direction Module]
+    D --> I[Display Algebra content]
+    E --> J[Display Trigonometry & Geometry content]
+    F --> K[Display Functions & Graphs content]
+    G --> L[Display Physics content]
+    H --> M[Display Study Direction content]

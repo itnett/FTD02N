@@ -1,0 +1,8 @@
+% arara: pdflatex
+% arara: bibtex
+% arara: pdflatex
+% arara: pdflatex
+\documentclass{article}
+\begin{document}
+Hello, world!
+\end{document}

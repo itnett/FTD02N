@@ -1,0 +1,1 @@
+az deployment group create --resource-group YourResourceGroup --template-file path_to_dashboard-template.json

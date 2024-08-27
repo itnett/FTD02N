@@ -1,0 +1,1 @@
+$\mathbf{A} = \begin{pmatrix} a \\ b \end{pmatrix}$

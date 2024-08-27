@@ -1,0 +1,1 @@
+az boards work-item create --title "Risikovurdering" --type "Risk"

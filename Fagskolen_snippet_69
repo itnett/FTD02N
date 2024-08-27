@@ -1,0 +1,7 @@
+**GitHub-instruksjoner**
+
+1. **Opprett konto:** Gå til [https://github.com/](https://github.com/) og registrer deg.
+2. **Nytt repository:** Klikk på "+"-tegnet øverst til høyre og velg "New repository". Gi det et navn (f.eks., "hash-integritet-python").
+3. **Last opp koden:**
+   - Enten: Bruk GitHubs webgrensesnitt for å laste opp filene direkte.
+   - Eller: Bruk Git på kommandolinjen (mer avansert):

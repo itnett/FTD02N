@@ -1,0 +1,14 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+platforms:
+  - name: instance
+    image: quay.io/centos/centos:8
+provisioner:
+  name: ansible
+  playbooks:
+    converge: playbook.yml
+verifier:
+  name: ansible

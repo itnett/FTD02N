@@ -1,0 +1,11 @@
++-----------------+
+       |  VirtualBox     |
+       |  Admin VM       |
+       +--------+--------+
+                |
+       Virtual Network
+                |
+       +------------------+
+       | Ubuntu Server VM |
+       |  (MySQL Host)    |
+       +------------------+

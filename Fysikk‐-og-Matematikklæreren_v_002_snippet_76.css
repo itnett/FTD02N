@@ -1,0 +1,13 @@
+/* styles.css */
+body.dark-mode {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
+body.dark-mode .bg-blue-900 {
+  background-color: #2d3748;
+}
+
+button.generateCodeButton {
+  @apply mt-4 py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-700;
+}

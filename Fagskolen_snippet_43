@@ -1,0 +1,5 @@
+Explanation: This query joins `table1` and `table2` on a common column.
+
+3. **Subqueries**:
+   - **Problem 3**: Use subqueries to filter results.
+   - **Solution**:

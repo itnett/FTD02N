@@ -1,0 +1,6 @@
+// Enkel hashfunksjon
+HashFunksjon(x) = Mod(x^2 + 3*x + 7, 100)
+
+// Hash en verdi
+x = 123
+HashVerdi = HashFunksjon(x)

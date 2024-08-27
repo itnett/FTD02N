@@ -1,0 +1,5 @@
+- **Explanation**: This code makes the built-in LED blink with a 1-second interval.
+
+2. **Temperature Sensor**:
+   - **Components**: Arduino board, temperature sensor (e.g., LM35), jumper wires.
+   - **Code**:

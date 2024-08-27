@@ -1,0 +1,13 @@
+Router> enable
+Router# configure terminal
+Router(config)# hostname SecureRouter
+Router(config)# ip domain-name example.com
+Router(config)# crypto key generate rsa
+Router(config)# ip ssh version 2
+Router(config)# line vty 0 4
+Router(config-line)# transport input ssh
+Router(config-line)# login local
+Router(config-line)# exit
+Router(config)# username admin secret strongpassword
+Router(config)# exit
+Router# write memory

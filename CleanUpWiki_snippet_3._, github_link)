@@ -1,0 +1,56 @@
+# Skriv oppdatert Wiki-fil tilbake
+                with open(wiki_filepath, 'w') as f:
+                    f.write(updated_content)
+
+                print(f"Processed {wiki_filepath} and moved code to {code_repo_dir}")
+
+# Funksjon for å oppdatere CHANGELOG.md
+def update_changelog(code_repo_dir, log_message):
+    changelog_path = os.path.join(code_repo_dir, "CHANGELOG.md")
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    log_entry = f"{timestamp} - {log_message}\n"
+
+    if os.path.exists(changelog_path):
+        with open(changelog_path, 'a') as changelog_file:
+            changelog_file.write(log_entry)
+    else:
+        with open(changelog_path, 'w') as changelog_file:
+            changelog_file.write("# CHANGELOG\n\n")
+            changelog_file.write(log_entry)
+
+    print(f"Updated CHANGELOG.md with: {log_message}")
+
+# Funksjon for å initialisere git repo og gjøre commits
+def init_commit_code_repo(code_repo_dir, commit_message):
+    if not os.path.exists(os.path.join(code_repo_dir, ".git")):
+        subprocess.run(["git", "init"], cwd=code_repo_dir)
+        print("Initialized a new git repo.")
+    else:
+        print("Git repo already initialized.")
+
+    subprocess.run(["git", "add", "."], cwd=code_repo_dir)
+    subprocess.run(["git", "commit", "-m", commit_message], cwd=code_repo_dir)
+    print(f"Committed changes with message: {commit_message}")
+
+# Hovedprogrammet
+def main():
+    config = load_input_config("input.yml")
+    wiki_repo_url = config['wiki_repo_url']
+    dump_directory = config['dump_directory']
+    code_repo_url = config['code_repo_url']
+    code_repo_directory = config['code_repo_directory']
+
+    # Klon Wiki-repo
+    clone_wiki_repo(wiki_repo_url, dump_directory)
+
+    # Prosesser Wiki-filer og flytt kode til kode-repo
+    process_wiki_files(dump_directory, code_repo_url, code_repo_directory)
+
+    # Oppdater CHANGELOG.md
+    update_changelog(code_repo_directory, "Moved code from Wiki to code repository.")
+
+    # Initialiser og commit kode-repo
+    init_commit_code_repo(code_repo_directory, "Initial commit: Imported code from Wiki.")
+
+if __name__ == "__main__":
+    main()

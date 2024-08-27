@@ -1,0 +1,4 @@
+physics kinetic_potential_energy {
+    calculate_kinetic_energy    ; // Beregne kinetisk energi (KE = 0.5 * m * v^2)
+    calculate_potential_energy  ; // Beregne potensiell energi (PE = m * g * h)
+}

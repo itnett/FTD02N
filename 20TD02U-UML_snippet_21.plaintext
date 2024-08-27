@@ -1,0 +1,6 @@
+@startuml
+[*] --> Idle
+Idle --> Processing : start
+Processing --> Completed : finish
+Completed --> Idle : reset
+@enduml

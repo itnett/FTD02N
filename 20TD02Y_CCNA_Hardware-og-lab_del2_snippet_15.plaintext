@@ -1,0 +1,10 @@
++-----------------+
+       |  VirtualBox     |
+       |  Admin VM       |
+       +--------+--------+
+                |
+       Internet Connection
+                |
+    +-------------------------+
+    | AWS/Azure Cloud Services|
+    +-------------------------+

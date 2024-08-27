@@ -1,0 +1,10 @@
+gitGraph
+    commit id: "start" tag: "initial" type: HIGHLIGHT
+    branch budsjettOppdatering
+    commit id: "oppdatering1" tag: "budsjett2024" type: NORMAL
+    checkout main
+    merge budsjettOppdatering id: "sammen1" tag: "merged2024" type: REVERSE
+    branch budsjettOppdatering2
+    commit id: "oppdatering2" type: NORMAL
+    checkout main
+    merge budsjettOppdatering2 id: "sammen2" type: REVERSE

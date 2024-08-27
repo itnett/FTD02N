@@ -1,0 +1,3 @@
+1. Installer Azure AD Connect på en lokal server.
+  2. Konfigurer synkronisering mellom lokal AD og Azure AD.
+  3. Overvåk synkroniseringsstatus og løs eventuelle problemer.

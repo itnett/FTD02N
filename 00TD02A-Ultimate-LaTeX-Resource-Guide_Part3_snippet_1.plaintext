@@ -1,0 +1,12 @@
+project/
+├── main.tex
+├── chapters/
+│   ├── chapter1.tex
+│   ├── chapter2.tex
+│   └── chapter3.tex
+├── appendices/
+│   ├── appendixA.tex
+│   └── appendixB.tex
+└── figures/
+    ├── figure1.png
+    └── figure2.png

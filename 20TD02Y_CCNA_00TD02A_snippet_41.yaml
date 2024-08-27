@@ -1,0 +1,10 @@
+- name: Solving Equations
+  hosts: localhost
+  tasks:
+    - name: Solve linear equation
+      debug:
+        msg: "Solution: {{ linear_equation | solve }}"
+
+    - name: Solve quadratic equation
+      debug:
+        msg: "Solutions: {{ quadratic_equation | solve }}"

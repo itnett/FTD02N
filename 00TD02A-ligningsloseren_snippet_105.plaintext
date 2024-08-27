@@ -1,0 +1,9 @@
+Løsning med ABC-formelen:
+  En generell andregradslikning kan skrives som ax^2 + bx + c = 0.
+  For å løse denne bruker vi ABC-formelen: x = (-b ± √(b^2 - 4ac)) / 2a.
+  Discriminanten Δ = b^2 - 4ac bestemmer antall løsninger:
+  Hvis Δ > 0, har vi to reelle løsninger.
+  Hvis Δ = 0, har vi én reell løsning.
+  Hvis Δ < 0, har vi ingen reelle løsninger.
+  
+  Løsningene er: x = 3.0 eller x = 1.0 (to reelle løsninger)

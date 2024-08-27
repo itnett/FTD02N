@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Systemlogger</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tidspunkt</th>
+                <th>Nivå</th>
+                <th>Melding</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for oppføring in loggoppføringer %}
+                <tr>
+                    <td>{{ oppføring.tidspunkt }}</td>
+                    <td>{{ oppføring.nivå }}</td>
+                    <td>{{ oppføring.melding }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

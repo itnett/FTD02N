@@ -1,0 +1,11 @@
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Cell1 & Cell2 & Cell3 \\
+\hline
+Cell4 & Cell5 & Cell6 \\
+\hline
+\end{tabular}
+\caption{Basic Table}
+\end{table}

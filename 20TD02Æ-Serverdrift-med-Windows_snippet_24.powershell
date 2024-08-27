@@ -1,0 +1,7 @@
+New-Item -Path 'C:\Data' -ItemType Directory -ShareName 'Data'
+    $acl = Get-Acl C:\Data
+    $user = "DOMAIN\brukernavn"  # Eller lokal bruker
+    $permission = "FullControl"
+    $accessRule = New-Object System.Security.AccessControl.FileSystemAccessRule($user,$permission,"Allow")
+    $acl.SetAccessRule($accessRule)
+    Set-Acl C:\Data $acl

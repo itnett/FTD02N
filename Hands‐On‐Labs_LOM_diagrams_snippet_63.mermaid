@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant Manager as Manager
+    participant FinanceTeam as Finance Team
+
+    Manager->>GenerateBudgetReport: Request Budget Status
+    GenerateBudgetReport->>FinanceTeam: Generate Budget Report
+    FinanceTeam->>PrepareReport: Prepare Report
+    PrepareReport->>Manager: Return Budget Report
+    Manager->>AnalyzeReport: Analyze Report
+    AnalyzeReport->>Manager: Approve or Adjust

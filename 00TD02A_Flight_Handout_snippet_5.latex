@@ -1,0 +1,66 @@
+\section{Likninger og Formelregning}
+\subsection{Løse likninger av første og andre grad}
+Eksempler:
+\begin{align*}
+&\text{Lineær likning: } 2x + 3 = 7 \\
+&\text{Kvadratisk likning: } x^2 - 5x + 6 = 0
+\end{align*}
+Øvingsoppgaver:
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+Oppgave & Løsning & Svar \\
+\hline
+3x + 4 = 10 & & \\
+\hline
+x^2 - 4x + 4 = 0 & & \\
+\hline
+2x^2 - 8x + 6 = 0 & & \\
+\hline
+\end{tabularx}
+
+\subsection{Løse likningssett med to ukjente}
+Eksempler:
+\begin{align*}
+&\begin{cases}
+2x + y = 8 \\
+x - y = 2
+\end{cases}
+\end{align*}
+Løsning:
+\begin{align*}
+&x = 3, \quad y = 2
+\end{align*}
+Øvingsoppgaver:
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+Oppgave & Løsning & Svar \\
+\hline
+\begin{cases}
+x + y = 5 \\
+2x - y = 3
+\end{cases} & & \\
+\hline
+\begin{cases}
+3x + 2y = 12 \\
+x - 2y = -1
+\end{cases} & & \\
+\hline
+\end{tabularx}
+
+\subsection{Tilpasse og omforme formeluttrykk}
+Eksempler:
+\begin{align*}
+&\text{Løs for } y: \quad y = mx + b \\
+&\text{Løs for } x: \quad x = \frac{y - b}{m}
+\end{align*}
+Øvingsoppgaver:
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+Oppgave & Løsning & Svar \\
+\hline
+Løs for y: \quad y - 2x = 4 & & \\
+\hline
+Løs for x: \quad 3y = 6x + 9 & & \\
+\hline
+\end{tabularx}
+\newpage

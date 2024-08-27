@@ -1,0 +1,6 @@
+switch ($dayOfWeek) {
+    1 {"Sunday"}
+    2 {"Monday"}
+    # ... other cases
+    Default {"Invalid day"}
+}

@@ -1,0 +1,2 @@
+az sql server create --name mysqldemoserver --resource-group MyResourceGroup --location eastus --admin-user sqladmin --admin-password <YourPassword>
+  az sql db create --resource-group MyResourceGroup --server mysqldemoserver --name MyDatabase --service-objective S0

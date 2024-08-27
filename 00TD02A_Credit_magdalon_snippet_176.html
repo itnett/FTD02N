@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sikkerhetsoversikt</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Siste sikkerhetshendelser</h1>
+    <ul>
+        {% for hendelse in hendelser %}
+            <li>{{ hendelse.tidspunkt }}: {{ hendelse.type }} fra {{ hendelse.ip_adresse }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
