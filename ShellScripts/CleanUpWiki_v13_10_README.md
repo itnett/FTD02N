@@ -1,0 +1,3 @@
+# README for CleanUpWiki_v13_10
+Denne koden ble eksportert fra C:\WikiMigration\git\code_dump\CleanUpWiki_v13.md
+Link til denne koden: C:\WikiMigration\git\code_repo\ShellScripts\CleanUpWiki_v13_10.sh
