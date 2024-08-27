@@ -1,5 +1,0 @@
-[Start] --> [Bruker logger inn] --> [Bruker velger produkt]
-                    |                         |
-                  [Feil]                     [Bestill produkt]
-                                                |
-                                             [Slutt]

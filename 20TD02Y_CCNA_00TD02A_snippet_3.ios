@@ -1,4 +1,0 @@
-algebra powers {
-    base_exponent    ; // Beregne potensen av et tall (grunnlag og eksponent)
-    power_rule       ; // Bruke potensregelen for å forenkle uttrykk
-}

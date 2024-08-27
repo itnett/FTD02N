@@ -1,4 +1,0 @@
-physics motion_equations {
-    constant_velocity       ; // Bevegelse med konstant fart
-    constant_acceleration   ; // Bevegelse med konstant akselerasjon
-}

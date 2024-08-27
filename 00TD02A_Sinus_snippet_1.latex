@@ -1,8 +1,0 @@
-1. \( x^2 = 4 \land x < 0 \)
-   - Dette betyr at \( x^2 \) må være lik 4, og samtidig må \( x \) være mindre enn 0. Løsningen er \( x = -2 \).
-
-2. \( x^2 = 4 \lor x^2 = 9 \)
-   - Dette krever at \( x^2 \) er enten 4 eller 9. Løsningene er \( x = 2, -2, 3, \) og \( -3 \).
-
-3. \( x^2 = 4 \land x^2 - 4x + 3 = 0 \)
-   - Begge vilkårene må være oppfylt. \( (x-3)(x-1) = 0 \) gir \( x = 3 \) og \( x = 1 \). Imidlertid, siden \( x^2 \) også må være 4, er den eneste løsningen \( x = 2 \).

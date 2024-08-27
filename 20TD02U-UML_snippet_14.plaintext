@@ -1,6 +1,0 @@
-@startuml
-class ExampleClass
-note right of ExampleClass
-  This is an example class.
-end note
-@enduml

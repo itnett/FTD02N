@@ -1,5 +1,0 @@
-physics newtons_laws {
-    apply_first_law     ; // Anvende Newtons første lov (lov om treghet)
-    apply_second_law    ; // Anvende Newtons andre lov (F = ma)
-    apply_third_law     ; // Anvende Newtons tredje lov (aksjon og reaksjon)
-}

@@ -1,1 +1,0 @@
-<script>document.write('<img src=x onerror=alert(1)>');</script>

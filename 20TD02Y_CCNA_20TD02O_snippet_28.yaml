@@ -1,8 +1,0 @@
-apiVersion: v1
-   kind: ConfigMap
-   metadata:
-     name: sim-sensor-settings
-   data:
-     APPINSIGHTS_INSTRUMENTATIONKEY: "your_instrumentation_key"
-     ReadingsDelay: "30"
-     ImageDelay: "3600"

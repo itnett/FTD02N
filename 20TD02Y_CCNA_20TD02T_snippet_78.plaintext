@@ -1,3 +1,0 @@
-graph TD;
-    A[Server1] -->|GigabitEthernet 1/0/1| B[Catalyst 3750G];
-    B -->|SPAN| C[Client1];

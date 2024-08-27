@@ -1,1 +1,0 @@
-bandit -r my_library/

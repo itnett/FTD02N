@@ -1,1 +1,0 @@
-kubectl create -f https://raw.githubusercontent.com/VladimirAkopyan/IoTSimulator/master/Kubernetes.yaml

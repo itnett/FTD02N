@@ -1,5 +1,0 @@
-Get-ADUser
-    Get-ADGroup
-    Get-ADComputer
-    New-ADUser
-    Set-ADUser

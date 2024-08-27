@@ -1,5 +1,0 @@
-Disse eksemplene viser hvordan skriptet kan brukes til å løse ulike andregradslikninger og hvordan det gir en trinnvis forklaring og opplæring underveis.
-
-https://web01.usn.no/~panderse/notater/Andregradslikninger.pdf
-
-For å løse alle oppgavene og eksemplene i dokumentet "Andregradslikninger.pdf" ved hjelp av et Python-skript som interagerer med brukeren, gir trinnvis forklaring, og visualiserer prosessen, kan du bruke følgende skript. Dette skriptet vil dekke ulike metoder for å løse andregradslikninger, inkludert bruk av ABC-formelen, spesialtilfeller når b eller c er 0, og fullstendig kvadraters metode.

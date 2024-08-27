@@ -1,3 +1,0 @@
-Budget = 50000
-  ActualExpenses = 20000 + 35000
-  OverBudget = ActualExpenses > Budget

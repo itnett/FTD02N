@@ -1,1 +1,0 @@
-az devops security group membership add --group "Contributors" --member-id "<user-id>"

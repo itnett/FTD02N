@@ -1,6 +1,0 @@
-example_id,topic,example
-1,SI-systemet,SELECT 1000 * 0.001 AS meters;
-2,Masse og massetetthet,SELECT 70 / 0.07 AS density;
-3,Usikkerhet,SELECT 100 * 1.05 AS upper_bound, 100 * 0.95 AS lower_bound;
-4,Kraft og bevegelse,SELECT 10 * 9.81 AS force;
-5,Energi,SELECT 0.5 * 10 * POWER(2, 2) AS kinetic_energy;

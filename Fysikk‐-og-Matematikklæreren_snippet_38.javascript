@@ -1,1 +1,0 @@
-// ... (funksjoner for regneregler, brøk og prosentregning, potenser, standardform, sammentrekning og faktorisering)

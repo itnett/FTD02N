@@ -1,9 +1,0 @@
-### 3. Anvendelse (Applying)
-
-#### Implementering: Avviksanalyse og Budsjettovervåking
-- **Mål:** Implementere en avviksanalyse ved hjelp av Power BI for å sammenligne faktiske tall med budsjett.
-- **Beskrivelse:** Lag en rapport som viser avvik mellom faktiske resultater og budsjetterte tall, og visualiser dette med linje- eller områdediagrammer.
-
-**Eksempler:**
-- **Linje-/områdediagram:** Sammenligne faktiske resultater med budsjettet over tid.
-- **Vannfallsdiagram:** Vise bidraget fra forskjellige elementer til avviket.

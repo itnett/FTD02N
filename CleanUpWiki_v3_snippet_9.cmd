@@ -1,1 +1,0 @@
-python backup_and_prepare.py

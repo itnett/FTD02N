@@ -1,1 +1,0 @@
-db.users.find({ age: { $gt: 30 } });

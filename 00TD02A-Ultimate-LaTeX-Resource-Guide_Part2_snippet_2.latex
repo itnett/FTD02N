@@ -1,6 +1,0 @@
-% Define a command that conditionally formats text
-\newcommand{\highlightrule}[1]{\ifthenelse{#1 > 0}{\textbf{#1}}{\textit{#1}}}
-
-% Usage:
-\highlightrule{5} % Bold text
-\highlightrule{-3} % Italic text

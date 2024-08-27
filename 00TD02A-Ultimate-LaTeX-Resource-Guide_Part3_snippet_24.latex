@@ -1,8 +1,0 @@
-\usepackage{tikz}
-\usepackage{hyperref}
-\begin{document}
-\begin{tikzpicture}
-  \draw[fill=blue!20] (0,0) rectangle (2,2);
-  \node at (1,1) {\hyperlink{http://example.com}{Click me}};
-\end{tikzpicture}
-\end{document}

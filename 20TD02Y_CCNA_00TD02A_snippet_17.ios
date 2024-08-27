@@ -1,4 +1,0 @@
-statistics regression {
-    linear_regression       ; // Utføre lineær regresjon
-    polynomial_regression   ; // Utføre polynomregresjon
-}

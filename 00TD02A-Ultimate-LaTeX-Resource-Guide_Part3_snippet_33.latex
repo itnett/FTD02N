@@ -1,9 +1,0 @@
-\newenvironment{example}[1][Example]
-  {\begin{trivlist}\item[\hskip \labelsep {\bfseries #1}]}
-  {\end{trivlist}}
-
-\begin{document}
-\begin{example}
-This is a custom example environment.
-\end{example}
-\end{document}

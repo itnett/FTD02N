@@ -1,5 +1,0 @@
-vlan 10
-   name Sales
-   interface range fa0/1-10
-   switchport mode access
-   switchport access vlan 10

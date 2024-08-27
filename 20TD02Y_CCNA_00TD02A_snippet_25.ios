@@ -1,3 +1,0 @@
-physics conservation_of_energy {
-    apply_energy_conservation    ; // Anvende energibevaring
-}

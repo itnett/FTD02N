@@ -1,9 +1,0 @@
-Explanation: This query uses a subquery to filter results from `table1`.
-
-
-
-
-
-4. **Aggregation**:
-   - **Problem 4**: Aggregate data using GROUP BY.
-   - **Solution**:

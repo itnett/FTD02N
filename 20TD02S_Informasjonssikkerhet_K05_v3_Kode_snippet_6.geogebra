@@ -1,3 +1,0 @@
-message = 42
-ciphertext = Mod(message^e, n)
-decrypted_message = Mod(ciphertext^d, n)

@@ -1,3 +1,0 @@
-physics thermodynamics {
-    apply_first_law    ; // Anvende termodynamikkens første lov (ΔU = Q - W)
-}

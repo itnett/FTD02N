@@ -1,6 +1,0 @@
-Resources:
-  MySecret:
-    Type: 'AWS::SecretsManager::Secret'
-    Properties:
-      Name: 'MySecret'
-      Description: 'En hemmelighet for applikasjonen'

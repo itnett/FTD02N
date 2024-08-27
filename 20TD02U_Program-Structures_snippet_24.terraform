@@ -1,5 +1,0 @@
-resource "aws_instance" "example" {
-  count = var.instance_count
-
-  # ... other configurations
-}

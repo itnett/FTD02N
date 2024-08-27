@@ -1,9 +1,0 @@
-### 2. Forståelse (Understanding)
-
-#### Implementering: Beregne og Vise Økonomiske Nøkkeltall
-- **Mål:** Bruke Power BI til å forstå hvordan nøkkeltall som bruttofortjeneste, driftsmargin, og avkastning påvirker virksomhetens økonomiske helse.
-- **Beskrivelse:** Lag beregnede felt i Power BI som viser nøkkeltall, og bruk KPI-visualiseringer for å vise resultatene i forhold til målene.
-
-**Eksempler:**
-- **KPI-visualisering:** Vise driftsmargin som en KPI med grønt/rødt for å indikere om målene er nådd.
-- **Kort-visualisering:** Bruke kort for å vise enkeltnøkkeltall som nettofortjeneste eller avkastning på investert kapital.

@@ -1,7 +1,0 @@
-AP(config)# interface Dot11Radio0
-AP(config-if)# ssid MySSID
-AP(config-if-ssid)# authentication open
-AP(config-if-ssid)# exit
-AP(config-if)# exit
-AP(config)# exit
-AP# write memory

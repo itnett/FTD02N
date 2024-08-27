@@ -1,9 +1,0 @@
-- **Software Restriction Policies**: Limit .exe execution and restrict write access to sensitive folders like `%appdata%`, `%temp%`, and network shares.
-
-**Oppgave 5: View All Shares from Client Machine**
-- Use CMD: `net view /all \\ServerIPAddress` to list all shares, including hidden ones.
-
-#### Powershell Tasks
-
-**a. Enable/Disable User Account**
-- **Enable**:

@@ -1,5 +1,0 @@
-physics energy {
-    calculate_work          ; // Beregne arbeid (W = F * d)
-    calculate_power         ; // Beregne effekt (P = W / t)
-    calculate_efficiency    ; // Beregne virkningsgrad (η = P_out / P_in)
-}

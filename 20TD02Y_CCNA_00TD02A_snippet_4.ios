@@ -1,4 +1,0 @@
-algebra standard_form {
-    convert_to_standard_form    ; // Konvertere et tall til standardform
-    convert_from_standard_form  ; // Konvertere et tall fra standardform
-}

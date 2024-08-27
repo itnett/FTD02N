@@ -1,2 +1,0 @@
-# Create a new inbound firewall rule
-New-NetFirewallRule -DisplayName "Allow HTTP" -Direction Inbound -Protocol TCP -LocalPort 80 -Action Allow

@@ -1,5 +1,0 @@
-graph TD;
-    A[Admin Server] -->|FastEthernet 0/1| B[Catalyst 2940];
-
-
-    B -->|VLAN 40| C[Nettverk];

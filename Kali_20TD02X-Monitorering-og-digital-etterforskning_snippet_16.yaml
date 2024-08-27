@@ -1,5 +1,0 @@
-- name: Install and configure Splunk
-  hosts: all
-  become: yes
-  roles:
-    - splunk

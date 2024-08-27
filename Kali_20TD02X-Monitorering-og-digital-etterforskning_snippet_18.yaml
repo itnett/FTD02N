@@ -1,5 +1,0 @@
-- name: Install and configure Snort
-  hosts: all
-  become: yes
-  roles:
-    - snort

@@ -1,9 +1,0 @@
-### Regresjon ved hjelp av digitale hjelpemidler
-
-#### Forstå Regresjon
-Regresjon er en statistisk metode for å finne den beste tilpasningslinjen for et datasett. Den vanligste formen for regresjon er lineær regresjon, som finner en rett linje som best passer dataene.
-
-#### Eksempel
-Bruk et digitalt verktøy som Excel eller en grafkalkulator for å finne den beste tilpasningslinjen for datasettet $$\((x, y)\): \((1, 2), (2, 3), (3, 5), (4, 7)\)$$.
-
-#### Visualisering - Graf og Regresjonslinje

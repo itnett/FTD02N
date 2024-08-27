@@ -1,6 +1,0 @@
-- name: Powers
-  hosts: localhost
-  tasks:
-    - name: Calculate power
-      debug:
-        msg: "Power: {{ base ** exponent }}"

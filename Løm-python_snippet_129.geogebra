@@ -1,7 +1,0 @@
-// Lage en visualisering av etisk kodeks og tiltak i GeoGebra
-Codeks = {"Klare retningslinjer", "Åpen kommunikasjon", "Opplæring og bevisstgjøring", "Konsekvenser", "Forbedre intern kommunikasjon"}
-Tiltak = {"Utvikle etisk kodeks", "Etablere kommunikasjonskanaler", "Organisere opplæring", "Håndheve retningslinjer", "Organisere regelmessige møter"}
-
-Text(2, 5, "Etisk Kodeks og Tiltak")
-Text(1, 4, Codeks)
-Text(5, 4, Tiltak)

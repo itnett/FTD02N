@@ -1,4 +1,0 @@
-- name: Install Wireshark
-  apt:
-    name: wireshark
-    state: present

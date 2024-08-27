@@ -1,1 +1,0 @@
-NPV = -Investering + (Innbetaling år 1 / (1 + r)^1) + (Innbetaling år 2 / (1 + r)^2) + ... + (Innbetaling år n + Salgsverdi år n / (1 + r)^n)

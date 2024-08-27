@@ -1,6 +1,0 @@
-@startuml
-state CompositeState {
-  state SubState1
-  state SubState2
-}
-@enduml

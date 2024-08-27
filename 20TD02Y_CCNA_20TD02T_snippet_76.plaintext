@@ -1,4 +1,0 @@
-graph TD;
-    A[Log Server] -->|PoE| B[Unifi PoE Switch];
-    A[Backup Server] -->|PoE| B[Unifi PoE Switch];
-    B --> C[Nettverk];

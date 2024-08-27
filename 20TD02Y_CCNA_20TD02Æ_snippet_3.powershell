@@ -1,5 +1,0 @@
-# Opprett en ny bruker
-   New-ADUser -Name "John Doe" -GivenName "John" -Surname "Doe" -SamAccountName "jdoe" -UserPrincipalName "jdoe@example.local" -Path "CN=Users,DC=example,DC=local" -AccountPassword (ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force) -Enabled $true
-
-   # Legg til brukeren i en gruppe
-   Add-ADGroupMember -Identity "Domain Users" -Members "jdoe"

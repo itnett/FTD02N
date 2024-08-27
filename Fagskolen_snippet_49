@@ -1,6 +1,0 @@
-3. **Configure Apache**:
-   - Set up virtual hosts for the company applications.
-   - Ensure proper permissions and security settings.
-
-#### Example Scenario
-- Setting up a virtual host for the company application `example.com`.

@@ -1,8 +1,0 @@
-\documentclass{beamer}
-\usetheme{Copenhagen}
-\begin{document}
-\begin{frame}
-  \frametitle{Themed Slide}
-  This is a themed slide using the Copenhagen theme.
-\end{frame}
-\end{document}

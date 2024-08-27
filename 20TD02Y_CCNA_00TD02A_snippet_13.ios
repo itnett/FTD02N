@@ -1,5 +1,0 @@
-functions linear {
-    slope_intercept_form    ; // Y = mx + b
-    point_slope_form        ; // Y - y1 = m(X - x1)
-    general_form            ; // Ax + By + C = 0
-}

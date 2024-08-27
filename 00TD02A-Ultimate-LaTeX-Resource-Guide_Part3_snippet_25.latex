@@ -1,9 +1,0 @@
-\ProvidesPackage{mypackage}[2024/07/24 Custom LaTeX Package]
-
-\RequirePackage{graphicx}
-\RequirePackage{amsmath}
-
-% Package options
-\newcommand{\bluebold}[1]{\textbf{\textcolor{blue}{#1}}}
-
-\endinput

@@ -1,6 +1,0 @@
-+----------------------------------+
-  |          Main Function           |
-  +----------------------------------+
-  | run_cloud_services_examples(api_key) |
-  | - Call all cloud service examples |
-  +----------------------------------+

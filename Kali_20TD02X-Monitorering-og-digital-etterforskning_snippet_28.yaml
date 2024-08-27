@@ -1,4 +1,0 @@
-- name: Install Autopsy
-  apt:
-    name: autopsy
-    state: present

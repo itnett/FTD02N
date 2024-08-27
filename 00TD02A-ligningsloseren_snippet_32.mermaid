@@ -1,8 +1,0 @@
-flowchart LR
-    User_Input -->|Hente Ligninger og Variabler| Process
-    Process -->|Sjekke Linearitet| Linear_Check
-    Linear_Check -->|Linear| Solve_Linear
-    Linear_Check -->|Non-Linear| Solve_Nonlinear
-    Solve_Linear --> Plot
-    Solve_Nonlinear --> Plot
-    Plot --> Display

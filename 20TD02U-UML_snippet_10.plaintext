@@ -1,6 +1,0 @@
-@startuml
-state State1
-state State2
-
-State1 --> State2 : event [condition] / action
-@enduml

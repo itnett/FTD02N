@@ -1,9 +1,0 @@
-mindmap
-root((Potenser))
-  Grunntall og eksponent
-    Forklaring: Form: a^n, hvor a er grunntallet og n er eksponenten
-    Eksempel: 2^3 = 2 * 2 * 2 = 8 (2 er grunntallet, 3 er eksponenten)
-  Regler
-    Regel 1: a^m * a^n = a^(m+n)
-    Regel 2: (a^m)^n = a^(m*n)
-    Regel 3: a^0 = 1 (for a ≠ 0)

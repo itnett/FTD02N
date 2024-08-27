@@ -1,4 +1,0 @@
-\usepackage{hyperref}
-\begin{document}
-\href{http://example.com}{Click here to visit Example.com}
-\end{document}

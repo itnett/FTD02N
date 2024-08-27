@@ -1,3 +1,0 @@
-physics thermodynamics {
-    apply_second_law    ; // Anvende termofysikkens andre hovedsetning
-}

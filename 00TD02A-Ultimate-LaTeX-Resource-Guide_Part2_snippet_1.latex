@@ -1,6 +1,0 @@
-% Define a command with an optional argument
-\newcommand{\vect}[2][blue]{\textcolor{#1}{\mathbf{#2}}}
-
-% Usage:
-\vect{v} % Default color
-\vect[red]{v} % Custom color

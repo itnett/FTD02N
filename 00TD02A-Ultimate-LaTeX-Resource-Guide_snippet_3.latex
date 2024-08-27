@@ -1,4 +1,0 @@
-\usepackage{graphicx}
-\begin{document}
-\includegraphics[width=\textwidth]{example-image}
-\end{document}

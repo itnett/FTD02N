@@ -1,8 +1,0 @@
-@startuml
-component UserInterface
-component BusinessLogic
-component Database
-
-UserInterface --> BusinessLogic
-BusinessLogic --> Database
-@enduml

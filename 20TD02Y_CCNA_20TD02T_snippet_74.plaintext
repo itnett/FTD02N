@@ -1,5 +1,0 @@
-graph TD;
-    A[Cisco Nexus 5548UP] -->|VLAN 10| B[Server1];
-    A -->|VLAN 20| C[Server2];
-    A -->|VLAN 30| D[Server3];
-    A -->|VPC| E[Redundancy];

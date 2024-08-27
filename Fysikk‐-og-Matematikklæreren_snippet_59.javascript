@@ -1,1 +1,0 @@
-// algebra_modul.js (samme som i forrige svar)

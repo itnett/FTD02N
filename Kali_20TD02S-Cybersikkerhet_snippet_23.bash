@@ -1,1 +1,0 @@
-nikto -h http://target.com

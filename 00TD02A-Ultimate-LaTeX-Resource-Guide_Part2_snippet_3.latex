@@ -1,8 +1,0 @@
-\usepackage{tikz}
-\begin{document}
-\begin{tikzpicture}
-  \draw[fill=blue!20] (0,0) rectangle (2,2);
-  \node at (1,1) {Click me};
-  \node[anchor=north] at (1,2) {\href{http://example.com}{\textcolor{blue}{\underline{Link}}}};
-\end{tikzpicture}
-\end{document}

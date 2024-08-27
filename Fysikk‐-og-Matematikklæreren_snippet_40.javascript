@@ -1,1 +1,0 @@
-// ... (funksjoner for rette linjer, polynomfunksjoner, eksponentialfunksjoner, derivasjon, regresjon)

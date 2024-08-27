@@ -1,5 +1,0 @@
-# Trinn for å bruke MySQL Workbench:
-1. Åpne MySQL Workbench.
-2. Koble til din lokale MySQL-server.
-3. Opprett en ny database ved å kjøre SQL-kommandoer i Workbench.
-4. Opprett en tabell og sett inn noen rader med data.

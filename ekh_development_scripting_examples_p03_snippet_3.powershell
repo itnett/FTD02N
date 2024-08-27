@@ -1,5 +1,0 @@
-Get-ADUser -Filter * -Property DisplayName, LastLogonDate, Enabled | 
-Select-Object DisplayName, LastLogonDate, Enabled | 
-Export-Csv -Path "C:\Reports\ADUserReport.csv" -NoTypeInformation
-
-Write-Host "Active Directory user report generated successfully!"

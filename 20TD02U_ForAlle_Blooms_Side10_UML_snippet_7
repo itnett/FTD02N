@@ -1,3 +1,0 @@
-[ Bruker PC ] --> [ Webserver ] --> [ Database Server ]
-         |                   |
-      Webbrowser          Applikasjonsserver

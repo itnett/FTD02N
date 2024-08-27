@@ -1,1 +1,0 @@
-![SVG Image](path/to/image.svg)

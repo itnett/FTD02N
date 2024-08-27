@@ -1,8 +1,0 @@
-example_id,topic,example
-1,Grunnleggende sikkerhetsprinsipper,Principle of Least Privilege: Users are given the minimum levels of access – or permissions – needed to perform their job functions.
-2,Grunnleggende sikkerhet,Using strong, unique passwords for different accounts and enabling two-factor authentication.
-3,Trusselbilde innen IT-sikkerhet,Phishing attacks are one of the most common cybersecurity threats faced by organizations today.
-4,Angreps- og forsvarsmetoder,An example of an attack method is SQL injection; a defense method is input validation.
-5,Risikostyring,Conducting regular risk assessments to identify and mitigate potential security risks.
-6,Rammeverk for IT-sikkerhet,NIST Cybersecurity Framework helps organizations to better understand, manage, and reduce their cybersecurity risks.
-7,Lover og regler,GDPR (General Data Protection Regulation) mandates data protection and privacy for individuals within the European Union.

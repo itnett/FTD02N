@@ -1,6 +1,0 @@
-- name: First Law of Thermodynamics
-  hosts: localhost
-  tasks:
-    - name: Apply first law
-      debug:
-        msg: "ΔU = Q - W"

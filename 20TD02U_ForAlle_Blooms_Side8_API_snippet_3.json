@@ -1,3 +1,0 @@
-{
-       "query": "{ bruker(id: 1) { navn, epost } }"
-   }

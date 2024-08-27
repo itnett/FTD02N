@@ -1,9 +1,0 @@
-\usepackage{amsthm}
-
-\newtheorem{theorem}{Theorem}[section]
-
-\begin{document}
-\begin{theorem}
-This is a custom theorem environment.
-\end{theorem}
-\end{document}

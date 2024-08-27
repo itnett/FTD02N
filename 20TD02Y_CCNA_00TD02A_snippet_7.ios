@@ -1,4 +1,0 @@
-algebra systems_of_equations {
-    solve_substitution ; // Løse likningssett med substitusjonsmetoden
-    solve_elimination  ; // Løse likningssett med eliminasjonsmetoden
-}

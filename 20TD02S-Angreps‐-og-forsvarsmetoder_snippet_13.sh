@@ -1,1 +1,0 @@
-vol.py -f ~/memory.dmp --profile=Win7SP1x64 pslist

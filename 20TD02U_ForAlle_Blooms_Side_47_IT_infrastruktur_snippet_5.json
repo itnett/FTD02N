@@ -1,3 +1,0 @@
-[{"id":"n1","type":"mqtt in","z":"n1","name":"","topic":"sensor/temperature","qos":"2","broker":"mqtt_broker","x":100,"y":100,"wires":[["n2"]]},
-      {"id":"n2","type":"function","z":"n1","name":"Temp Control","func":"if (msg.payload > 25) {\n    msg.payload = \"Turn On LED\";\n} else {\n    msg.payload = \"Turn Off LED\";\n}\nreturn msg;","outputs":1,"noerr":0,"x":300,"y":100,"wires":[["n3"]]},
-      {"id":"n3","type":"mqtt out","z":"n1","name":"","topic":"device/led","qos":"","retain":"","broker":"mqtt_broker","x":500,"y":100,"wires":[]}]

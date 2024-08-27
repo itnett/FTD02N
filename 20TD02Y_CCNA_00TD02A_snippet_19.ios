@@ -1,5 +1,0 @@
-physics concepts {
-    define_mass           ; // Definere masse
-    define_weight         ; // Definere tyngde
-    define_density        ; // Definere massetetthet
-}

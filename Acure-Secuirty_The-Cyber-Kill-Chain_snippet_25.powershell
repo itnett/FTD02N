@@ -1,1 +1,0 @@
-New-AzResourceGroupDeployment -ResourceGroupName "YourResourceGroup" -TemplateFile "path_to_dashboard-template.json"

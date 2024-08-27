@@ -1,1 +1,0 @@
-![NSMs Grunnprinsipper](path/to/your/image.png)

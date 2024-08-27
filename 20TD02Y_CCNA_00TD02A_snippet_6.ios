@@ -1,4 +1,0 @@
-algebra equations {
-    solve_linear       ; // Løse en lineær likning (første grad)
-    solve_quadratic    ; // Løse en kvadratisk likning (andre grad)
-}

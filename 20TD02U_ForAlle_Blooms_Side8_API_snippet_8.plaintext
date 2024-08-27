@@ -1,7 +1,0 @@
-GET /v1/users/{id}
-   Description: Fetches a user by ID.
-   Parameters:
-     - id: The unique identifier of the user (required).
-   Responses:
-     - 200 OK: User details.
-     - 404 Not Found: User not found.

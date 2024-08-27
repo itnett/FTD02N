@@ -1,1 +1,0 @@
-// trigonometri_geometri_modul.js (samme som i forrige svar)

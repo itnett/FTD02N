@@ -1,3 +1,0 @@
-%%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
-graph LR
-A-->B

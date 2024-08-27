@@ -1,8 +1,0 @@
-\documentclass{article}
-\usepackage{luacode}
-
-\begin{document}
-\begin{luacode}
-tex.print("Hello from Lua!")
-\end{luacode}
-\end{document}

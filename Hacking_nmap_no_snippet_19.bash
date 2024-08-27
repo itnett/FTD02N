@@ -1,1 +1,0 @@
-nmap -sW <target>

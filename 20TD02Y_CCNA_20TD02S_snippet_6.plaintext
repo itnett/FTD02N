@@ -1,4 +1,0 @@
-graph TD;
-    A[Kali Linux VM] -->|GigabitEthernet 0/1| B[Catalyst 2960G];
-    B -->|VLAN 10| C[Target VM];
-    B -->|VLAN 20| D[Admin VM];

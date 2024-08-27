@@ -1,1 +1,0 @@
-SELECT AVG(Alder) FROM Student;

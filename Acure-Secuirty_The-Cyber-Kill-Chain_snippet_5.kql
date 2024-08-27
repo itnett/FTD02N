@@ -1,3 +1,0 @@
-EmailEvents
-| where EventType == "MalwareDetected"
-| summarize Count = count() by EmailSender, RecipientEmailAddress, MalwareName, Timestamp

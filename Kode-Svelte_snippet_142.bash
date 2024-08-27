@@ -1,1 +1,0 @@
-cd my-svelte-project

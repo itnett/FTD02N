@@ -1,1 +1,0 @@
-az boards iteration create --name "Sprint 1" --path "AutomatiseringProsjekt\Sprint 1"

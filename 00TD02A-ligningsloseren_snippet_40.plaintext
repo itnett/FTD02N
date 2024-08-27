@@ -1,7 +1,0 @@
-Løsning av likningen 2.0x^2 + 0.0x + -8.0 = 0
-
-  Spesielt tilfelle: Førstegradsleddet b er null.
-  Likningen kan skrives som ax^2 + c = 0.
-  Vi flytter c til høyre side og får: ax^2 = -c.
-  Løsningene er: x = 2.0 og x = -2.0.
-  Forklaring: Vi isolerer x^2 på venstre side og tar kvadratroten av begge sider.

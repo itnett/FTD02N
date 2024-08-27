@@ -1,8 +1,0 @@
-# Ansible playbook to update all packages on Linux servers
-     - hosts: all
-       tasks:
-         - name: Update all packages
-           apt:
-             upgrade: dist
-             update_cache: yes
-             cache_valid_time: 3600

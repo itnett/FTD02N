@@ -1,5 +1,0 @@
-trigonometry right_triangles {
-    sine    ; // Beregne sinus av en vinkel
-    cosine  ; // Beregne cosinus av en vinkel
-    tangent ; // Beregne tangens av en vinkel
-}

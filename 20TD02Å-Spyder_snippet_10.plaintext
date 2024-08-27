@@ -1,6 +1,0 @@
-+----------------------------------+
-  | Security in Cloud Services       |
-  +----------------------------------+
-  | enforce_s3_bucket_policy(bucket) |
-  | - Apply security policy to S3    |
-  +----------------------------------+

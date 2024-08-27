@@ -1,1 +1,0 @@
-Person person1 = new Person("Ola Nordmann", 30);

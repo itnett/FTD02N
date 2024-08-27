@@ -1,1 +1,0 @@
-az deployment group create --resource-group MyResourceGroup --template-file <path_to_template>.json

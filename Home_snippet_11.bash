@@ -1,1 +1,0 @@
-sudo ufw allow in "Apache Full"

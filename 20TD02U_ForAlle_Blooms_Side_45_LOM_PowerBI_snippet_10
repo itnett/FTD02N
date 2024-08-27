@@ -1,9 +1,0 @@
-### 4. Analyse (Analyzing)
-
-#### Implementering: Investeringsanalyse
-- **Mål:** Bruke Power BI til å analysere potensielle investeringer ved hjelp av NPV (Net Present Value) og IRR (Internal Rate of Return).
-- **Beskrivelse:** Lag en modell i Power BI som beregner NPV og IRR basert på forskjellige investeringsscenarier og visualiser resultatene.
-
-**Eksempler:**
-- **Slicer for scenarioanalyse:** Bruk slicers for å endre investeringsparametre som diskonteringsrente eller kontantstrømmer.
-- **Scatter-plot:** Visualisere forskjellige investeringers NPV mot IRR for å identifisere den beste investeringen.

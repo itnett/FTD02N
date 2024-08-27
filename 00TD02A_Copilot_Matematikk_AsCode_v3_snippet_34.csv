@@ -1,4 +1,0 @@
-metric_id,student_id,course_id,cpu_usage,memory_usage,network_traffic,disk_usage,network_latency
-1,1,1,75.5,60.2,500.0,250.0,20.5
-2,2,1,65.0,55.5,300.0,200.0,15.3
-3,3,1,85.3,70.1,800.0,300.0,25.8

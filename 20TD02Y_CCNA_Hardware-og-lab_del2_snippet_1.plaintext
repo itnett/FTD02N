@@ -1,4 +1,0 @@
-Catalyst 2950 (Fa0/25) ----- (Gi0/25) Catalyst 2960G (Trunk)
-Catalyst 2960G (Gi0/26) ----- (Gi1/0/1) Catalyst 3750G (Trunk)
-Catalyst 3750G (Gi1/0/2) ----- VirtualBox Host (Trunk)
-Unifi 8-porters PoE Switch ----- Catalyst 3750G (Gi1/0/3)

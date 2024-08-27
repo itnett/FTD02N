@@ -1,5 +1,0 @@
-crypto isakmp policy 1
-   encryption aes
-   authentication pre-share
-   group 2
-   lifetime 86400

@@ -1,4 +1,0 @@
-physics precision {
-    calculate_uncertainty         ; // Beregne usikkerhet i målinger
-    apply_significant_figures     ; // Anvende gjeldende siffer
-}

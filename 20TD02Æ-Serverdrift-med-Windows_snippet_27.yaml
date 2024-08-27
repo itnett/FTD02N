@@ -1,7 +1,0 @@
-- name: Installer IIS på Windows-server
-      hosts: windows
-      tasks:
-        - name: Installer IIS
-          win_feature:
-            name: Web-Server
-            state: present

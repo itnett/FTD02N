@@ -1,9 +1,0 @@
-Router> enable
-Router# configure terminal
-Router(config)# hostname Router1
-Router1(config)# interface GigabitEthernet0/0
-Router1(config-if)# ip address 192.168.1.1 255.255.255.0
-Router1(config-if)# no shutdown
-Router1(config-if)# exit
-Router1(config)# exit
-Router1# write memory

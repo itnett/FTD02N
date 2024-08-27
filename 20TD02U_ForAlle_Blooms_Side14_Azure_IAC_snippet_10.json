@@ -1,8 +1,0 @@
-{
-  "type": "Microsoft.KeyVault/vaults/secrets",
-  "apiVersion": "2016-10-01",
-  "name": "[concat(parameters('keyVaultName'), '/', parameters('secretName'))]",
-  "properties": {
-    "value": "[parameters('secretValue')]"
-  }
-}

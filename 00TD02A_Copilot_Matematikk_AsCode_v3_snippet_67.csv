@@ -1,5 +1,0 @@
-feedback_id,student_id,course_id,date,feedback
-1,1,1,2024-09-02,Keep up the good work with Windows Server
-2,2,1,2024-09-03,Needs improvement in Active Directory setup
-3,3,2,2024-09-04,Good job with Linux installation
-4,1,2,2024-09-05,Excellent work on Docker containers

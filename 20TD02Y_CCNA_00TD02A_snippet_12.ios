@@ -1,6 +1,0 @@
-geometry vectors {
-    magnitude        ; // Beregne lengden (magnituden) av en vektor
-    direction        ; // Beregne retningen av en vektor
-    add_vectors      ; // Legge sammen to vektorer
-    subtract_vectors ; // Trekke fra en vektor fra en annen
-}

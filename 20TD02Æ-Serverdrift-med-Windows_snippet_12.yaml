@@ -1,3 +1,0 @@
-- name: Installer Windows-oppdateringer
-      win_updates:
-        state: installed

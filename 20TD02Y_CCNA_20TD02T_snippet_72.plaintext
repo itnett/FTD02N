@@ -1,3 +1,0 @@
-graph TD;
-    A[Ubuntu Server] -->|FastEthernet 0/1| B[Catalyst 2950/2960G];
-    B -->|VLAN 10| C[Nettverk];

@@ -1,2 +1,0 @@
-Start-Service -Name "wuauserv"  # Start Windows Update-tjenesten
-    Stop-Service -Name "wuauserv"   # Stopp Windows Update-tjenesten

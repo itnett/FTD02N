@@ -1,5 +1,0 @@
-Stresstest = SWITCH(TRUE(),
-    [Scenario] = "Optimistisk", [Resultat] * 1.1,
-    [Scenario] = "Pessimistisk", [Resultat] * 0.9,
-    [Resultat]
-)

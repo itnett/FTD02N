@@ -1,4 +1,0 @@
-Get-ChildItem
-    New-Item
-    Copy-Item
-    Remove-Item

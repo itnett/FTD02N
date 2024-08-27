@@ -1,6 +1,0 @@
-- name: Adapting and Rearranging Formulas
-  hosts: localhost
-  tasks:
-    - name: Rearrange formula
-      debug:
-        msg: "Rearranged formula: {{ formula | rearrange }}"

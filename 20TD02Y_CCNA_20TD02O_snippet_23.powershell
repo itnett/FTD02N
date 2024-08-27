@@ -1,1 +1,0 @@
-dism /Apply-Image /ImageFile:flash.ffu /ApplyDir:C:\IoTCore /Index:1

@@ -1,6 +1,0 @@
-- name: Derivatives of Polynomial Functions
-  hosts: localhost
-  tasks:
-    - name: Derive polynomial
-      debug:
-        msg: "Derivative: {{ polynomial | derive }}"

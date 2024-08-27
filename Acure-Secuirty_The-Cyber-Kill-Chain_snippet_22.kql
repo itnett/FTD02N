@@ -1,3 +1,0 @@
-AzureActivity
-| where OperationNameValue == "ListKeys" or OperationNameValue == "ListSecrets"
-| summarize Count = count() by Caller, OperationNameValue, ResourceGroup, ResourceName, _ResourceId

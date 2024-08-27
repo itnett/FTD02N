@@ -1,9 +1,0 @@
-+------------------------+
-| corrective_action      |
-+------------------------+
-| id (PK)                |
-| compliance_check_id (FK)|
-| action                 |
-| status                 |
-| implemented_at         |
-+------------------------+

@@ -1,8 +1,0 @@
-+-------------------+
-| compliance_check  |
-+-------------------+
-| id (PK)           |
-| regulation        |
-| status            |
-| checked_at        |
-+-------------------+

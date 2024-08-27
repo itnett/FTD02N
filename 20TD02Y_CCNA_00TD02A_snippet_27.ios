@@ -1,3 +1,0 @@
-mathematics logarithms {
-    calculate_logarithm    ; // Beregne Briggske logaritmer (base 10)
-}

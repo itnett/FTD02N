@@ -1,1 +1,0 @@
-<button on:click={addItem} disabled={!newItem.trim()}>Add Item</button>

@@ -1,1 +1,0 @@
-az repos pr create --repository "AutomatiseringProsjekt" --source-branch "main" --target-branch "documentation" --title "Legg til kravspesifikasjon"

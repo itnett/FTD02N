@@ -1,7 +1,0 @@
-\usepackage{pstricks,auto-pst-pdf}
-\begin{document}
-\begin{pspicture}(3,3)
-  \psframe[fillstyle=solid,fillcolor=yellow](1,1)(2,2)
-  \rput(1.5,1.5){\href{http://example.com}{\textcolor{blue}{\underline{Link}}}}
-\end{pspicture}
-\end{document}

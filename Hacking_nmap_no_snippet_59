@@ -1,6 +1,0 @@
-## Logging
-All actions and results are logged to `scan_results.log`.
-
-## Notes
-- The script performs an idle scan using a zombie host. Make sure to replace `<zombie_host>` with a valid IP address in the script.
-- Some scanning techniques may require elevated privileges. Run the script as root if necessary:

@@ -1,1 +1,0 @@
-cd C:\WikiMigration\git\code_dump\.git\objects\pack

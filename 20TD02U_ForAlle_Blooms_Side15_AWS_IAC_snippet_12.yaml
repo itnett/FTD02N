@@ -1,7 +1,0 @@
-Resources:
-  MyBucket:
-    Type: 'AWS::S3::Bucket'
-    Properties:
-      LoggingConfiguration:
-        DestinationBucketName: 'my-log-bucket'
-        LogFilePrefix: 'logs/'

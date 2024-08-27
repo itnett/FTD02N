@@ -1,1 +1,0 @@
-sudo dd if=/dev/sdX of=~/image.img bs=4M

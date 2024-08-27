@@ -1,1 +1,0 @@
-// ... (funksjoner for SI-systemet, masse/tyngde/tetthet, usikkerhet, gjeldende siffer, kraft og bevegelse, energi, termodynamikk)

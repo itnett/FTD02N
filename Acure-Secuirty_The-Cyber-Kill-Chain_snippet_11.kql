@@ -1,3 +1,0 @@
-AzureDiagnostics
-| where ResourceType == "NETWORKSECURITYGROUPS"
-| where msg_s contains "C2Server"

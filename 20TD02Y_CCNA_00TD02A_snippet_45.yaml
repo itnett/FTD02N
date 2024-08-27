@@ -1,6 +1,0 @@
-- name: Pythagorean Theorem
-  hosts: localhost
-  tasks:
-    - name: Apply Pythagorean theorem
-      debug:
-        msg: "Hypotenuse: {{ a**2 + b**2 | sqrt }}"

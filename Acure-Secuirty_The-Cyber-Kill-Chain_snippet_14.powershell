@@ -1,1 +1,0 @@
-Get-AzStorageBlob -Container "logs" -Context $ctx
