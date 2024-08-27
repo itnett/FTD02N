@@ -1,0 +1,2 @@
+shell
+   ip addr show

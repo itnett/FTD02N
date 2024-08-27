@@ -1,0 +1,2 @@
+sql
+   CREATE DATABASE butikk;

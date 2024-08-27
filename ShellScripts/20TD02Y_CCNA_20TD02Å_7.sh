@@ -1,0 +1,2 @@
+shell
+   az resource list

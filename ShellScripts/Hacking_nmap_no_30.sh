@@ -1,0 +1,2 @@
+bash
+    dig $TARGET

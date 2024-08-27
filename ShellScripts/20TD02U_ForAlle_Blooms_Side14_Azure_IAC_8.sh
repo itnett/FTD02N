@@ -1,0 +1,2 @@
+bash
+   infracost breakdown --path=.

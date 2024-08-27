@@ -1,0 +1,2 @@
+bash
+     nmap -sV <target>

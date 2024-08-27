@@ -1,0 +1,2 @@
+shell
+   sudo docker ps

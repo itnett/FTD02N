@@ -1,0 +1,2 @@
+bash
+sudo userdel nybruker

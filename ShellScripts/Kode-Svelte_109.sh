@@ -1,0 +1,2 @@
+bash
+   netlify deploy --prod

@@ -1,0 +1,2 @@
+bash
+  sudo docker images

@@ -1,0 +1,3 @@
+shell
+    configure terminal
+    python

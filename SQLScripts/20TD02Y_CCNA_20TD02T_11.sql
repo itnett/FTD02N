@@ -1,0 +1,2 @@
+sql
+   ALTER TABLE students MODIFY email VARBINARY(255) NOT NULL;

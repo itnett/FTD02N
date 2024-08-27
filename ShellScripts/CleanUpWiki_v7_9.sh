@@ -1,0 +1,2 @@
+bash
+export GITHUB_PAT=your_personal_access_token

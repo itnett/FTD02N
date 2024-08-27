@@ -1,0 +1,2 @@
+shell
+     sudo netplan apply

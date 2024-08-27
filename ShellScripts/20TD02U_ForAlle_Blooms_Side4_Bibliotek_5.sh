@@ -1,0 +1,2 @@
+bash
+pipenv install requests
